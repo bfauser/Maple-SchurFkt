@@ -1,0 +1,83 @@
+{VERSION 6 0 "IBM INTEL NT" "6.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "Hyperlink" -1 17 "" 0 1 0 128 128 1 0 0 1 0 0 0 0 0 0 
+1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 256 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+257 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 258 "" 1 14 0 
+0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 259 "" 0 8 0 0 0 0 0 2 0 0 0 
+0 0 0 0 1 }{CSTYLE "" -1 260 "" 0 1 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }
+{CSTYLE "_cstyle67" -1 261 "Courier" 1 12 255 0 0 1 0 1 0 2 1 2 0 0 0 
+1 }{CSTYLE "" -1 262 "" 0 1 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{PSTYLE "Norm
+al" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }
+1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Heading 2" -1 4 1 {CSTYLE "" -1 
+-1 "Times" 1 14 0 0 0 1 2 1 2 2 2 2 1 1 1 1 }1 1 0 0 4 4 1 0 1 0 2 2 
+0 1 }{PSTYLE "Text Output" -1 6 1 {CSTYLE "" -1 -1 "Courier" 1 10 0 0 
+255 1 2 2 2 2 2 1 2 1 3 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple
+ Output" -1 11 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 
+1 1 1 }3 3 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Bullet Item" -1 15 1 
+{CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 1 0 0 3 
+3 1 0 1 0 2 2 15 2 }{PSTYLE "_pstyle135" -1 256 1 {CSTYLE "" -1 -1 "Co
+urier" 1 12 255 0 0 1 2 1 2 2 1 2 1 1 1 1 }1 1 0 0 0 0 2 0 2 0 2 2 0 
+1 }}
+{SECT 0 {SECT 0 {PARA 4 "" 0 "" {TEXT -1 10 "Function: " }{TEXT 256 
+61 "SchurFkt[Table] - computes the Kostka matrix in any dimension" }}
+{PARA 4 "" 0 "" {TEXT -1 17 "Calling Sequence:" }}{PARA 4 "" 0 "" 
+{TEXT 257 23 "eq := KostkaPC(int)  \n\n" }{TEXT -1 11 "Parameters:" }}
+{PARA 15 "" 0 "" {TEXT -1 75 "int  : integer specifying the weight of \+
+the partitions for the Kostka table" }}{PARA 4 "" 0 "" {TEXT -1 7 "Out
+put:" }}{PARA 15 "" 0 "" {TEXT -1 249 "eq  : an equation KostkaN=matri
+x, with a matrix of dimension number of partitions of int (in general \+
+not int itself!) containing the Kostka numbers. The matrix is given in
+ the basis where the partitions are ordered in anti-lexicographical or
+dering (" }{HYPERLNK 17 "AlexComp" 2 "SchurFkt,AlexComp" "" }{TEXT -1 
+3 "). " }}{PARA 4 "" 0 "" {TEXT -1 8 "WARNING:" }}{PARA 0 "" 0 "" 
+{TEXT -1 6 "<none>" }}}{SECT 0 {PARA 4 "" 0 "" {TEXT -1 12 "Descriptio
+n:" }}{PARA 15 "" 0 "" {TEXT 260 144 "The Kostka matrix is the matrix \+
+which governs many transitions of interger bases of symmetric function
+s. They have a combinatorial meaning, see " }{HYPERLNK 17 "SchurFkt[Ko
+stkaPC]" 2 "SchurFkt,KostkaPC" "" }{TEXT 262 2 ". " }}{PARA 15 "" 0 "
+" {TEXT -1 146 "An equation for the integer number is given as:\n(1)  \+
+ s_\\lambda = \\sum_\\mu K_\\lambda\\mu m_\\mu  = \\sum  <s_\\lambda |
+ h_\\mu> m_\\mu\nwhich is used in " }{HYPERLNK 17 "KostkaPC" 2 "SchurF
+kt,KostkaPC" "" }{TEXT -1 26 " to compute these numbers." }}{PARA 15 "
+" 0 "" {TEXT -1 224 "The combinatorial description of the Kostka numbe
+r is that they give the number of standard fillings of \\mu1 ones, \\m
+u2 twos etc into the Young diagram of shape \\lambda. For that reason \+
+the number is a nonnegative integer.  " }}}{SECT 0 {PARA 4 "" 0 "" 
+{TEXT -1 9 "Examples:" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "res
+tart:with(SchurFkt):" }}{PARA 6 "" 1 "" {TEXT -1 52 "SchurFkt Version \+
+1.0.1 (17 xii 2007) at your service" }}{PARA 6 "" 1 "" {TEXT -1 58 "(c
+) 2003-2007 BF&RA, no warranty, no fitness for anything!" }}{PARA 6 "
+" 1 "" {TEXT -1 83 "Increase verbosity by infolevel[`function`]=val --
+ use online help > ?Bigebra[help]" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 
+14 "Some examples:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 31 "Kostk
+aTable(2);\nKostkaTable(3);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%(Kost
+ka2GK%'matrixG6#7$7$\"\"\"F*7$\"\"!F*Q(pprint06\"" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#/%(Kostka3GK%'matrixG6#7%7%\"\"\"F*F*7%\"\"!F*\"\"#7%F,
+F,F*Q(pprint16\"" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 49 "A bigger one,
+ be careful with increasing N though" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 143 "tmp:=time():loc_system:=\"Pentium M 2.13 GHz, 2 GB R
+AM\":\nKostkaTable(7);\nprintf(\"Computation needed %f second on a %s
+\\n\",time()-tmp,loc_system);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%(Ko
+stka7GK%'matrixG6#7171\"\"\"F*F*F*F*F*F*F*F*F*F*F*F*F*F*71\"\"!F*F*\"
+\"#F*F-\"\"$F-F-F.\"\"%F.F/\"\"&\"\"'71F,F,F*F*F*F-F.F-F.F/F1F0\"\"(\"
+#5\"#971F,F,F,F*F,F*F.F*F*F.F1F.F1F4\"#:71F,F,F,F,F*F*F*F-F-F.F/F/F1\"
+\"*F571F,F,F,F,F,F*F-F*F-F/\"\")F1\"#6\"#?\"#N71F,F,F,F,F,F,F*F,F,F*F/
+F*F/F4F=71F,F,F,F,F,F,F,F*F*F-F.F.F1F<\"#@71F,F,F,F,F,F,F,F,F*F*F-F.F0
+F4FA71F,F,F,F,F,F,F,F,F,F*F.F-F1F7F>71F,F,F,F,F,F,F,F,F,F,F*F,F*F0F771
+F,F,F,F,F,F,F,F,F,F,F,F*F-F0F571F,F,F,F,F,F,F,F,F,F,F,F,F*F/F571F,F,F,
+F,F,F,F,F,F,F,F,F,F,F*F171F,F,F,F,F,F,F,F,F,F,F,F,F,F,F*Q(pprint26\"" 
+}}{PARA 6 "" 1 "" {TEXT -1 68 "Computation needed 0.328000 second on a
+ Pentium M 2.13 GHz, 2 GB RAM" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 0 "" }}}}{SECT 0 {PARA 4 "" 0 "" {TEXT -1 10 "Algorithm:" }}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 69 "KostkaTable just produces the partitions \+
+and a matrix using KostkaPC." }}}}{SECT 0 {PARA 0 "" 0 "" {TEXT 258 
+10 "See Also: " }{HYPERLNK 17 "SchurFkt[Overview]" 2 "SchurFkt,Overvie
+w" "" }{TEXT 259 2 ", " }{HYPERLNK 17 "SchurFkt[KostkaPC]" 2 "SchurFkt
+,KostkaPC" "" }{TEXT -1 3 "   " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 140 "(c) Copyright June 2003 - December 2007,
+ by Bertfried Fauser & Rafal Ablamowicz, all rights reserved.\nLast mo
+dified: December 17, 2007/BF/RA" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{MARK "4 0 1" 12 }{VIEWOPTS 1 1 0 1 
+1 1803 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

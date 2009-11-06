@@ -1,0 +1,84 @@
+{VERSION 6 0 "IBM INTEL NT" "6.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "Hyperlink" -1 17 "" 0 1 0 128 128 1 0 0 1 0 0 0 0 0 0 
+1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 256 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+257 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 258 "" 1 14 0 
+0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 0 2 0 0 0 
+0 0 0 0 1 }{CSTYLE "" -1 260 "" 0 1 0 0 0 0 1 2 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 261 "" 0 1 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+262 "" 1 14 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{PSTYLE "Normal" -1 0 1 
+{CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 1 0 0 0 
+0 1 0 1 0 2 2 0 1 }{PSTYLE "Heading 2" -1 4 1 {CSTYLE "" -1 -1 "Times
+" 1 14 0 0 0 1 2 1 2 2 2 2 1 1 1 1 }1 1 0 0 4 4 1 0 1 0 2 2 0 1 }
+{PSTYLE "Text Output" -1 6 1 {CSTYLE "" -1 -1 "Courier" 1 10 0 0 255 
+1 2 2 2 2 2 1 2 1 3 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Out
+put" -1 11 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 
+1 }3 3 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Bullet Item" -1 15 1 {CSTYLE 
+"" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 1 0 0 3 3 1 0 1 
+0 2 2 15 2 }}
+{SECT 0 {SECT 0 {PARA 4 "" 0 "" {TEXT -1 10 "Function: " }{TEXT 256 
+85 "SchurFkt[p_to_s] - basis change from power sum symmetric functions
+ to Schur functions" }}{PARA 4 "" 0 "" {TEXT -1 17 "Calling Sequence:
+" }}{PARA 4 "" 0 "" {TEXT 257 24 "sfkt := p_to_s(pfkt)  \n\n" }{TEXT 
+-1 11 "Parameters:" }}{PARA 15 "" 0 "" {TEXT -1 40 "pfkt    :  power s
+um symmetric function " }}{PARA 4 "" 0 "" {TEXT -1 7 "Output:" }}
+{PARA 15 "" 0 "" {TEXT -1 24 "sfkt  :   Schur function" }}{PARA 4 "" 
+0 "" {TEXT -1 8 "WARNING:" }}{PARA 0 "" 0 "" {TEXT -1 8 "--none--" }}}
+{SECT 0 {PARA 4 "" 0 "" {TEXT -1 12 "Description:" }}{PARA 15 "" 0 "" 
+{TEXT 259 53 "This basis change of symmetric functions encodes the " }
+{TEXT 260 7 "inverse" }{TEXT 261 249 " transformations as the characte
+r table of the symmetric group. It is realized by an implementation of
+ the Murnaghan-Nakayama rule (with rim-represented Young diagrams for \+
+efficiency reasons) for the s_to_p basis change and inverts the whole \+
+matrix." }}}{SECT 0 {PARA 4 "" 0 "" {TEXT -1 9 "Examples:" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "restart:with(SchurFkt):" }}{PARA 6 
+"" 1 "" {TEXT -1 52 "SchurFkt Version 1.0.1 (17 xii 2007) at your serv
+ice" }}{PARA 6 "" 1 "" {TEXT -1 58 "(c) 2003-2007 BF&RA, no warranty, \+
+no fitness for anything!" }}{PARA 6 "" 1 "" {TEXT -1 83 "Increase verb
+osity by infolevel[`function`]=val -- use online help > ?Bigebra[help]
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 91 "p_to_s(p[1]);\np_to_s(p
+[2]);\np_to_s(p[1,1]);\np_to_s(p[3]);\np_to_s(p[2,1]);\np_to_s(p[1,1,1
+]);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#&%\"sG6#\"\"\"" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#,&&%\"sG6#\"\"#\"\"\"&F%6$F(F(!\"\"" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#,&&%\"sG6#\"\"#\"\"\"&F%6$F(F(F(" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#,(&%\"sG6#\"\"$\"\"\"&F%6$\"\"#F(!\"\"&F%6%F(F(F(F
+(" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&&%\"sG6#\"\"$\"\"\"&F%6%F(F(F(!
+\"\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,(&%\"sG6#\"\"$\"\"\"*&\"\"#F(
+&F%6$F*F(F(F(&F%6%F(F(F(F(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+187 "InvcharTab:=proc(N)\n  local prt;\n  prt:=map(x->s[op(x)],PartNM(
+N,N));\n  linalg[matrix](nops(prt),nops(prt),\n    (i,j)->subs(s[0]=1,
+Scalar(s[op(prt[i])],p_to_s(p[op(prt[j])]))));\nend proc:" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 67 "InvcharTab(2);\nevalm(2!*%^(-1));\n
+#\nInvcharTab(3);\nevalm(3!*%^(-1));" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6#K%'matrixG6#7$7$\"\"\"F(7$!\"\"F(Q(pprint06\"" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#K%'matrixG6#7$7$\"\"\"!\"\"7$F(F(Q(pprint16\"" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#K%'matrixG6#7%7%\"\"\"F(F(7%!\"\"\"\"!\"\"#7
+%F(F*F(Q(pprint26\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#K%'matrixG6#7%7
+%\"\"#!\"#F(7%\"\"$\"\"!!\"$7%\"\"\"F(F/Q(pprint36\"" }}}{EXCHG {PARA 
+0 "" 0 "" {TEXT -1 28 "p_to_s is inverse to s_to_p:" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 30 "p_to_s(p[3,2,2,1]);\ns_to_p(%);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#,@&%\"sG6#\"\")\"\"\"&F%6$\"\"'\"\"#F(*&F,F(
+&F%6%F+F(F(F(!\"\"&F%6$\"\"&\"\"$F(&F%6&F3F(F(F(F(&F%6$\"\"%F9F0&F%6%F
+9F4F(F0&F%6'F9F(F(F(F(F(*&F,F(&F%6%F4F4F,F(F(&F%6&F4F,F,F(F0*&F,F(&F%6
+(F4F(F(F(F(F(F(F0&F%6&F,F,F,F,F0&F%6'F,F,F,F(F(F(&F%6(F,F,F(F(F(F(F(&F
+%6*F(F(F(F(F(F(F(F(F(" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#&%\"pG6&\"\"$
+\"\"#F'\"\"\"" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 15 "Critical cases:
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 37 "p_to_s(0);\np_to_s(p[])
+;\np_to_s(p[0]);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"!" }}{PARA 11 
+"" 1 "" {XPPMATH 20 "6#&%\"sG6#\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6#&%\"sG6#\"\"!" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}
+{SECT 0 {PARA 4 "" 0 "" {TEXT -1 15 "Algorithm used:" }}{EXCHG {PARA 
+0 "" 0 "" {TEXT -1 20 "Direct usage of the " }{HYPERLNK 17 "Murnaghan-
+Nakayama" 2 "SchurFkt,MurNak" "" }{TEXT -1 6 " rule." }}}{EXCHG {PARA 
+0 "" 0 "" {TEXT -1 0 "" }}}}{SECT 0 {PARA 0 "" 0 "" {TEXT 258 10 "See \+
+Also: " }{HYPERLNK 17 "SchurFkt[s_to_p]" 2 "SchurFkt,s_to_p" "" }
+{TEXT -1 1 "," }{TEXT 262 1 " " }{HYPERLNK 17 "SchurFkt[Overview]" 2 "
+SchurFkt,Overview" "" }{TEXT -1 77 ", see also other functions a_to_b \+
+for basis changes from A-basis to B-basis. " }}{PARA 0 "" 0 "" {TEXT 
+-1 141 "\n(c) Copyright June 2003 - December 2007, by Bertfried Fauser
+ & Rafal Ablamowicz, all rights reserved.\nLast modified: December 17,
+ 2007/BF/RA" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}}{MARK "3 1 0 1" 14 }{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }
+{PAGENUMBERS 0 1 2 33 1 1 }

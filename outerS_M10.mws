@@ -1,0 +1,115 @@
+{VERSION 6 0 "IBM INTEL NT" "6.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "Hyperlink" -1 17 "" 0 1 0 128 128 1 0 0 1 0 0 0 0 0 0 
+1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 256 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+257 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 258 "" 1 14 0 
+0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 0 2 0 0 0 
+0 0 0 0 1 }{CSTYLE "" -1 260 "" 0 1 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 261 "" 0 8 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+262 "" 0 1 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 263 "" 0 1 0 0 
+0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 264 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 }{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Text Output
+" -1 2 1 {CSTYLE "" -1 -1 "Courier" 1 10 0 0 255 1 0 0 0 0 0 1 3 0 3 
+1 }1 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Heading 1" 0 3 1 {CSTYLE 
+"" -1 -1 "" 1 18 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }1 0 0 0 6 6 0 0 0 0 0 0 
+-1 0 }{PSTYLE "Heading 2" 3 4 1 {CSTYLE "" -1 -1 "" 1 14 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 }0 0 0 -1 4 4 0 0 0 0 0 0 -1 0 }{PSTYLE "" 2 6 1 
+{CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 2 0 0 1 }0 0 0 -1 -1 -1 0 
+0 0 0 0 0 -1 0 }{PSTYLE "Maple Output" 0 11 1 {CSTYLE "" -1 -1 "" 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 }3 3 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE 
+"Bullet Item" 0 15 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 }0 0 0 -1 3 3 0 0 0 0 0 0 15 2 }}
+{SECT 0 {SECT 0 {PARA 4 "" 0 "" {TEXT -1 10 "Function: " }{TEXT 256 
+55 "SchurFkt[outerS] - outer product of two Schur functions" }}{PARA 
+4 "" 0 "" {TEXT -1 17 "Calling Sequence:" }}{PARA 4 "" 0 "" {TEXT 257 
+47 "o1 := outer(s1,s2)  \no1 := outer(s1,s2,...sn)\n\n" }{TEXT -1 11 "
+Parameters:" }}{PARA 15 "" 0 "" {TEXT -1 49 "s1,s2      :  S-function \+
+polynoms (an element of " }{HYPERLNK 17 "`type/spolynom`" 2 "SchurFkt,
+type,sfktpolynom" "" }{TEXT -1 85 ") of any weight\ns1,...,sn  : S-fun
+ction polynoms, n ranging in the positive integers " }}{PARA 4 "" 0 "
+" {TEXT -1 7 "Output:" }}{PARA 15 "" 0 "" {TEXT -1 34 "o1  : S-functio
+n polynom  of type " }{HYPERLNK 17 "`type/sfktpolynom`." 2 "SchurFkt,t
+ype,sfktpolynom" "" }}{PARA 4 "" 0 "" {TEXT -1 8 "WARNING:" }}{PARA 0 
+"" 0 "" {TEXT -1 64 "make sure to use Schur function basis, no type ch
+ecking yet !!.\n" }}{PARA 0 "" 0 "" {TEXT 264 5 "NOTE:" }{TEXT -1 30 "
+ This is the same function as " }{HYPERLNK 17 "SchurFkt[outer]" 2 "Sch
+urFkt,outer" "" }{TEXT -1 1 "." }}}{SECT 0 {PARA 4 "" 0 "" {TEXT -1 
+12 "Description:" }}{PARA 15 "" 0 "" {TEXT 259 315 "The outer Schur fu
+nction product multiplies two Schur polynomials using the Littlewood-R
+ichardson rule. If the two Schur functions are of weight (number of bo
+xes in the corresponding Young diagram, aka partition) n and m, then t
+he output is a polynomial with integer coefficients in Schur polynomia
+ls of weight n+m." }}{PARA 15 "" 0 "" {TEXT 260 178 "The outer product
+ is multilinear over the integers (fractions of integers) as the ring \+
+of symmetric functions /\\ is build as a polynomial ring over the inte
+gers or the fractions." }}{PARA 15 "" 0 "" {TEXT 262 226 "In principle
+ this product depends not on a chosen basis. However, the combinatoria
+l algorithms which implement this product depend heavily on the fact t
+hat the Schur polynomials are related to the basis of irreducibles of \+
+ /\\." }}{PARA 15 "" 0 "" {TEXT -1 41 "For the outer product in other \+
+bases see " }{HYPERLNK 17 "SchurFkt[outerH,E,P]" 2 "SchurFkt,outerH" "
+" }{TEXT -1 1 "." }}{PARA 15 "" 0 "" {TEXT 263 452 "NOTE: A Schur poly
+nomial is represented as s[lambda], where lambda is a partition of n. \+
+This object is treated as an identity, even if itself is a polynomials
+ in (possibly infinite many) variables x1,...xn,... . A S-function mon
+om is a single Schur polynom with coefficient unity, an S-function ter
+m is a Schur polynom with an integer (fractional) prefactor, a S-funct
+ion polynomial is an integer (fractional) linear combination of Schur \+
+polynomials.  " }}}{SECT 0 {PARA 4 "" 0 "" {TEXT -1 9 "Examples:" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "restart:with(SchurFkt):" }}
+{PARA 6 "" 1 "" {TEXT -1 52 "SchurFkt Version 1.0.1 (17 xii 2007) at y
+our service" }}{PARA 6 "" 1 "" {TEXT -1 58 "(c) 2003-2007 BF&RA, no wa
+rranty, no fitness for anything!" }}{PARA 6 "" 1 "" {TEXT -1 83 "Incre
+ase verbosity by infolevel[`function`]=val -- use online help > ?Bigeb
+ra[help]" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 69 "Some some elementary \+
+examples of outer products of Schur polynomials." }}}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 55 "outerS(s[1],s[0])=s[1];\nouterS(s[0],s[3,1,1]
+)=s[3,1,1];" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/&%\"sG6#\"\"\"F$" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#/&%\"sG6%\"\"$\"\"\"F(F$" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 63 "This shows that s[0]=1(x)=1 is the unit o
+f the polynomial ring." }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 85 "o
+uterS(s[1],s[1]);\nouterS(s[2],s[1]);\nouterS(s[1,1],s[1]);\nouterS(s[
+4,2,2,1,1],s[1]);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&&%\"sG6#\"\"#\"
+\"\"&F%6$F(F(F(" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&&%\"sG6#\"\"$\"\"
+\"&F%6$\"\"#F(F(" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&&%\"sG6$\"\"#\"
+\"\"F(&F%6%F(F(F(F(" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,*&%\"sG6'\"\"&
+\"\"#F(\"\"\"F)F)&F%6'\"\"%\"\"$F(F)F)F)&F%6'F,F(F(F(F)F)&F%6(F,F(F(F)
+F)F)F)" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 293 "Adding a single box to
+ another single box can be done in two ways, horizontally and vertical
+ly, giving two boxes in a row \{2\} or two boxes in a column \{11\}. M
+ore generally a single box is added in all possible ways to the pile o
+f boxes of another Schur polynomial. No multiplicities can occur." }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 49 "outerS(s[1],s[1],s[1]);\nout
+erS(s[2]+s[1,1],s[1]);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,(&%\"sG6#\"
+\"$\"\"\"*&\"\"#F(&F%6$F*F(F(F(&F%6%F(F(F(F(" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#,(&%\"sG6#\"\"$\"\"\"*&\"\"#F(&F%6$F*F(F(F(&F%6%F(F(F(F
+(" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 207 "Putting a polynomial into t
+he product (or iterating the product) may give multiplicities. These c
+oefficients make up the multiplication table of the ring and can be ob
+tained by the Schur-Hall scalar product:" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 83 "out:=outerS(s[1],s[2]);\nScalar(out,s[3]);\nScalar(ou
+t,s[2,1]);\nScalar(out,s[1,1,1]);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>
+%$outG,&&%\"sG6#\"\"$\"\"\"&F'6$\"\"#F*F*" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#&%\"sG6#\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#&%\"sG
+6#\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"!" }}}{EXCHG {PARA 0 "
+" 0 "" {TEXT -1 44 "Note that s[0]=1 is the unit of the product." }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 26 "outer(s[4]+3*s[2,1],s[0]);" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&&%\"sG6#\"\"%\"\"\"*&\"\"$F(&F%6$
+\"\"#F(F(F(" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 15 "Critical cases:" }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 72 "outer(0);\nouter(s[]); # s
+hould not occur but should possibly return s[0]" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#&%\"sG6\"" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{SECT 0 {PARA 0 "" 0 "
+" {TEXT 258 10 "See Also: " }{HYPERLNK 17 "SchurFkt[Overview]" 2 "Schu
+rFkt,Overview" "" }{TEXT 261 2 ", " }{HYPERLNK 17 "SchurFkt[couter]" 
+2 "SchurFkt,couter" "" }{TEXT -1 8 ", e.g., " }{HYPERLNK 17 "SchurFkt[
+outerH]" 2 "SchurFkt,outerH" "" }{TEXT -1 53 " (see many other incarna
+tions of outerA for A-basis) " }}{PARA 0 "" 0 "" {TEXT -1 142 "\n (c) \+
+Copyright June 2003 - December 2007, by Bertfried Fauser & Rafal Ablam
+owicz, all rights reserved.\nLast modified: December 17, 2007/BF/RA" }
+}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}
+{MARK "2 11 1 0" 0 }{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 
+1 2 33 1 1 }

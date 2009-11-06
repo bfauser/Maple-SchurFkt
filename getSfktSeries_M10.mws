@@ -1,0 +1,154 @@
+{VERSION 6 0 "IBM INTEL NT" "6.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "Hyperlink" -1 17 "" 0 1 0 128 128 1 0 0 1 0 0 0 0 0 0 
+1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 256 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+257 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 258 "" 1 14 0 
+0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 0 2 0 0 0 
+0 0 0 0 1 }{CSTYLE "" -1 260 "" 0 1 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 
+2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Heading 2" -1 4 1 
+{CSTYLE "" -1 -1 "Times" 1 14 0 0 0 1 2 1 2 2 2 2 1 1 1 1 }1 1 0 0 4 
+4 1 0 1 0 2 2 0 1 }{PSTYLE "Text Output" -1 6 1 {CSTYLE "" -1 -1 "Cour
+ier" 1 10 0 0 255 1 2 2 2 2 2 1 2 1 3 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }
+{PSTYLE "Maple Output" -1 11 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 
+2 2 2 2 2 2 1 1 1 1 }3 3 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Outpu
+t" -1 12 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }
+1 3 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Bullet Item" -1 15 1 {CSTYLE "" 
+-1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 1 0 0 3 3 1 0 1 0 2 
+2 15 2 }}
+{SECT 0 {SECT 0 {PARA 4 "" 0 "" {TEXT -1 10 "Function: " }{TEXT 256 
+90 "SchurFkt[getSfktSeries] - produces a Schur function series (or a l
+ist of its coefficients)" }}{PARA 4 "" 0 "" {TEXT -1 17 "Calling Seque
+nce:" }}{PARA 4 "" 0 "" {TEXT 257 104 "ser := getSfktSeries('name',ord
+,var)\nlst := getSfktSeries('name',ord)  \nvoid := getSfktSeries('name
+s')\n\n" }{TEXT -1 11 "Parameters:" }}{PARA 15 "" 0 "" {TEXT -1 132 "'
+name[s]',ord,var    :  a name of a series, the order (weight of the la
+st displayed term, =order), a formal variable for the series " }}
+{PARA 4 "" 0 "" {TEXT -1 7 "Output:" }}{PARA 15 "" 0 "" {TEXT -1 72 "s
+er,lst,void  :  a series, a list of coefficient, void (a usage message
+)" }}{PARA 4 "" 0 "" {TEXT -1 8 "WARNING:" }}{PARA 0 "" 0 "" {TEXT -1 
+8 "--none--" }}}{SECT 0 {PARA 4 "" 0 "" {TEXT -1 12 "Description:" }}
+{PARA 15 "" 0 "" {TEXT 259 146 "Schur functions series are formal seri
+es with Schur functions as its arguments. Such series are important in
+ the branching process of groups, see " }{HYPERLNK 17 "SchurFkt[branch
+]" 2 "SchurFkt,branch" "" }{TEXT 260 2 " ." }}{PARA 15 "" 0 "" {TEXT 
+-1 102 "Schur function series come in pairs which are mutually inverse
+ under convolution (point wise product)." }}{PARA 15 "" 0 "" {TEXT -1 
+85 "If the function is called with one argument 'names' it returns a l
+ist of known names." }}}{SECT 0 {PARA 4 "" 0 "" {TEXT -1 9 "Examples:
+" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "restart:with(SchurFkt):
+" }}{PARA 6 "" 1 "" {TEXT -1 52 "SchurFkt Version 1.0.1 (17 xii 2007) \+
+at your service" }}{PARA 6 "" 1 "" {TEXT -1 58 "(c) 2003-2007 BF&RA, n
+o warranty, no fitness for anything!" }}{PARA 6 "" 1 "" {TEXT -1 83 "I
+ncrease verbosity by infolevel[`function`]=val -- use online help > ?B
+igebra[help]" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 21 "Display known ser
+ies:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "getSfktSeries('name
+s');" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#QBKnown~Series~are:~A,B,C,D,E,
+F,L,M6\"" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 72 "We display the known \+
+series and explain the coefficients (up to a sign):" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 815 "A(t)=getSfktSeries('A',6,t)+O(t^7);\npri
+ntf(\"Partitions of Frobenius form ((a1,a1+1)(a2,a2+1),...)\");\nB(t)=
+getSfktSeries('B',6,t)+O(t^7);\nprintf(\"Partitions with even column l
+ength (even row length of the conjugated partition (2*l_1,2*l_2,...)^'
+ )\");\nC(t)=getSfktSeries('C',6,t)+O(t^7);\nprintf(\"Partitions of Fr
+obenius form ((a1+1,a1)(a2+1,a2),...)\");\nD(t)=getSfktSeries('D',6,t)
++O(t^7);\nprintf(\"Partitions with even row length (2*l_1,2*l_2,...)\"
+);\nE(t)=getSfktSeries('E',6,t)+O(t^7);\nprintf(\"Self conjugate parti
+tions \\lambda=\\lambda^' \");\nF(t)=getSfktSeries('F',6,t)+O(t^7);\np
+rintf(\"All partitions\");\nL(t)=getSfktSeries('L',6,t)+O(t^7);\nprint
+f(\"One row partitions (one part elementary symmetric functions)\");\n
+M(t)=getSfktSeries('M',6,t)+O(t^7);\nprintf(\"One row partitions (one \+
+part complete symmetric functions)\");" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#/-%\"AG6#%\"tG,.&%\"sG6#\"\"!\"\"\"*&&F*6$F-F-F-)F'\"\"#F-!\"\"*
+&&F*6%F2F-F-F-)F'\"\"%F-F-*&&F*6&\"\"$F-F-F-F-)F'\"\"'F-F3*&&F*6%F2F2F
+2F-F=F-F3-%\"OG6#*$)F'\"\"(F-F-" }}{PARA 6 "" 1 "" {TEXT -1 53 "Partit
+ions of Frobenius form ((a1,a1+1)(a2,a2+1),...)" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#/-%\"BG6#%\"tG,2&%\"sG6#\"\"!\"\"\"*&&F*6$F-F-F-)F'\"\"
+#F-F-*&&F*6&F-F-F-F-F-)F'\"\"%F-F-*&&F*6$F2F2F-F6F-F-*&&F*6(F-F-F-F-F-
+F-F-)F'\"\"'F-F-*&&F*6&F2F2F-F-F-F>F-F-*&&F*6$\"\"$FFF-F>F-F--%\"OG6#*
+$)F'\"\"(F-F-" }}{PARA 6 "" 1 "" {TEXT -1 101 "Partitions with even co
+lumn length (even row length of the conjugated partition (2*l_1,2*l_2,
+...)^' )" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/-%\"CG6#%\"tG,.&%\"sG6#\"
+\"!\"\"\"*&&F*6#\"\"#F-)F'F1F-!\"\"*&&F*6$\"\"$F-F-)F'\"\"%F-F-*&&F*6%
+F9F-F-F-)F'\"\"'F-F3*&&F*6$F7F7F-F=F-F3-%\"OG6#*$)F'\"\"(F-F-" }}
+{PARA 6 "" 1 "" {TEXT -1 53 "Partitions of Frobenius form ((a1+1,a1)(a
+2+1,a2),...)" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/-%\"DG6#%\"tG,2&%\"sG
+6#\"\"!\"\"\"*&&F*6#\"\"#F-)F'F1F-F-*&&F*6#\"\"%F-)F'F6F-F-*&&F*6$F1F1
+F-F7F-F-*&&F*6#\"\"'F-)F'F>F-F-*&&F*6$F6F1F-F?F-F-*&&F*6%F1F1F1F-F?F-F
+--%\"OG6#*$)F'\"\"(F-F-" }}{PARA 6 "" 1 "" {TEXT -1 49 "Partitions wit
+h even row length (2*l_1,2*l_2,...)" }}{PARA 11 "" 1 "" {XPPMATH 20 "6
+#/-%\"EG6#%\"tG,0&%\"sG6#\"\"!\"\"\"*&&F*6#F-F-F'F-!\"\"*&&F*6$\"\"#F-
+F-)F'\"\"$F-F-*&&F*6$F5F5F-)F'\"\"%F-F1*&&F*6%F7F-F-F-)F'\"\"&F-F1*&&F
+*6%F7F5F-F-)F'\"\"'F-F--%\"OG6#*$)F'\"\"(F-F-" }}{PARA 6 "" 1 "" 
+{TEXT -1 42 "Self conjugate partitions lambda=lambda^' " }}{PARA 12 "
+" 1 "" {XPPMATH 20 "6#/-%\"FG6#%\"tG,jn-%\"OG6#*$)F'\"\"(\"\"\"F/&%\"s
+G6#\"\"!F/*&&F16$F/F/F/)F'\"\"#F/F/*&&F16%F8F/F/F/)F'\"\"%F/F/*&&F16&
+\"\"$F/F/F/F/)F'\"\"'F/F/*&&F16%F8F8F8F/FBF/F/*&&F16&F/F/F/F/F/F<F/F/*
+&&F16$F8F8F/F<F/F/*&&F16(F/F/F/F/F/F/F/FBF/F/*&&F16&F8F8F/F/F/FBF/F/*&
+&F16$FAFAF/FBF/F/*&&F16#F8F/F7F/F/*&&F16$FAF/F/F<F/F/*&&F16%F=F/F/F/FB
+F/F/*&&F16#F=F/F<F/F/*&&F16#FCF/FBF/F/*&&F16$F=F8F/FBF/F/*&&F16$F8F/F/
+)F'FAF/F/*&&F16%FAF8F/F/FBF/F/*&&F16#F/F/F'F/F/*&&F16%FAF/F/F/)F'\"\"&
+F/F/*&&F16#FAF/FeoF/F/*&&F16%F/F/F/F/FeoF/F/*&&F16#F`pF/F_pF/F/*&&F16$
+F=F/F/F_pF/F/*&&F16$FAF8F/F_pF/F/*&&F16%F8F8F/F/F_pF/F/*&&F16&F8F/F/F/
+F/F_pF/F/*&&F16'F/F/F/F/F/F/F_pF/F/*&&F16$F`pF/F/FBF/F/*&&F16'F8F/F/F/
+F/F/FBF/F/" }}{PARA 6 "" 1 "" {TEXT -1 14 "All partitions" }}{PARA 11 
+"" 1 "" {XPPMATH 20 "6#/-%\"LG6#%\"tG,2&%\"sG6#\"\"!\"\"\"*&&F*6#F-F-F
+'F-!\"\"*&&F*6$F-F-F-)F'\"\"#F-F-*&&F*6%F-F-F-F-)F'\"\"$F-F1*&&F*6&F-F
+-F-F-F-)F'\"\"%F-F-*&&F*6'F-F-F-F-F-F-)F'\"\"&F-F1*&&F*6(F-F-F-F-F-F-F
+-)F'\"\"'F-F--%\"OG6#*$)F'\"\"(F-F-" }}{PARA 6 "" 1 "" {TEXT -1 60 "On
+e row partitions (one part elementary symmetric functions)" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#/-%\"MG6#%\"tG,2&%\"sG6#\"\"!\"\"\"*&&F*6#F-
+F-F'F-F-*&&F*6#\"\"#F-)F'F4F-F-*&&F*6#\"\"$F-)F'F9F-F-*&&F*6#\"\"%F-)F
+'F>F-F-*&&F*6#\"\"&F-)F'FCF-F-*&&F*6#\"\"'F-)F'FHF-F--%\"OG6#*$)F'\"\"
+(F-F-" }}{PARA 6 "" 1 "" {TEXT -1 58 "One row partitions (one part com
+plete symmetric functions)" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 64 "Sho
+w that A,B and C,D and E,F and L,M are mutual inverse series:" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 128 "getSfktSeries(A,4,1); # A s
+eries\ngetSfktSeries(B,4,1); # B series\ntruncWT(outer(%%,%),4); # ski
+p terms of weight greather than 4" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,
+(&%\"sG6#\"\"!\"\"\"&F%6$F(F(!\"\"&F%6%\"\"#F(F(F(" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#,*&%\"sG6#\"\"!\"\"\"&F%6$F(F(F(&F%6&F(F(F(F(F(&F%6$
+\"\"#F/F(" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#&%\"sG6#\"\"!" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 128 "getSfktSeries(C,4,1); # C series\n
+getSfktSeries(D,4,1); # D series\ntruncWT(outer(%%,%),4); # skip terms
+ of weight greather than 4" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,(&%\"sG
+6#\"\"!\"\"\"&F%6#\"\"#!\"\"&F%6$\"\"$F(F(" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#,*&%\"sG6#\"\"!\"\"\"&F%6#\"\"#F(&F%6#\"\"%F(&F%6$F+F+F
+(" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#&%\"sG6#\"\"!" }}}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 147 "getSfktSeries(E,6,1); # E series\ngetSfktS
+eries(F,6,1); # F series\ntruncWT(outer(%%,%),6); # skip terms of weig
+ht greather than 4 ==>>ERROR E wrong!" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#,.&%\"sG6#\"\"!\"\"\"&F%6#F(!\"\"&F%6$\"\"#F(F(&F%6$F.F.F+&F%6%\"\"
+$F(F(F+&F%6%F3F.F(F(" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#,hn&%\"sG6#\"
+\"!\"\"\"&F%6#F(F(&F%6#\"\"#F(&F%6$F(F(F(&F%6#\"\"$F(&F%6$F-F(F(&F%6%F
+(F(F(F(&F%6#\"\"%F(&F%6$F2F(F(&F%6$F-F-F(&F%6%F-F(F(F(&F%6&F(F(F(F(F(&
+F%6#\"\"&F(&F%6$F9F(F(&F%6$F2F-F(&F%6%F2F(F(F(&F%6%F-F-F(F(&F%6&F-F(F(
+F(F(&F%6'F(F(F(F(F(F(&F%6#\"\"'F(&F%6$FDF(F(&F%6$F9F-F(&F%6%F9F(F(F(&F
+%6$F2F2F(&F%6%F2F-F(F(&F%6&F2F(F(F(F(&F%6%F-F-F-F(&F%6&F-F-F(F(F(&F%6'
+F-F(F(F(F(F(&F%6(F(F(F(F(F(F(F(" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#&%
+\"sG6#\"\"!" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 71 "Note that the prod
+uct of the L series and the A series is the E series:" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 93 "truncWT(outer(getSfktSeries(L,6,1),
+getSfktSeries(A,6,1)),6);\ngetSfktSeries(E,6,1); # E series" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#,.&%\"sG6#\"\"!\"\"\"&F%6#F(!\"\"&F%6$\"\"#F
+(F(&F%6$F.F.F+&F%6%\"\"$F(F(F+&F%6%F3F.F(F(" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#,.&%\"sG6#\"\"!\"\"\"&F%6#F(!\"\"&F%6$\"\"#F(F(&F%6$F.F
+.F+&F%6%\"\"$F(F(F+&F%6%F3F.F(F(" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 128 "getSfktSeries(L,4,1); # L series\ngetSfktSeries(M,4,
+1); # M series\ntruncWT(outer(%%,%),4); # skip terms of weight greathe
+r than 4" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,,&%\"sG6#\"\"!\"\"\"&F%6#
+F(!\"\"&F%6$F(F(F(&F%6%F(F(F(F+&F%6&F(F(F(F(F(" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#,,&%\"sG6#\"\"!\"\"\"&F%6#F(F(&F%6#\"\"#F(&F%6#\"\"$F(&
+F%6#\"\"%F(" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#&%\"sG6#\"\"!" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{SECT 0 {PARA 4 "" 0 "
+" {TEXT -1 15 "Algorithm used:" }}{EXCHG {PARA 0 "" 0 "" {TEXT -1 66 "
+The series are obtained by stupidly examining the partitions ... ." }}
+}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}}}{SECT 0 {PARA 0 "" 0 "" 
+{TEXT 258 10 "See Also: " }{HYPERLNK 17 "SchurFkt[branch]" 2 "SchurFkt
+,branch" "" }}{PARA 0 "" 0 "" {TEXT -1 141 "\n(c) Copyright June 2003 \+
+- December 2007, by Bertfried Fauser & Rafal Ablamowicz, all rights re
+served.\nLast modified: December 17, 2007/BF/RA" }}}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{MARK "0 0 1" 36 }
+{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

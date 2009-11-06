@@ -1,0 +1,123 @@
+{VERSION 6 0 "IBM INTEL NT" "6.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "Hyperlink" -1 17 "" 0 1 0 128 128 1 0 0 1 0 0 0 0 0 0 
+1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 256 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+257 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 258 "" 1 14 0 
+0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 0 2 0 0 0 
+0 0 0 0 1 }{CSTYLE "" -1 260 "" 0 8 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 261 "" 0 1 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{PSTYLE "Normal
+" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 
+1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Heading 2" -1 4 1 {CSTYLE "" -1 
+-1 "Times" 1 14 0 0 0 1 2 1 2 2 2 2 1 1 1 1 }1 1 0 0 4 4 1 0 1 0 2 2 
+0 1 }{PSTYLE "Text Output" -1 6 1 {CSTYLE "" -1 -1 "Courier" 1 10 0 0 
+255 1 2 2 2 2 2 1 2 1 3 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple
+ Output" -1 11 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 
+1 1 1 }3 3 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Bullet Item" -1 15 1 
+{CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 1 0 0 3 
+3 1 0 1 0 2 2 15 2 }}
+{SECT 0 {SECT 0 {PARA 4 "" 0 "" {TEXT -1 10 "Function: " }{TEXT 256 
+91 "SchurFkt[antipS] - the antipode acting on symmetric functions in t
+he Schur polynomial basis" }}{PARA 4 "" 0 "" {TEXT -1 17 "Calling Sequ
+ence:" }}{PARA 4 "" 0 "" {TEXT 257 20 "s2 := antipS(s1)  \n\n" }{TEXT 
+-1 11 "Parameters:" }}{PARA 15 "" 0 "" {TEXT -1 30 "s1    :  S-functio
+n polynom   " }{HYPERLNK 17 "type/sfktpolynom" 2 "SchurFkt,type,sfktpo
+lynom" "" }}{PARA 4 "" 0 "" {TEXT -1 7 "Output:" }}{PARA 15 "" 0 "" 
+{TEXT -1 31 "s2    :  S-function polynoms   " }{HYPERLNK 17 "type/sfkt
+polynom" 2 "SchurFkt,type,sfktpolynom" "" }{TEXT -1 0 "" }}{PARA 4 "" 
+0 "" {TEXT -1 8 "WARNING:" }}{PARA 0 "" 0 "" {TEXT -1 167 "The antipod
+e is currently implemented for Schur polynomials, do not apply this fu
+nction to other bases, no type checking yet. Tensor products may be im
+ported from the " }{HYPERLNK 17 "Bigebra[define]" 2 "Bigenra,define" "
+" }{TEXT -1 100 " facility. Look there up how to specify the ground fi
+eld of the tensor or how to define own tensors." }}}{SECT 0 {PARA 4 "
+" 0 "" {TEXT -1 12 "Description:" }}{PARA 15 "" 0 "" {TEXT 259 281 "Th
+e antipode of the outer Hopf algebra of symmetric functions is an anti
+ algebra homomorphisms, which represents a generalized inverse. In a H
+opf algebra stemming from a group, the antipode is the inverse S(g)=g^
+(-1), which illustrated the anti homomorphism rule  S(gh) = S(h)S(g).
+" }}{PARA 15 "" 0 "" {TEXT 261 251 "In the Schur polynomial basis, the
+ antipode is given by\n\n    S(s[lambda]) = (-1)^length(lambda)  s[lam
+bda^`]\n\nwhere length(lambda) is the length of the partition lambda (
+number of parts) and lambda^` is the conjugated partition (mirrored pa
+rtition).\n " }}}{SECT 0 {PARA 4 "" 0 "" {TEXT -1 9 "Examples:" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "restart:with(SchurFkt):" }}
+{PARA 6 "" 1 "" {TEXT -1 52 "SchurFkt Version 1.0.1 (17 xii 2007) at y
+our service" }}{PARA 6 "" 1 "" {TEXT -1 58 "(c) 2003-2007 BF&RA, no wa
+rranty, no fitness for anything!" }}{PARA 6 "" 1 "" {TEXT -1 83 "Incre
+ase verbosity by infolevel[`function`]=val -- use online help > ?Bigeb
+ra[help]" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 46 "The antipodes takes e
+.g. these special values:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+105 "antipS(s[0]);\nantipS(s[1]);\nantipS(s[2]);\nantipS(s[1,1]);\nant
+ipS(s[3]);\nantipS(s[2,1]);\nantipS(s[1,1,1]);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#&%\"sG6#\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,$&%\"
+sG6#\"\"\"!\"\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#&%\"sG6$\"\"\"F&" }
+}{PARA 11 "" 1 "" {XPPMATH 20 "6#&%\"sG6#\"\"#" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#,$&%\"sG6%\"\"\"F'F'!\"\"" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#,$&%\"sG6$\"\"#\"\"\"!\"\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,$
+&%\"sG6#\"\"$!\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 51 "prt:=
+map(x->s[op(x)],PartNM(5,5));\nmap(antipS,prt);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%$prtG7)&%\"sG6#\"\"&&F'6$\"\"%\"\"\"&F'6$\"\"$\"\"#&F
+'6%F0F-F-&F'6%F1F1F-&F'6&F1F-F-F-&F'6'F-F-F-F-F-" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#7),$&%\"sG6'\"\"\"F(F(F(F(!\"\",$&F&6&\"\"#F(F(F(F),$&F
+&6%F-F-F(F),$&F&6%\"\"$F(F(F),$&F&6$F4F-F),$&F&6$\"\"%F(F),$&F&6#\"\"&
+F)" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 184 "We check the axiom for the
+ antipode:\n\n         f_(1) S(f_(2)) = \\eta\\epsilon(f) = S(f_(1)) f
+_(2)\n\nwhere we have used the Sweedler notation for the coproduct \\D
+elta(f) = f_(1) &t f_(2) " }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+18 "out:=couter(s[2]);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%$outG,(-%#
+&tG6$&%\"sG6#\"\"!&F*6#\"\"#\"\"\"-F'6$F-F)F0-F'6$&F*6#F0F5F0" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 89 "'f1' / 'f2'  are a helper function
+s mapping the antipode to the first/second tensor slot:" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 83 "f1:=(x)->`&t`(antipS(op(x)[1]),op(x
+)[2]):\nf2:=(x)->`&t`(op(x)[1],antipS(op(x)[2])):" }}}{EXCHG {PARA 0 "
+" 0 "" {TEXT -1 25 "Check this functionality:" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 41 "f1(&t(s[2],s[1,1]));\nf2(&t(s[2],s[1,1]));" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#-%#&tG6$&%\"sG6$\"\"\"F)F&" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#-%#&tG6$&%\"sG6#\"\"#F&" }}}{EXCHG {PARA 0 "
+" 0 "" {TEXT -1 142 "Now map the antipode to the outer coproduct and m
+ap back the outer product for the tensor should give zero for all but \+
+the Schur function s[0]" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 207 
+"`+`(op(map(f1,[[op(couter(s[0]))]])));\neval(subs(`&t`=outer,%));  # \+
+special case S(s[0]).s[0]=s[0]\n#\n`+`(op(map(f1,[op(couter(s[2,1]))])
+));\neval(subs(`&t`=outer,%));  # general case S(s[\\mu(1)]).s[mu(2)] \+
+= 0" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%#&tG6$&%\"sG6#\"\"!F&" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#&%\"sG6#\"\"!" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#,.-%#&tG6$&%\"sG6#\"\"!&F(6$\"\"#\"\"\"F.-F%6$F+F'!\"\"
+-F%6$&F(6$F.F.&F(6#F.F.-F%6$&F(6#F-F6F.-F%6$F6F:F1-F%6$F6F4F1" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"!" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 20 "A few more examples:" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 25 "f1(&t(op(couter(s[0]))));" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 304 "` => `,eval(subs(`&t`=outer,%)),` special case for s
+[0]=1`;\n## special case for s[0] !\n`+`(op(map(f1,[op(couter(s[1,1]))
+])));\n` => `,eval(subs(`&t`=outer,%));\n`+`(op(map(f2,[op(couter(s[4,
+1]))])));\n` => `,eval(subs(`&t`=outer,%));\n`+`(op(map(f2,[op(couter(
+s[1,1,1]))])));\n` => `,eval(subs(`&t`=outer,%));" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#-%#&tG6$&%\"sG6#\"\"!F&" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6%%%~=>~G&%\"sG6#\"\"!%9~special~case~for~s[0]=1G" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#,(-%#&tG6$&%\"sG6#\"\"!&F(6$\"\"\"F-F--F%6$&F(6#\"
+\"#F'F--F%6$&F(6#F-F5!\"\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$%%~=>~G
+\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,:-%#&tG6$&%\"sG6#\"\"!&F(6&
+\"\"#\"\"\"F.F.!\"\"-F%6$&F(6$\"\"%F.F'F.-F%6$&F(6#F4&F(6#F.F/-F%6$&F(
+6$\"\"$F.F9F/-F%6$&F(6#F?&F(6$F.F.F.-F%6$&F(6$F-F.FDF.-F%6$FB&F(6#F-F.
+-F%6$FL&F(6%F.F.F.F/-F%6$FDFPF/-F%6$FLFHF/-F%6$F9&F(6&F.F.F.F.F.-F%6$F
+9&F(6%F-F.F.F." }}{PARA 11 "" 1 "" {XPPMATH 20 "6$%%~=>~G\"\"!" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#,*-%#&tG6$&%\"sG6#\"\"!&F(6#\"\"$!\"\"
+-F%6$&F(6%\"\"\"F3F3F'F3-F%6$&F(6$F3F3&F(6#F3F.-F%6$F8&F(6#\"\"#F3" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6$%%~=>~G\"\"!" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 0 "" }}}}{SECT 0 {PARA 4 "" 0 "" {TEXT -1 9 "Algorit
+hm" }}{EXCHG {PARA 0 "" 0 "" {TEXT -1 304 "The antipode in the functio
+n basis has a closed form\n\n(1)   antipS(s_\\lambda)  =  (-1)^(|\\lam
+bda|)  s_\\lambda'\n\nwhere |\\lambda| is the weight (sum of boxes in \+
+tableaux) of the partition and \\lambda' is the conjugated partition (
+transposed tableaux). The antipode is directly implemented via this fo
+rmula." }}}}{SECT 0 {PARA 0 "" 0 "" {TEXT 258 10 "See Also: " }
+{HYPERLNK 17 "SchurFkt[Overview]" 2 "SchurFkt,Overview" "" }{TEXT 260 
+2 ", " }{HYPERLNK 17 "SchurFkt[couter]" 2 "SchurFkt,couter" "" }{TEXT 
+-1 2 ", " }{HYPERLNK 17 "Bigebra[define]" 2 "Bigebra,define" "" }}
+{PARA 0 "" 0 "" {TEXT -1 142 "\n(c) Copyright June 2003 - December 200
+7, by Bertfried Fauser & Rafal Ablamowicz, all rights reserved.\nLast \+
+modified: December 17, 2007/BF/RA." }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }
+}}{MARK "3 0 0" 1 }{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 
+2 33 1 1 }

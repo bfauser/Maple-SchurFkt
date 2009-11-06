@@ -1,0 +1,86 @@
+{VERSION 6 0 "IBM INTEL NT" "6.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "Hyperlink" -1 17 "" 0 1 0 128 128 1 0 0 1 0 0 0 0 0 0 
+1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 256 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+257 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 258 "" 1 14 0 
+0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 0 2 0 0 0 
+0 0 0 0 1 }{CSTYLE "" -1 260 "" 0 1 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 261 "fixed" 0 1 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" 
+-1 262 "Helvetica" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 263 
+"fixed" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }{PSTYLE "Normal" -1 0 1 
+{CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 1 0 0 0 
+0 1 0 1 0 2 2 0 1 }{PSTYLE "Heading 2" -1 4 1 {CSTYLE "" -1 -1 "Times
+" 1 14 0 0 0 1 2 1 2 2 2 2 1 1 1 1 }1 1 0 0 4 4 1 0 1 0 2 2 0 1 }
+{PSTYLE "Text Output" -1 6 1 {CSTYLE "" -1 -1 "Courier" 1 10 0 0 255 
+1 2 2 2 2 2 1 2 1 3 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Out
+put" -1 11 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 
+1 }3 3 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Bullet Item" -1 15 1 {CSTYLE 
+"" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 1 0 0 3 3 1 0 1 
+0 2 2 15 2 }}
+{SECT 0 {SECT 0 {PARA 4 "" 0 "" {TEXT -1 10 "Function: " }{TEXT 256 
+72 "SchurFkt[isLattice] - checks if a Young tableau is a lattice permu
+tation" }}{PARA 4 "" 0 "" {TEXT -1 17 "Calling Sequence:" }}{PARA 4 "
+" 0 "" {TEXT 257 26 "bool := isLattice(tab)  \n\n" }{TEXT -1 11 "Param
+eters:" }{TEXT 262 0 "" }}{PARA 15 "" 0 "" {TEXT -1 47 "tab    :  a Yo
+ung tableau ( list list integer) " }}{PARA 4 "" 0 "" {TEXT -1 7 "Outpu
+t:" }}{PARA 15 "" 0 "" {TEXT -1 22 "bool  :  Boolean value" }}{PARA 4 
+"" 0 "" {TEXT -1 8 "WARNING:" }}{PARA 0 "" 0 "" {TEXT -1 23 "--interna
+l use mainly--" }}}{SECT 0 {PARA 4 "" 0 "" {TEXT -1 12 "Description:" 
+}}{PARA 15 "" 0 "" {TEXT 259 602 "A Young tableau is a Young diagram w
+here the boxes are filed with an ordered alphabet (e.g.,  integers in \+
+[1..n]). A Young tableau is called standard if in each row and column \+
+the entries are strictly increasing (in out Anglo-Saxonia indexing). A
+ semistandard Young tableau is a Young tableau with nondecreasing rows
+ and strictly increasing columns. One can extract from a Young tableau
+ a word by forming  a string out of the entries along a reading order.
+ We use the following reading order: start in the top row rightmost an
+d read leftward and then continue in the same way in the following col
+umn.\n\n" }{TEXT 261 142 "   1 2 3                 1 3 3\n   4 5   std
+ tableau    2 4    semi std tableau\n   5 6                   5 5\n\n \+
+  3215465               3314255\n" }{TEXT 260 209 " \nA word extracted
+ from a Young tableau is called a lattice permutation (or ballot seque
+nce) if the number of occurrences of letters ai are greater or equal t
+o the number of occurrences of letters aj is ai<aj." }}{PARA 15 "" 0 "
+" {TEXT -1 486 "In the implementation of the Littewood-Richardson rule
+ along the lines one calculates by hand (there is a more effective alg
+orithm proposed by Lascoux and Sch\374tzenberger using Schubert calcul
+us and Specht modules) we need to add boxes from one Young tableau to \+
+a second Young tableau in such a way, that the resulting tableau is a \+
+lattice permutation. This is a condition which ensures that the produc
+es tableaux are in the so called plactic monoid (fulfilling the Knuth \+
+correspondence)" }}{PARA 15 "" 0 "" {TEXT -1 103 "A skew tableaux is r
+epresented by an ordinary tableau, where the removed boxes are filled \+
+with zeros.\n\n" }{TEXT 263 52 "    0 0 0 1 1 2\n    0 0 2 2 2 3\n    \+
+0 2 3 4\n    1 3 " }{TEXT -1 68 "\n\nA semistandard tableau (6 6 4 2/3
+ 2 1) with a filling from [1..4]." }}{PARA 15 "" 0 "" {TEXT -1 120 "is
+Lattice is the implementation of the boolean valued function which che
+cks if a given tableau is a lattice permutation." }}}{SECT 0 {PARA 4 "
+" 0 "" {TEXT -1 9 "Examples:" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+23 "restart:with(SchurFkt):" }}{PARA 6 "" 1 "" {TEXT -1 52 "SchurFkt V
+ersion 1.0.1 (17 xii 2007) at your service" }}{PARA 6 "" 1 "" {TEXT 
+-1 58 "(c) 2003-2007 BF&RA, no warranty, no fitness for anything!" }}
+{PARA 6 "" 1 "" {TEXT -1 83 "Increase verbosity by infolevel[`function
+`]=val -- use online help > ?Bigebra[help]" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 134 "isLattice([[1,2,3],[4,5]]);              # 32145\n
+isLattice([[1,1,1,1],[2,2,2],[3,3,3]]);  # 1111222333\nisLattice([1,1,
+1,2],[2,2],[3]);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#%%trueG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%
+%trueG" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 15 "Critical cases:" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 52 "isLattice([[]]);\nisLattice(
+[[0]]);\nisLattice([[1]]);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%%trueG
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%%trueG" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%%trueG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" 
+}}}}{SECT 0 {PARA 4 "" 0 "" {TEXT -1 15 "Algorithm used:" }}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 228 "The function is implemented along the li
+nes described above. To any tableau the associated word is formed as a
+ sequence. Zeros are eliminated, then a check is performed if the sequ
+ence is a ballot sequence (lattice permutation)." }}}}{SECT 0 {PARA 0 
+"" 0 "" {TEXT 258 10 "See Also: " }{HYPERLNK 17 "SchurFkt[Overview]" 
+2 "SchurFkt,Overview" "" }}{PARA 0 "" 0 "" {TEXT -1 141 "\n(c) Copyrig
+ht June 2003 - December 2007, by Bertfried Fauser & Rafal Ablamowicz, \+
+all rights reserved.\nLast modified: December 17, 2007/BF/RA" }}}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}
+{MARK "0 3 0" 25 }{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 
+2 33 1 1 }

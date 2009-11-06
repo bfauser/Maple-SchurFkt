@@ -1,0 +1,84 @@
+{VERSION 6 0 "IBM INTEL NT" "6.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "Hyperlink" -1 17 "" 0 1 0 128 128 1 0 0 1 0 0 0 0 0 0 
+1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 256 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+257 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 258 "" 1 14 0 
+0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 0 2 0 0 0 
+0 0 0 0 1 }{CSTYLE "" -1 260 "" 0 1 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Text Output" -1 2 1 
+{CSTYLE "" -1 -1 "Courier" 1 10 0 0 255 1 0 0 0 0 0 1 3 0 3 1 }1 0 0 
+-1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Heading 1" 0 3 1 {CSTYLE "" -1 -1 
+"" 1 18 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }1 0 0 0 6 6 0 0 0 0 0 0 -1 0 }
+{PSTYLE "Heading 2" 3 4 1 {CSTYLE "" -1 -1 "" 1 14 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 }0 0 0 -1 4 4 0 0 0 0 0 0 -1 0 }{PSTYLE "" 2 6 1 {CSTYLE "" 
+-1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 2 0 0 1 }0 0 0 -1 -1 -1 0 0 0 0 0 0 
+-1 0 }{PSTYLE "Maple Output" 0 11 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 }3 3 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Bullet It
+em" 0 15 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }0 0 0 
+-1 3 3 0 0 0 0 0 0 15 2 }}
+{SECT 0 {SECT 0 {PARA 4 "" 0 "" {TEXT -1 10 "Function: " }{TEXT 256 
+78 "SchurFkt[p_to_m] - basis change from power sum to monomial symmetr
+ic functions" }}{PARA 4 "" 0 "" {TEXT -1 17 "Calling Sequence:" }}
+{PARA 4 "" 0 "" {TEXT 257 24 "mfkt := p_to_m(pfkt)  \n\n" }{TEXT -1 
+11 "Parameters:" }}{PARA 15 "" 0 "" {TEXT -1 40 "pfkt    :  power sum \+
+symmetric function " }}{PARA 4 "" 0 "" {TEXT -1 7 "Output:" }}{PARA 
+15 "" 0 "" {TEXT -1 36 "mfkt  :  monomial symmetric function" }}{PARA 
+4 "" 0 "" {TEXT -1 8 "WARNING:" }}{PARA 0 "" 0 "" {TEXT -1 8 "--none--
+" }}}{SECT 0 {PARA 4 "" 0 "" {TEXT -1 12 "Description:" }}{PARA 15 "" 
+0 "" {TEXT 259 289 "The basis change from power sum symmetric function
+ to monomials symmetric functions is important at many areas of symmet
+ric function theory. Here it is implemented (for the first time) using
+ Rota-Stein cliffordization techniques for the outer product of monomi
+als symmetric functions (see " }{HYPERLNK 17 "outerM" 2 "SchurFkt,oute
+rM" "" }{TEXT 260 2 ")." }}}{SECT 0 {PARA 4 "" 0 "" {TEXT -1 9 "Exampl
+es:" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "restart:with(SchurFkt
+):" }}{PARA 6 "" 1 "" {TEXT -1 52 "SchurFkt Version 1.0.1 (17 xii 2007
+) at your service" }}{PARA 6 "" 1 "" {TEXT -1 58 "(c) 2003-2007 BF&RA,
+ no warranty, no fitness for anything!" }}{PARA 6 "" 1 "" {TEXT -1 83 
+"Increase verbosity by infolevel[`function`]=val -- use online help > \+
+?Bigebra[help]" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 103 "p_to_m(p
+[3]);  # on primitive elements this is an isomorphism\np_to_m(p[7]);\n
+p_to_m(p[1]);\np_to_m(p[9]);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#&%\"mG
+6#\"\"$" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#&%\"mG6#\"\"(" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#&%\"mG6#\"\"\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6#&%\"mG6#\"\"*" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 78 "Note the diffe
+rence for identical and non indentical indices coming from the  " }
+{HYPERLNK 17 "concatM" 2 "SchurFkt,concatM" "" }{TEXT -1 27 " product \+
+underlying outerM " }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 67 "p_to_
+m(p[2,1]),outerM(m[2],m[1]);\np_to_m(p[1,1]),outerM(m[1],m[1]);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6$,&&%\"mG6#\"\"$\"\"\"&F%6$\"\"#F(F(F#
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$,&&%\"mG6#\"\"#\"\"\"*&F'F(&F%6$F(
+F(F(F(F#" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 179 "Note that the basis \+
+change can be described by looking at all possible contractions of ind
+ices in a successive way adding certain multiplicities if the same ind
+ices are contracted" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 161 "p_t
+o_m(p[3,2,1]);  # [3,2,1], [3+1,2], [3,2+1], [3+2,1], [3+2+1]\nouterM(
+m[3],m[2],m[1]); \np_to_m(p[2,2,2]);  # [2,2,2], [2+2,2], [2+2+2]\nout
+erM(m[2],m[2],m[2]); " }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,,&%\"mG6#\"
+\"'\"\"\"&F%6$\"\"&F(F(*&\"\"#F(&F%6$\"\"$F0F(F(&F%6$\"\"%F-F(&F%6%F0F
+-F(F(" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,,&%\"mG6#\"\"'\"\"\"&F%6$\"
+\"&F(F(*&\"\"#F(&F%6$\"\"$F0F(F(&F%6$\"\"%F-F(&F%6%F0F-F(F(" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#,(&%\"mG6#\"\"'\"\"\"*&\"\"$F(&F%6$\"\"%\"\"
+#F(F(*&F'F(&F%6%F.F.F.F(F(" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,(&%\"mG
+6#\"\"'\"\"\"*&\"\"$F(&F%6$\"\"%\"\"#F(F(*&F'F(&F%6%F.F.F.F(F(" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 15 "Critical cases:" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 37 "p_to_m(0);\np_to_m(p[]);\np_to_m(p[0]);" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#&%\"mG6#\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#&%\"mG6#\"\"!" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{SECT 0 {PARA 4 "" 
+0 "" {TEXT -1 15 "Algorithm used:" }}{EXCHG {PARA 0 "" 0 "" {TEXT -1 
+205 "We write p[\\mu] = p[\\mu1] . p[\\mu2] .... p[\\mul] and use this
+ isomorphism p[n]=m[n] for all n on primitive elements. Then we multip
+ly back using the outer product in the monomial symmetric function bas
+is  " }{HYPERLNK 17 "outerM" 2 "SchurFkt,outerM" "" }{TEXT -1 2 " ." }
+}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}}}{SECT 0 {PARA 0 "" 0 "" 
+{TEXT 258 10 "See Also: " }{HYPERLNK 17 "SchurFkt[Overview]" 2 "SchurF
+kt,Overview" "" }{TEXT -1 82 ", see there many functions called a_to_b
+ for basis change from A-basis to B-basis." }}{PARA 0 "" 0 "" {TEXT 
+-1 141 "\n(c) Copyright June 2003 - December 2007, by Bertfried Fauser
+ & Rafal Ablamowicz, all rights reserved.\nLast modified: December 17,
+ 2007/BF/RA" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{MARK "1 1 1" 5 }
+{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

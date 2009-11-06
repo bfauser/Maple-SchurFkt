@@ -1,0 +1,481 @@
+{VERSION 6 0 "IBM INTEL NT" "6.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "Hyperlink" -1 17 "" 0 1 0 128 128 1 0 0 1 0 0 0 0 0 0 
+1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "Help Heading" -1 26 "" 1 14 0 0 16 0 0 1 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 256 "" 1 14 0 0 22 0 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+257 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 258 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 259 "Times" 0 1 0 0 0 0 0 1 0 
+0 0 0 0 0 0 1 }{CSTYLE "" -1 260 "System" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 
+0 1 }{CSTYLE "" -1 264 "" 1 14 0 0 0 0 2 0 0 0 0 0 0 0 0 0 }{CSTYLE "
+" -1 265 "" 0 1 0 0 0 0 2 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 266 "" 0 1 
+0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 267 "" 0 1 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 }{CSTYLE "" -1 268 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 269 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+270 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 271 "" 1 12 0 
+0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 272 "" 1 12 0 0 0 0 0 2 0 0 
+0 0 0 0 0 1 }{CSTYLE "" -1 273 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 274 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+275 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 276 "" 1 12 0 
+0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 277 "" 1 12 0 0 0 0 0 2 0 0 
+0 0 0 0 0 1 }{CSTYLE "" -1 278 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 279 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+280 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 281 "" 1 12 0 
+0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 282 "" 1 12 0 0 0 0 0 2 0 0 
+0 0 0 0 0 1 }{CSTYLE "" -1 283 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 284 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+285 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 286 "" 1 12 0 
+0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 287 "" 1 12 0 0 0 0 0 2 0 0 
+0 0 0 0 0 1 }{CSTYLE "" -1 288 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 289 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+290 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 291 "" 1 12 0 
+0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 292 "" 1 12 0 0 0 0 0 2 0 0 
+0 0 0 0 0 1 }{CSTYLE "" -1 293 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 294 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+295 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 296 "" 1 12 0 
+0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 297 "" 1 12 0 0 0 0 0 2 0 0 
+0 0 0 0 0 1 }{CSTYLE "" -1 298 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 299 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+300 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 301 "" 1 12 0 
+0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 302 "" 1 12 0 0 0 0 0 2 0 0 
+0 0 0 0 0 1 }{CSTYLE "" -1 303 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 304 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+305 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 306 "" 1 12 0 
+0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 307 "" 1 12 0 0 0 0 0 2 0 0 
+0 0 0 0 0 1 }{CSTYLE "" -1 308 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 309 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+310 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 311 "" 1 12 0 
+0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 312 "" 1 12 0 0 0 0 0 2 0 0 
+0 0 0 0 0 1 }{CSTYLE "" -1 313 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 314 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+315 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 316 "" 1 12 0 
+0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 317 "" 1 12 0 0 0 0 0 2 0 0 
+0 0 0 0 0 1 }{CSTYLE "" -1 318 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 319 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+320 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 321 "" 1 12 0 
+0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 322 "" 1 12 0 0 0 0 0 2 0 0 
+0 0 0 0 0 1 }{CSTYLE "" -1 323 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 324 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+325 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 347 "" 1 14 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 350 "" 1 14 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 }{CSTYLE "" -1 351 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 352 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+353 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 354 "" 1 14 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 404 "" 0 14 0 0 0 0 0 2 0 0 
+0 0 0 0 0 1 }{CSTYLE "" -1 405 "" 0 14 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 406 "" 0 14 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+408 "" 0 14 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 409 "" 0 14 0 
+0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 410 "" 0 14 0 0 0 0 0 2 0 0 
+0 0 0 0 0 1 }{CSTYLE "" -1 411 "" 0 14 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 412 "" 0 14 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+413 "" 0 14 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 414 "" 0 14 0 
+0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 415 "" 0 14 0 0 0 0 0 2 0 0 
+0 0 0 0 0 1 }{CSTYLE "" -1 416 "" 0 14 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 417 "" 0 14 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+418 "" 0 14 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 421 "" 0 14 0 
+0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 422 "" 0 14 0 0 0 0 0 2 0 0 
+0 0 0 0 0 1 }{CSTYLE "" -1 423 "" 0 14 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 
+2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Heading 1" -1 3 1 
+{CSTYLE "" -1 -1 "Times" 1 18 0 0 0 1 2 1 2 2 2 2 1 1 1 1 }1 1 0 0 6 
+6 1 0 1 0 2 2 0 1 }{PSTYLE "Heading 2" -1 4 1 {CSTYLE "" -1 -1 "Times
+" 1 14 0 0 0 1 2 1 2 2 2 2 1 1 1 1 }1 1 0 0 4 4 1 0 1 0 2 2 0 1 }
+{PSTYLE "Text Output" -1 6 1 {CSTYLE "" -1 -1 "Courier" 1 10 0 0 255 
+1 2 2 2 2 2 1 2 1 3 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Out
+put" -1 12 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 
+1 }1 3 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "List Item" -1 14 1 {CSTYLE "
+" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 1 0 0 3 3 1 0 1 0 
+2 2 14 5 }{PSTYLE "Bullet Item" -1 15 1 {CSTYLE "" -1 -1 "Times" 1 12 
+0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 1 0 0 3 3 1 0 1 0 2 2 15 2 }{PSTYLE "Au
+thor" -1 19 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 
+1 }3 1 0 0 8 8 1 0 1 0 2 2 0 1 }{PSTYLE "Heading 4" -1 20 1 {CSTYLE "
+" -1 -1 "Times" 1 10 0 0 0 1 1 1 2 2 2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 
+2 2 0 1 }{PSTYLE "Normal" -1 256 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 
+0 1 2 2 2 2 2 2 1 1 1 1 }3 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Bullet \+
+Item" -1 257 1 {CSTYLE "" -1 -1 "fixed" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 
+1 1 }1 1 0 0 3 3 1 0 1 0 2 2 15 2 }{PSTYLE "Bullet Item" -1 258 1 
+{CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 1 0 0 3 
+3 1 0 1 0 2 2 15 2 }}
+{SECT 0 {SECT 0 {PARA 0 "" 0 "" {TEXT 26 10 "Help For: " }{TEXT -1 1 "
+ " }}{PARA 19 "" 0 "" {TEXT 256 72 "Schur-Fkt - A Maple Package for th
+e Hopf algebra of symmetric functions\n" }{TEXT -1 57 "\nVersion 1.0.1
+  (17 xii 2007)  --   designed for Maple 10" }}{PARA 19 "" 0 "" {TEXT 
+-1 11 "(Copyright " }{TEXT 258 3 "(c)" }{TEXT -1 77 " Rafal Ablamowicz
+ * and Bertfried Fauser\247, 2003 - 2007. All rights reserved.)" }}
+{PARA 19 "" 0 "" {TEXT -1 446 "(*) Department of Mathematics, Box 5054
+\nTennessee Technological University\nCookeville, TN 38501 USA\nPhone:
+ (931) 372-3664, Fax: (931) 372-6353\nE-mail: rablamowicz@tntech.edu\n
+URL:  http://math.tntech.edu/rafal/SchurFkt/\n\n(\247) University of K
+onstanz\nFachbereich Physik, Fach M678\nUniversit\344tsstrasse 10, D-7
+8457 Konstanz, Germany\nPhone: +49 (0)7531 693491\nE-mail: Bertfried.F
+auser@uni-konstanz.de\nURL: http://clifford.physik.uni-konstanz.de/~fa
+user/" }}{PARA 256 "" 0 "" {TEXT -1 42 "Last revised: December 17, 200
+7  (BF & RA)" }}{PARA 0 "" 0 "usage" {TEXT 26 17 "Calling Sequence:" }
+{TEXT -1 75 "\n   function(args)                        (if the packag
+e was loaded using " }{TEXT 259 14 "with(SchurFkt)" }{TEXT 260 1 ";" }
+{TEXT -1 78 " )\n   SchurFkt[function](args)        (long form without
+ loading the package)\n" }}{PARA 20 "" 0 "" {TEXT 265 0 "" }{TEXT 264 
+5 "Note:" }{TEXT 26 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 266 
+11 "   SchurFkt" }{TEXT -1 22 "  _needs_ the package " }{TEXT 267 6 "d
+efine" }{TEXT -1 104 " of the Clifford/Bigebra packages, since it defi
+ned tensor products of symmetric functions. It also from" }}{PARA 0 "
+" 0 "" {TEXT -1 127 "   time to time needs Clifford/Bigebra, so we adv
+ice strongly to install the library file which contains all of these p
+ackages!" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{SECT 0 {PARA 0 "" 0 "syn
+opsis" {TEXT 26 12 "Description:" }}{PARA 15 "" 0 "" {TEXT -1 349 "Sch
+urFkt provides essential operations on the Hopf algebra of (commutativ
+e) symmetric functions in formally infinite many variables. It provide
+s several important bases which allow to implement products and coprod
+ucts by means of combinatorics of Young diagrams  (Ferers diagrams, es
+sentially a graphical display of partitions) and Young tableaux.  " }}
+{PARA 15 "" 0 "" {TEXT -1 649 "Schur polynomials can be used to descri
+be irreducible representations of general linear groups. The product o
+f these polynomials resembles the Glebsch-Gordan decomposition of a te
+nsor product of two irreducible representations (irreps) into irreduci
+bles again. The decomposition of irreps gives a coproduct of Schur fun
+ctions. Schur functions encode a huge number of combinatorial identiti
+es. Schur functions have a second product, called 'inner product'. Thi
+s product has to do with the product of irreps of the symmetric group.
+ Since it does not add the weight of the tableaux but combines two tab
+leaux of the same weight into other such tableaux." }}{PARA 15 "" 0 "
+" {TEXT -1 270 "Power sum symmetric functions play a role in enumerati
+ve combinatorics (Polya counting theory, cycle indicators), as in alge
+bras K-theory (Adams operations). In our setting, power sum function f
+orm the primitive elements of the outer Hopf algebra of symmetric func
+tions." }}{PARA 15 "" 0 "" {TEXT -1 181 "Monomial symmetric functions \+
+play an important role in the approach to symmetric functions proposed
+ by Rota-Stein, 94. Currently SchurFkt does not fully implement these \+
+algorithms. " }}{PARA 15 "" 0 "" {TEXT -1 4 "The " }{TEXT 268 12 "gene
+ral goal" }{TEXT -1 401 " of SchurFkt is to provide a proof of concept
+ for some new developments in symmetric function and invariant theory.
+ Since Maple (TM) is considerably slower as, e.g. SCHUR by Brian G Wyb
+ourne, serious calculations may need special purpose software. However
+, being able to code new algorithms provides new insights into the the
+ory and last but not least proves the authors understanding of the sub
+ject.\n" }}{SECT 0 {PARA 4 "" 0 "" {TEXT -1 36 " Load SchurFkt in the \+
+following way:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "restart:w
+ith(SchurFkt);" }}{PARA 6 "" 1 "" {TEXT -1 52 "SchurFkt Version 1.0.1 \+
+(17 xii 2007) at your service" }}{PARA 6 "" 1 "" {TEXT -1 58 "(c) 2003
+-2007 BF&RA, no warranty, no fitness for anything!" }}{PARA 6 "" 1 "" 
+{TEXT -1 83 "Increase verbosity by infolevel[`function`]=val -- use on
+line help > ?Bigebra[help]" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#7ho%)Ale
+xCompG%)CharHookG%'CompNMG%%FLATG%*Frob2partG%)KostkaPCG%,KostkaTableG
+%)LaplaceMG%-LaplaceM_monG%-LaplaceTableG%%MLING%'MurNakG%(MurNak2G%'P
+artNMG%'ScalarG%)ScalarHMG%)ScalarMHG%(ScalarPG%'antipEG%'antipHG%'ant
+ipMG%(antipMCG%'antipPG%'antipSG%'branchG%'cinnerG%)cmp2partG%,cmp2prt
+MultG%(concatMG%)conjpartG%'couterG%(couterEG%(couterHG%(couterMG%)cou
+terONG%(couterPG%(cplethPG%(cplethSG%'e_to_hG%'e_to_sG%6evalJacobiTrud
+iMatrixG%.getSfktSeriesG%+grAlexCompG%'h_to_mG%'h_to_sG%&innerG%'inner
+HG%'innerPG%*isLatticeG%'m_to_pG%0maxlengthSymFktG%*mset2partG%&outerG
+%'outerEG%'outerHG%'outerMG%(outerONG%'outerPG%'outerSG%'p_to_mG%'p_to
+_sG%*part2FrobG%*part2msetG%'plethPG%'plethSG%)plethSnmG%'s_to_hG%)s_t
+o_hJTG%*s_to_hmatG%'s_to_pG%'s_to_xG%%skewG%)sq_coeffG%(truncWTG%'x_to
+_sG%$zeeG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{SECT 0 {PARA 4 "" 0 "" {TEXT -1 91 "Alphabetic (
+but Overview as the first topic) listing of available procedures in 'S
+churFkt':" }}{PARA 258 "" 0 "" {TEXT -1 0 "" }{HYPERLNK 17 "Overview" 
+2 "SchurFkt,Overview" "" }{TEXT -1 47 " -- The main HELP FILE for Schu
+rFkt (this file)" }}{PARA 258 "" 0 "" {TEXT -1 0 "" }{HYPERLNK 17 "Ale
+xComp" 2 "SchurFkt,AlexComp" "" }{TEXT -1 4 " -- " }{TEXT 274 71 "comp
+ares two compositions/partitions w.r.t. anti-lexicographic ordering" }
+}{PARA 15 "" 0 "" {HYPERLNK 17 "antipS" 2 "SchurFkt,antipS" "" }{TEXT 
+271 76 " -- the antipode acting on symmetric functions in the Schur po
+lynomial basis" }}{PARA 15 "" 0 "" {TEXT -1 0 "" }{HYPERLNK 17 "branch
+" 2 "SchurFkt,branch" "" }{TEXT 272 121 " -- branch transforms a symme
+tric function representing a group character into S-functions of anoth
+er group via branching" }{TEXT -1 0 "" }}{PARA 258 "" 0 "" {HYPERLNK 
+17 "CharHook" 2 "SchurFkt,CharHook" "" }{TEXT -1 4 " -- " }{TEXT 275 
+56 "evaluation of a cycle indicator on a Hook Schur function" }}{PARA 
+15 "" 0 "" {HYPERLNK 17 "cinner" 2 "SchurFkt,cinner" "" }{TEXT 273 66 
+" -- inner coproduct of symmetric function the Schur function basis" }
+{TEXT -1 0 "" }}{PARA 15 "" 0 "" {HYPERLNK 17 "cmp2prtMult" 2 "SchurFk
+t,cmp2prtMult" "" }{TEXT 276 101 " -- computes the length of the orbit
+ of compostions which project under sorting to the same partition" }
+{TEXT -1 0 "" }}{PARA 258 "" 0 "" {HYPERLNK 17 "CompNM" 2 "SchurFkt,Co
+mpNM" "" }{TEXT -1 12 " -- produces" }{TEXT 277 41 " a list of composi
+tions of N into M parts" }}{PARA 15 "" 0 "" {HYPERLNK 17 "concatM" 2 "
+SchurFkt,concatM" "" }{TEXT 278 80 " -- divided powers concatenation p
+roduct (needed for Rota-Stein cliffordization)" }{TEXT -1 0 "" }}
+{PARA 15 "" 0 "" {HYPERLNK 17 "conjpart" 2 "SchurFkt,conjpart" "" }
+{TEXT 279 34 " -- computes a conjugate partition" }{TEXT -1 0 "" }}
+{PARA 15 "" 0 "" {HYPERLNK 17 "couter" 2 "SchurFkt,couter" "" }{TEXT 
+280 51 " -- the outer coproduct in the Schur function basis" }{TEXT 
+-1 0 "" }}{PARA 15 "" 0 "" {HYPERLNK 17 "couterE" 2 "SchurFkt,couterE
+" "" }{TEXT 281 66 " -- the outer coproduct in the elementary symmetri
+c function basis" }}{PARA 15 "" 0 "" {HYPERLNK 17 "couterH" 2 "SchurFk
+t,couterH" "" }{TEXT 282 64 " -- the outer coproduct in the complete s
+ymmetric function basis" }}{PARA 15 "" 0 "" {HYPERLNK 17 "couterM" 2 "
+SchurFkt,couterM" "" }{TEXT 284 64 " -- the outer coproduct in the mon
+omial symmetric function basis" }{TEXT -1 0 "" }}{PARA 15 "" 0 "" 
+{HYPERLNK 17 "couterON" 2 "SchurFkt,couterON" "" }{TEXT 285 72 " - out
+er coproduct for the O(n) groups in the stable limit N--> infinity" }
+{TEXT -1 0 "" }}{PARA 15 "" 0 "" {HYPERLNK 17 "couterP" 2 "SchurFkt,co
+uterP" "" }{TEXT 283 46 " -- the outer coproduct in the power sum basi
+s" }}{PARA 15 "" 0 "" {HYPERLNK 17 "cplethP" 2 "SchurFkt,cplethP" "" }
+{TEXT 286 47 " -- plethysm coproduct in the power sums basis " }}
+{PARA 15 "" 0 "" {HYPERLNK 17 "cplethS" 2 "SchurFkt,cplethS" "" }
+{TEXT 287 50 " -- plethysm coproduct in the Schur function basis" }
+{TEXT -1 0 "" }}{PARA 258 "" 0 "" {HYPERLNK 17 "FLAT" 2 "SchurFkt,FLAT
+" "" }{TEXT -1 4 " -- " }{TEXT 288 35 "flattens the function T() used \+
+by  " }{HYPERLNK 17 "SchurFkt[MLIN]" 2 "SchurFkt,MLIN" "" }{TEXT 289 
+42 "  (hence T() is made associative this way)" }{TEXT -1 26 ", mainly
+ for internal use!" }}{PARA 258 "" 0 "" {HYPERLNK 17 "Frob2part" 2 "Sc
+hurFkt,Frob2part" "" }{TEXT -1 4 " -- " }{TEXT 290 86 "converts a part
+ition in Frobenius notation into a standard list notation of partition
+s" }}{PARA 15 "" 0 "" {HYPERLNK 17 "getSfktSeries" 2 "SchurFkt,getSfkt
+Series" "" }{TEXT 291 68 " -- produces a Schur function series (or a l
+ist of its coefficients)" }{TEXT -1 0 "" }}{PARA 15 "" 0 "" {HYPERLNK 
+17 "grAlexComp" 2 "SchurFkt,grAlexComp" "" }{TEXT 292 82 " -- compares
+ two compositions/partitions w.r.t. graded anti-lexicographic ordering
+" }{TEXT -1 0 "" }}{PARA 15 "" 0 "" {HYPERLNK 17 "h_to_s" 2 "SchurFkt,
+h_to_s" "" }{TEXT 293 65 " -- convert a homogenous symmetric function \+
+into a Schur function" }{TEXT -1 0 "" }}{PARA 15 "" 0 "" {HYPERLNK 17 
+"inner" 2 "SchurFkt,inner" "" }{TEXT 294 45 " -- the inner product in \+
+Schur function basis" }{TEXT -1 0 "" }}{PARA 15 "" 0 "" {HYPERLNK 17 "
+innerP" 2 "SchurFkt,innerP" "" }{TEXT 295 40 " -- inner product in the
+ power sum basis" }{TEXT -1 0 "" }}{PARA 15 "" 0 "" {HYPERLNK 17 "isLa
+ttice" 2 "SchurFkt,isLattice" "" }{TEXT 296 54 " -- checks if a Young \+
+tableau is a lattice permutation" }{TEXT -1 0 "" }}{PARA 258 "" 0 "" 
+{HYPERLNK 17 "KostkaPC" 2 "SchurFkt,KostkaPC" "" }{TEXT -1 4 " -- " }
+{TEXT 297 69 "computes the Kostka coefficient between a composition an
+d a partition" }}{PARA 258 "" 0 "" {HYPERLNK 17 "KostkaTable" 2 "Schur
+Fkt,KostkaTable" "" }{TEXT -1 4 " -- " }{TEXT 298 43 "computes the Kos
+tka matrix in any dimension" }}{PARA 15 "" 0 "" {TEXT -1 0 "" }
+{HYPERLNK 17 "LaplaceM" 2 "SchurFkt,LaplaceM" "" }{TEXT -1 200 " -- th
+e Rota-Stein Laplace pairing internally used for 'cliffordization' of \+
+the concatenation product in the monomial basis into the outer product
+ of monomial symmetric functions (internal use mostly)" }}{PARA 258 "
+" 0 "" {HYPERLNK 17 "LaplaceM_mon" 2 "SchurFkt,LaplaceM_mon" "" }
+{TEXT 299 33 "  -- Laplace pairing on monomials" }{TEXT -1 1 " " }}
+{PARA 15 "" 0 "" {TEXT -1 0 "" }{HYPERLNK 17 "LaplaceTable" 2 "SchurFk
+t,LaplaceTable" "" }{TEXT -1 93 " -- tabulates the LaplaceM pairing of
+ m-function monomials (exhibits some grading properties)" }}{PARA 15 "
+" 0 "" {HYPERLNK 17 "m_to_p" 2 "SchurFkt,m_to_p" "" }{TEXT 300 63 " --
+ basis change from monomial to power sum symmetric functions" }{TEXT 
+-1 0 "" }}{PARA 258 "" 0 "" {HYPERLNK 17 "MLIN" 2 "SchurFkt,MLIN" "" }
+{TEXT -1 4 " -- " }{TEXT 301 52 "makes the function T() multilinear ov
+er the integers" }{TEXT -1 26 ", mainly for internal use!" }}{PARA 15 
+"" 0 "" {HYPERLNK 17 "mset2part" 2 "SchurFkt,mset2part" "" }{TEXT 302 
+84 " -- translates a partition in multiset notation into a  partition \+
+in standard format" }{TEXT -1 0 "" }}{PARA 258 "" 0 "" {HYPERLNK 17 "M
+urNak" 2 "SchurFkt,MurNak" "" }{TEXT -1 142 " -- the Murnaghan Nakayam
+a character of the symmetric group, uses internally a rim-hook represe
+ntation of partitions to optimize the algorithm" }}{PARA 258 "" 0 "" 
+{HYPERLNK 17 "MurNak2" 2 "SchurFkt,MurNak2" "" }{TEXT -1 129 " -- MurN
+ak2 uses a recursive algorithm and is much slower than MurNak (for com
+parison and educational/demonstration purpose only)" }}{PARA 15 "" 0 "
+" {HYPERLNK 17 "outer" 2 "SchurFkt,outer" "" }{TEXT 303 40 " -- outer \+
+product of two Schur functions" }{TEXT -1 16 " (also known as " }
+{HYPERLNK 17 "SchurFkt[outerS]" 2 "SchurFkt,outerS" "" }{TEXT -1 1 ")
+" }}{PARA 15 "" 0 "" {HYPERLNK 17 "outerE" 2 "SchurFkt,outerE" "" }
+{TEXT 304 70 " -- outer product in the elementary symmetric function b
+asis (E-basis)" }}{PARA 15 "" 0 "" {HYPERLNK 17 "outerH" 2 "SchurFkt,o
+uterH" "" }{TEXT 305 68 " -- outer product in the complete symmetric f
+unction basis (H-basis)" }{TEXT -1 0 "" }}{PARA 15 "" 0 "" {HYPERLNK 
+17 "outerM" 2 "SchurFkt,outerM" "" }{TEXT 306 67 " -- outer product of
+ monomial symmetric functions (a la Rota-Stein)" }{TEXT -1 0 "" }}
+{PARA 15 "" 0 "" {HYPERLNK 17 "outerON" 2 "SchurFkt,outerON" "" }
+{TEXT 307 56 " -- outer product for orthogonal (symplectic) characters
+" }{TEXT -1 0 "" }}{PARA 15 "" 0 "" {HYPERLNK 17 "outerP" 2 "SchurFkt,
+outerP" "" }{TEXT 308 68 " --  the outer product of symmetric function
+s in the power sum basis" }{TEXT -1 0 "" }}{PARA 15 "" 0 "" {HYPERLNK 
+17 "outerS" 2 "SchurFkt,outerS" "" }{TEXT 309 40 " -- outer product of
+ two Schur functions" }{TEXT -1 19 " (same function as " }{HYPERLNK 
+17 "SchurFkt[outer]" 2 "SchurFkt,outer" "" }{TEXT -1 29 " in this vers
+ion of SchurFkt)" }}{PARA 15 "" 0 "" {HYPERLNK 17 "p_to_m" 2 "SchurFkt
+,p_to_m" "" }{TEXT 310 63 " -- basis change from power sum to monomial
+ symmetric functions" }{TEXT -1 0 "" }}{PARA 15 "" 0 "" {HYPERLNK 17 "
+p_to_s" 2 "SchurFkt,p_to_s" "" }{TEXT 311 70 " -- basis change from po
+wer sum symmetric functions to Schur functions" }{TEXT -1 0 "" }}
+{PARA 15 "" 0 "" {HYPERLNK 17 "part2Frob" 2 "SchurFkt,part2Frob" "" }
+{TEXT 312 67 " -- translates a standard partition (shape) into Frobeni
+us notation" }{TEXT -1 0 "" }}{PARA 15 "" 0 "" {HYPERLNK 17 "part2mset
+" 2 "SchurFkt,part2mset" "" }{TEXT 313 99 " -- translates a partition \+
+in standard representation into an multiset (exponential) representati
+on" }{TEXT -1 0 "" }}{PARA 258 "" 0 "" {HYPERLNK 17 "PartNM" 2 "SchurF
+kt,PartNM" "" }{TEXT -1 4 " -- " }{TEXT 314 62 "returns a list of part
+itions of N with parts of size at most M" }}{PARA 15 "" 0 "" 
+{HYPERLNK 17 "plethP" 2 "SchurFkt,plethP" "" }{TEXT 315 35 " -- plethy
+sm in the power sum basis" }{TEXT -1 0 "" }}{PARA 15 "" 0 "" 
+{HYPERLNK 17 "plethS" 2 "SchurFkt,plethS" "" }{TEXT 316 56 " -- comput
+es the plethysm of two Schur function polynoms" }}{PARA 15 "" 0 "" 
+{HYPERLNK 17 "plethSnm" 2 "SchurFkt,plethSnm" "" }{TEXT 317 101 "  -- \+
+computes the plethysm of two sfunctions of the form s[n] (one part com
+plete symmetric functions)" }{TEXT -1 0 "" }}{PARA 15 "" 0 "" 
+{HYPERLNK 17 "s_to_h" 2 "SchurFkt,s_to_h" "" }{TEXT 318 79 " -- basis \+
+change from Schur function basis to complete symmetric function basis
+" }{TEXT -1 0 "" }}{PARA 15 "" 0 "" {HYPERLNK 17 "s_to_p" 2 "SchurFkt,
+s_to_p" "" }{TEXT 319 66 " -- basis change from Schur functions to pow
+er symmetric functions" }{TEXT -1 0 "" }}{PARA 15 "" 0 "" {HYPERLNK 
+17 "s_to_x" 2 "SchurFkt,s_to_x" "" }{TEXT 320 68 " -- translation of a
+ Schur function into a polynom in variables x_i " }{TEXT -1 0 "" }}
+{PARA 258 "" 0 "" {TEXT -1 0 "" }{HYPERLNK 17 "Scalar" 2 "SchurFkt,Sca
+lar" "" }{TEXT -1 76 " -- the Schur-Hall [Redfield cup] scalar product
+ in the Schur function basis" }}{PARA 258 "" 0 "" {TEXT -1 106 "Scalar
+HM -- the Schur-Hall [Redfield cup] scalar product in the monomial-com
+plete symmetric function basis" }}{PARA 258 "" 0 "" {TEXT -1 107 "Scal
+arMH -- the Schur-Hall [Redfield cup] scalar product in the complete-m
+onomial symmetric  function basis" }}{PARA 258 "" 0 "" {HYPERLNK 17 "S
+calarP" 2 "SchurFkt,ScalarP" "" }{TEXT -1 71 " -- the Schur-Hall [Redf
+ield cup] scalar product in the power sum basis" }}{PARA 15 "" 0 "" 
+{HYPERLNK 17 "skew" 2 "SchurFkt,skew" "" }{TEXT 321 39 " -- (outer) sk
+ew of two Schur functions" }{TEXT -1 0 "" }}{PARA 15 "" 0 "" 
+{HYPERLNK 17 "sq_coeff" 2 "SchurFkt,sq_coeff" "" }{TEXT 322 62 " -- re
+turns the square of the coefficients of a Schur function" }{TEXT -1 0 
+"" }}{PARA 15 "" 0 "" {HYPERLNK 17 "truncWT" 2 "SchurFkt,truncWT" "" }
+{TEXT 323 56 " -- truncates an Schur function expression by its weight
+" }{TEXT -1 0 "" }}{PARA 15 "" 0 "" {HYPERLNK 17 "x_to_s" 2 "SchurFkt,
+x_to_s" "" }{TEXT 324 79 " - translates a polynomial in the variables \+
+xi into a Schur function expression" }{TEXT -1 0 "" }}{PARA 15 "" 0 "
+" {HYPERLNK 17 "zee" 2 "SchurFkt,zee" "" }{TEXT 325 99 " - the symmetr
+y factor z associated to power symmetric functions (or cycles of the s
+ymmetric group)" }{TEXT -1 0 "" }}}{PARA 4 "" 0 "" {TEXT -1 0 "" }}
+{SECT 0 {PARA 0 "" 0 "" {TEXT 269 26 "New Types in 'SchurFkt':\n\n" }
+{TEXT -1 414 "We use 'fkt' derived from German `Funktion' (function) a
+s in SchurFkt also for types. Typing is necessary to allow Maple(R) to
+ decide about linearity of certain morphisms (procedures). Symmetric f
+unctions come with a number of standard bases, which have combinatoria
+lly different meanings and allow different algorithms to be used to pe
+rform calculations. The SchurFkt package knows currently the following
+ types:\n" }{HYPERLNK 17 "" 2 "SchurFkt,type,sfktpolynom" "" }}{PARA 
+15 "" 0 "" {TEXT -1 335 "Schur functions. This is the most important b
+asis. Schur functions (sfunction for short) encode characters of irred
+ucible representations of the symmetric and general linear groups. Sch
+ur functions (and all other bases) are indexed by integer partitions, \+
+written as index to the kernel-symbol (here `s'). We need to distingui
+sh:\n\n  -- " }{HYPERLNK 17 "`type/sfktmonom`" 2 "SchurFkt,type,sfktpo
+lynom" "" }{TEXT 404 3 " --" }{TEXT -1 79 " Schur function monom, a ba
+sis element like s[3,2,2,1] with no prefactor.\n  -- " }{HYPERLNK 17 "
+`type/sfktterm`" 2 "SchurFkt,type,sfktpolynom" "" }{TEXT 405 4 " -- " 
+}{TEXT -1 89 "A Schur function including a coefficient from the ground
+ ring (usually integers) of type " }{HYPERLNK 17 "cliscalar" 2 "Cliff5
+,type,cliscalar" "" }{TEXT -1 24 " like 4*s[4,1,1,1]\n  -- " }
+{HYPERLNK 17 "`type/sfktpolynom`" 2 "SchurFkt,type,sfktpolynom" "" }
+{TEXT 406 5 " -- A" }{TEXT -1 688 " linear combination of sfktterms li
+ke 2*s[2]+5*s[1,1].\n\nThe types used are inclusive, so a check if an \+
+expression <foo> has type sfktpolynomial yields true, if foo is an sfu
+nction of type sfktmonom, skftterm, or sfktpolynom! The check for an s
+fktterm yields true, if <foo> is a term of a form coefficient times a \+
+Schur function monom or if it is a Schur function monom, while the che
+ck for Schur function monom yields true only for expressions like s[3,
+3] (irreps, basis monoms of the ring of symmetric functions).\n\nNote:
+ Schur functions are self dual wrt to the Schur-Hall inner product `Sc
+alarS'. They form an orthonormal basis.\nNote: Schur functions are not
+ multiplicative (see below)." }{TEXT 347 1 "\n" }}{PARA 15 "" 0 "" 
+{TEXT -1 659 "Power sum symmetric functions have their origin in the i
+nvariant theory of the symmetric group. Considering polynomials in the
+ indeterminates \{x_i\}_\{i=1\}^n it is obvious that the polynomials  \+
+p_k(x) = \\sum_\{i=0\}^n x_i^k are _invariant_ under the action of the
+ symmetric group acting on n-letters (indeterminates). Furthermore, th
+ese polynomials are a complete set of invariants. Last but not least, \+
+the power sum symmetric functions are orthogonal but not normalized w.
+r.t. the Schur-Hall inner product `ScalarP'.\n\nWe distinguish in the \+
+same fashion as for the S-functions, basis monoms, terms and polynomia
+ls in the power sum symmetric functions p_k(x):\n\n-- " }{HYPERLNK 17 
+"`type/pfktmonom`" 2 "SchurFkt,type,sfktpolynom" "" }{TEXT 408 4 " -- \+
+" }{TEXT -1 32 "A basis monom like p[2,2,1].\n-- " }{HYPERLNK 17 "`typ
+e/pfktterm`" 2 "SchurFkt,type,sfktpolynom" "" }{TEXT 409 4 " -- " }
+{TEXT -1 63 "A basis monom with an optional ring coefficient 5*p[2] of
+ type " }{HYPERLNK 17 "cliscalar" 2 "Cliff5,type,cliscalar" "" }{TEXT 
+-1 39 ", but p[3]=1*p[1] is a term either.\n-- " }{HYPERLNK 17 "`type/
+pfktpolynom`" 2 "SchurFkt,type,sfktpolynom" "" }{TEXT 410 4 " -- " }
+{TEXT -1 355 "A linear combination of pfktterms or a pfktterm or a pfk
+tmonom.\n\nNote: Power sum symmetric functions are multiplicative. Tha
+t is, the outer product of power sum symmetric functions is the (unord
+ered) concatenation of power sum symmetric functions:\n\np[3,1].p[2,1]
+ = p[3,2,1,1]\n\nThe outer product is particularly simple to compute f
+or multiplicative bases!\n" }}{PARA 15 "" 0 "" {TEXT -1 384 "Complete \+
+symmetric functions are another special class of symmetric functions. \+
+Complete symmetric functions are the dual basis w.r.t. the Schur-Hall \+
+inner product of the monomial symmetric functions (see below). They ar
+e used to extract counting coefficients in generating functions in the
+ Polya-Redfield theory of enumeration. The classical kernel symbol is \+
+`h`, we distinguish:\n\n-- " }{HYPERLNK 17 "`type/hfktmonom`" 2 "Schur
+Fkt,type,sfktpolynom" "" }{TEXT 411 4 " -- " }{TEXT -1 32 "A basis mon
+om like h[2,2,1].\n-- " }{HYPERLNK 17 "`type/hfktterm`" 2 "" "" }
+{TEXT 412 4 " -- " }{TEXT -1 63 "A basis monom with an optional ring c
+oefficient 5*h[2] of type " }{HYPERLNK 17 "cliscalar" 2 "Cliff5,type,c
+liscalar" "" }{TEXT -1 39 ", but h[3]=1*h[1] is a term either.\n-- " }
+{HYPERLNK 17 "`type/hfktpolynom`" 2 "SchurFkt,type,sfktpolynom" "" }
+{TEXT 413 4 " -- " }{TEXT -1 63 "A linear combination of hfktterms or \+
+a hfktterm or a hfktmonom." }{TEXT 350 1 "\n" }}{PARA 15 "" 0 "" 
+{TEXT -1 723 "Monomial symmetric functions are _the_ classical symmetr
+ic functions. They are obtained by symmetrizing monomials x^\\alpha=x_
+1^\\alpha1...x_k^\\alpha_k using the symmetric group S_k acting on the
+ indices of the indeterminates, where only distinct terms are kept (no
+ multiplicities). One has m_\\lambda = \\sum_\{\\sigma\\in S_k distinc
+t\} x_\{\\sigma(1)\}^\\lambda_1...x_\{\\sigma(k)\}^\\lambda_k. Hence m
+onomial symmetric functions appear by averaging over the symmetric gro
+up action on a single monomial. It is clear that a partition \\lambda \+
+indexes such averages, while individual monomials are indexed by compo
+sitions (ordered integer decompositions). The monomial symmetric funct
+ion basis is _not_ multiplicative. We distinguish:\n\n-- " }{HYPERLNK 
+17 "`type/mfktmonom`" 2 "SchurFkt,type,sfktpolynom" "" }{TEXT 414 4 " \+
+-- " }{TEXT -1 32 "A basis monom like m[2,2,1].\n-- " }{HYPERLNK 17 "`
+type/mfktterm`" 2 "SchurFkt,type,sfktpolynom" "" }{TEXT 415 6 " -- A \+
+" }{TEXT -1 61 "basis monom with an optional ring coefficient 5*m[2] o
+f type " }{HYPERLNK 17 "cliscalar" 2 "Cliff5,type,cliscalar" "" }
+{TEXT -1 39 ", but m[3]=1*m[1] is a term either.\n-- " }{HYPERLNK 17 "
+`type/mfktpolynom`" 2 "SchurFkt,type,sfktpolynom" "" }{TEXT 416 4 " --
+ " }{TEXT -1 699 "A linear combination of mfktterms or a mfktterm or a
+ mfktmonom.\n\nNote: The SchurFkt package has a second product employe
+d on the basis of monomial symmetric functions. This is the `concatM' \+
+product which establishes the _multiplicative_ (unordered) concatenati
+on product. This product is not usually considered in the theory of sy
+mmetric functions and is _not_ the outer product. However, the process
+ of cliffordization described by Rota-Stein allows one to introduce th
+e outer product in the monomial basis `outerM` as a Hopf algebra defor
+mation of the (unordered) concatenation product `concatM'. (This is in
+ analogy to how a Clifford algebra appears to be a deformation of the \+
+Grassmann algebra)." }{TEXT 351 1 "\n" }}{PARA 15 "" 0 "" {TEXT -1 
+444 "Elementary symmetric functions are cousins of complete symmetric \+
+functions. The are obtained by conjugating the partitions indexing row
+s and columns of one part partitions and one row partitions. Elementar
+y symmetric functions (while being symmetric functions) encode antisym
+metric aspects of invariants. Rows in a Young diagram (tableau) are an
+tisymmetrized. Elementary symmetric functions form a multiplicative ba
+sis, and we distinguish:\n\n-- " }{HYPERLNK 17 "`type/efktmonom`" 2 "S
+churFkt,type,sfktpolynom" "" }{TEXT 417 4 " -- " }{TEXT -1 32 "A basis
+ monom like e[2,2,1].\n-- " }{HYPERLNK 17 "`type/efktterm`" 2 "SchurFk
+t,type,sfktpolynom" "" }{TEXT 418 4 " -- " }{TEXT -1 63 "A basis monom
+ with an optional ring coefficient 5*e[2] of type " }{HYPERLNK 17 "cli
+scalar" 2 "Cliff5,type,cliscalar" "" }{TEXT -1 39 ", but e[3]=1*e[1] i
+s a term either.\n-- " }{HYPERLNK 17 "`type/efktpolynom`" 2 "SchurFkt,
+type,sfktpolynom" "" }{TEXT -1 67 " -- A linear combination of efktter
+ms or a efktterm or a efktmonom." }{TEXT 352 1 "\n" }}{PARA 15 "" 0 "
+" {TEXT -1 373 "The dual basis of the elementary symmetric functions i
+s called forgotten functions (Doubilet functions), since they played a
+ minor (invisible) role in the combinatorial and enumerative approach \+
+to invariants and symmetric functions. The forgotten functions share m
+any properties with the monomial symmetric functions, the basis is _no
+t_ multiplicative. We distinguish:\n\n-- " }{HYPERLNK 17 "`type/ffkmon
+om`" 2 "SchurFkt,type,sfktpolynom" "" }{TEXT 421 4 " -- " }{TEXT -1 
+32 "A basis monom like f[2,2,1].\n-- " }{HYPERLNK 17 "`type/ffktterm`
+" 2 "SchurFkt,type,sfktpolynom" "" }{TEXT 422 4 " -- " }{TEXT -1 63 "A
+ basis monom with an optional ring coefficient 5*f[2] of type " }
+{HYPERLNK 17 "cliscalar" 2 "Cliff5,type,cliscalar" "" }{TEXT -1 39 ", \+
+but f[3]=1*f[1] is a term either.\n-- " }{HYPERLNK 17 "`type/ffktpolyn
+om`" 2 "SchurFkt,type,sfktpolynom" "" }{TEXT 423 4 " -- " }{TEXT -1 
+158 "A linear combination of ffktterms or a ffktterm or a ffktmonom.\n
+\nNote: Not much about forgotten functions is yet implemented in Schur
+Fkt, .... nomen est omen." }{TEXT 353 1 "\n" }}{PARA 15 "" 0 "" {TEXT 
+-1 588 "The general type symfkt[monom|term|polynom] was created to che
+ck if a general expression <foo> contains any of the above specified b
+ases \{s,p,h,m,e,\}. This may allow to form expressions with mixed bas
+is types like e[3,2,1]+h[3,3] and alike. Some internal functions of Sc
+hurFkt do not need to know what kind of basis they process unless it i
+s, say, a multiplicative one. In order not to trigger a \"wrong type\"
+ error, type checking is done only against symfkt[monom|term|polynom].
+\n\nNote: The usage of symfkt-types is _dangerous_ and should be done \+
+only in internally used functions! Beware!" }{TEXT 354 1 "\n" }}}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{SECT 0 {PARA 0 "" 0 "" {TEXT 257 10 "
+See Also: " }{HYPERLNK 17 "define" 2 "Bigebra,define" "" }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 270 88 "NOTE: SchurFkt need
+s the patched define which ships with the Clifford/Bigebra packages!!
+" }}{PARA 0 "" 0 "" {TEXT -1 141 "\n(c) Copyright June 2003 - December
+ 2007, by Bertfried Fauser & Rafal Ablamowicz, all rights reserved.\nL
+ast modified: December 17, 2007/BF/RA" }}}{PARA 14 "" 0 "" {TEXT -1 0 
+"" }}}{PARA 3 "" 0 "" {TEXT -1 0 "" }}}{MARK "1 13 4 1" 13 }{VIEWOPTS 
+1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

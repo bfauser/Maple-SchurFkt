@@ -1,0 +1,67 @@
+{VERSION 6 0 "IBM INTEL NT" "6.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "Hyperlink" -1 17 "" 0 1 0 128 128 1 0 0 1 0 0 0 0 0 0 
+1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 256 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+257 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 258 "" 1 14 0 
+0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 0 2 0 0 0 
+0 0 0 0 1 }{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Text Outp
+ut" -1 2 1 {CSTYLE "" -1 -1 "Courier" 1 10 0 0 255 1 0 0 0 0 0 1 3 0 
+3 1 }1 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Heading 1" 0 3 1 
+{CSTYLE "" -1 -1 "" 1 18 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }1 0 0 0 6 6 0 0 
+0 0 0 0 -1 0 }{PSTYLE "Heading 2" 3 4 1 {CSTYLE "" -1 -1 "" 1 14 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 }0 0 0 -1 4 4 0 0 0 0 0 0 -1 0 }{PSTYLE "" 2 
+6 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 2 0 0 1 }0 0 0 -1 -1 
+-1 0 0 0 0 0 0 -1 0 }{PSTYLE "Maple Output" 0 11 1 {CSTYLE "" -1 -1 "
+" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }3 3 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "Bullet Item" 0 15 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 }0 0 0 -1 3 3 0 0 0 0 0 0 15 2 }}
+{SECT 0 {SECT 0 {PARA 4 "" 0 "" {TEXT -1 10 "Function: " }{TEXT 256 
+117 "SchurFkt[part2mset] - translates a partition in standard represen
+tation into an multiset (exponential) representation" }}{PARA 4 "" 0 "
+" {TEXT -1 17 "Calling Sequence:" }}{PARA 4 "" 0 "" {TEXT 257 27 "mprt
+ := part2mset(prt)  \n\nP" }{TEXT -1 10 "arameters:" }}{PARA 15 "" 0 "
+" {TEXT -1 53 "prt    :  a partition in standard notation (a shape) " 
+}}{PARA 4 "" 0 "" {TEXT -1 7 "Output:" }}{PARA 15 "" 0 "" {TEXT -1 45 
+"mset  :  a partition in multiplicity notation" }}{PARA 4 "" 0 "" 
+{TEXT -1 8 "WARNING:" }}{PARA 0 "" 0 "" {TEXT -1 23 "--mainly internal
+ use--" }}}{SECT 0 {PARA 4 "" 0 "" {TEXT -1 12 "Description:" }}{PARA 
+15 "" 0 "" {TEXT 259 350 "part2mset transforms a partition in standard
+ notation (list integer, a shape of a Young diagram) into the multipli
+city representation. This reads \\mu=(\\mu_1,\\mu_2,...,\\mu_l) = [1^r
+_1 2^r_2 ... n^r_n] where the weight (number of boxes) of the partitio
+n is \\sum \\mu_i = n. We have hence that the r_i are an integer solut
+ion of 1r_1+2r_2+3r_3...+nr_n=n." }}{PARA 15 "" 0 "" {TEXT -1 94 "mult
+iplicity represented partitions are used internally and are not intend
+ed for user purpose." }}}{SECT 0 {PARA 4 "" 0 "" {TEXT -1 9 "Examples:
+" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "restart:with(SchurFkt):
+" }}{PARA 6 "" 1 "" {TEXT -1 52 "SchurFkt Version 1.0.1 (17 xii 2007) \+
+at your service" }}{PARA 6 "" 1 "" {TEXT -1 58 "(c) 2003-2007 BF&RA, n
+o warranty, no fitness for anything!" }}{PARA 6 "" 1 "" {TEXT -1 83 "I
+ncrease verbosity by infolevel[`function`]=val -- use online help > ?B
+igebra[help]" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 132 "part2mset(
+[3,3,1,1]); # 2 ones 2 threes\npart2mset([1,1,1,1]); # 4 ones\npart2ms
+et([4,3,2,1]); # one one, one two , one three one four" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#7%\"\"#\"\"!F$" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#
+7#\"\"%" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#7&\"\"\"F$F$F$" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 38 "part2mset is the inverse of mset2part:" }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 39 "mset2part([2,0,0,2,1,1]);
+\npart2mset(%);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#7(\"\"'\"\"&\"\"%F&
+\"\"\"F'" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#7(\"\"#\"\"!F%F$\"\"\"F&" 
+}}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 15 "Critical cases:" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 30 "part2mset([]);\npart2mset([0]);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#7\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6
+#7\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{SECT 0 {PARA 
+4 "" 0 "" {TEXT -1 15 "Algorithm used:" }}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 91 "It is just a matter of counting to get the multiplicities
+ and the procedure does just this." }}}}{SECT 0 {PARA 0 "" 0 "" {TEXT 
+258 10 "See Also: " }{HYPERLNK 17 "SchurFkt[mset2part]" 2 "SchurFkt,ms
+et2part" "" }{TEXT -1 2 ", " }{HYPERLNK 17 "SchurFkt[Overview]" 2 "Sch
+urFkt,Overview" "" }{TEXT -1 1 " " }}{PARA 0 "" 0 "" {TEXT -1 141 "\n(
+c) Copyright June 2003 - December 2007, by Bertfried Fauser & Rafal Ab
+lamowicz, all rights reserved.\nLast modified: December 17, 2007/BF/RA
+" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}
+{MARK "7" 0 }{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 2 33 
+1 1 }

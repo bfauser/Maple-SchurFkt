@@ -1,0 +1,96 @@
+{VERSION 6 0 "IBM INTEL NT" "6.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "Hyperlink" -1 17 "" 0 1 0 128 128 1 0 0 1 0 0 0 0 0 0 
+1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 256 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+257 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 258 "" 1 14 0 
+0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 0 2 0 0 0 
+0 0 0 0 1 }{CSTYLE "" -1 260 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 261 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{PSTYLE "Normal
+" -1 0 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }0 0 0 
+-1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Text Output" -1 2 1 {CSTYLE "" -1 
+-1 "Courier" 1 10 0 0 255 1 0 0 0 0 0 1 3 0 3 1 }1 0 0 -1 -1 -1 0 0 0 
+0 0 0 -1 0 }{PSTYLE "Heading 1" 0 3 1 {CSTYLE "" -1 -1 "" 1 18 0 0 0 
+0 0 1 0 0 0 0 0 0 0 1 }1 0 0 0 6 6 0 0 0 0 0 0 -1 0 }{PSTYLE "Heading \+
+2" 3 4 1 {CSTYLE "" -1 -1 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }0 0 0 
+-1 4 4 0 0 0 0 0 0 -1 0 }{PSTYLE "" 2 6 1 {CSTYLE "" -1 -1 "" 0 1 0 0 
+0 0 0 0 0 0 0 0 2 0 0 1 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Map
+le Output" 0 11 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+}3 3 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Bullet Item" 0 15 1 
+{CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }0 0 0 -1 3 3 0 0 
+0 0 0 0 15 2 }}
+{SECT 0 {SECT 0 {PARA 4 "" 0 "" {TEXT -1 10 "Function: " }{TEXT 256 
+83 "SchurFkt[s_to_x] - translation of a Schur function into a polynom \+
+in variables x_i " }}{PARA 4 "" 0 "" {TEXT -1 17 "Calling Sequence:" }
+}{PARA 4 "" 0 "" {TEXT 257 27 "xpoly := s_to_x(sfkt,N)  \n\n" }{TEXT 
+-1 11 "Parameters:" }}{PARA 15 "" 0 "" {TEXT -1 69 "sfktmon    :  Schu
+r function\nN                :  nonnegative integer " }}{PARA 4 "" 0 "
+" {TEXT -1 7 "Output:" }}{PARA 15 "" 0 "" {TEXT -1 47 "xpoly  :  polyn
+om in  variables xi, i in [1..N]" }}{PARA 4 "" 0 "" {TEXT -1 8 "WARNIN
+G:" }}{PARA 0 "" 0 "" {TEXT -1 8 "--none--" }}}{SECT 0 {PARA 4 "" 0 "
+" {TEXT -1 12 "Description:" }}{PARA 15 "" 0 "" {TEXT 259 259 "Schur f
+unctions for a finite number of variables are polynomials. We can repr
+esent a Schur function as such a polynom using the function s_to_x, sp
+ecifying the number of variables. The outer product translates into th
+e polynomial ring product of the polynoms." }}{PARA 15 "" 0 "" {TEXT 
+-1 162 "Note that if the number N of variables xi is less than the num
+ber of boxes of the partition (its weight) then some Schur functions m
+ay vanish and syzygies occur. " }}{PARA 15 "" 0 "" {TEXT -1 163 "The t
+ranslation from Schur functions to polynomials is given by the expansi
+on\n\n(1)   s_\\lambda(x1..xN) =  \\sum_\\mu  K\\lambda\\mu   x_\\mu\n
+\nwhere the sum is over all " }{TEXT 260 12 "compositions" }{TEXT -1 
+0 "" }{TEXT 261 1 " " }{TEXT -1 46 "of N.  The Kostka numbers are comp
+uted using  " }{HYPERLNK 17 "KostkaPC" 2 "SchurFkt,KostkaPC" "" }
+{TEXT -1 1 "." }}}{SECT 0 {PARA 4 "" 0 "" {TEXT -1 9 "Examples:" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "restart:with(SchurFkt):" }}
+{PARA 6 "" 1 "" {TEXT -1 52 "SchurFkt Version 1.0.1 (17 xii 2007) at y
+our service" }}{PARA 6 "" 1 "" {TEXT -1 58 "(c) 2003-2007 BF&RA, no wa
+rranty, no fitness for anything!" }}{PARA 6 "" 1 "" {TEXT -1 83 "Incre
+ase verbosity by infolevel[`function`]=val -- use online help > ?Bigeb
+ra[help]" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 56 "s_to_x(s[3],2);
+\ns_to_x(s[2,1],2);\ns_to_x(s[3]+s[2,1],2);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#,*&%\"xG6$\"\"$\"\"!\"\"\"&F%6$\"\"#F)F)&F%6$F)F,F)&F%6
+$F(F'F)" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&&%\"xG6$\"\"#\"\"\"F(&F%6
+$F(F'F(" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,*&%\"xG6$\"\"$\"\"!\"\"\"*
+&\"\"#F)&F%6$F+F)F)F)*&F+F)&F%6$F)F+F)F)&F%6$F(F'F)" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 115 "s_to_x(s[1],3);\nCompNM(1,3);\ns_to_x(s[
+2],3);\nCompNM(2,3);\ns_to_x(s[3],3);\nCompNM(3,3);\ns_to_x(s[4],3);\n
+CompNM(4,3);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,(&%\"xG6%\"\"\"\"\"!F
+(F'&F%6%F(F'F(F'&F%6%F(F(F'F'" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#7%7%
+\"\"\"\"\"!F&7%F&F%F&7%F&F&F%" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,.&%
+\"xG6%\"\"#\"\"!F(\"\"\"&F%6%F)F)F(F)&F%6%F)F(F)F)&F%6%F(F'F(F)&F%6%F(
+F)F)F)&F%6%F(F(F'F)" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#7(7%\"\"#\"\"!F
+&7%\"\"\"F(F&7%F(F&F(7%F&F%F&7%F&F(F(7%F&F&F%" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#,6&%\"xG6%\"\"$\"\"!F(\"\"\"&F%6%\"\"#F)F(F)&F%6%F,F(F)
+F)&F%6%F)F,F(F)&F%6%F)F)F)F)&F%6%F)F(F,F)&F%6%F(F'F(F)&F%6%F(F,F)F)&F%
+6%F(F)F,F)&F%6%F(F(F'F)" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#7,7%\"\"$\"
+\"!F&7%\"\"#\"\"\"F&7%F(F&F)7%F)F(F&7%F)F)F)7%F)F&F(7%F&F%F&7%F&F(F)7%
+F&F)F(7%F&F&F%" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,@&%\"xG6%\"\"%\"\"!
+F(\"\"\"&F%6%\"\"$F)F(F)&F%6%F,F(F)F)&F%6%\"\"#F1F(F)&F%6%F1F)F)F)&F%6
+%F1F(F1F)&F%6%F)F,F(F)&F%6%F)F1F)F)&F%6%F)F)F1F)&F%6%F)F(F,F)&F%6%F(F'
+F(F)&F%6%F(F,F)F)&F%6%F(F1F1F)&F%6%F(F)F,F)&F%6%F(F(F'F)" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#717%\"\"%\"\"!F&7%\"\"$\"\"\"F&7%F(F&F)7%\"\"#F,
+F&7%F,F)F)7%F,F&F,7%F)F(F&7%F)F,F)7%F)F)F,7%F)F&F(7%F&F%F&7%F&F(F)7%F&
+F,F,7%F&F)F(7%F&F&F%" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "s_t
+o_x(s[3,1],3);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,:&%\"xG6%\"\"$\"\"
+\"\"\"!F(&F%6%F'F)F(F(&F%6%\"\"#F.F)F(*&F.F(&F%6%F.F(F(F(F(&F%6%F.F)F.
+F(&F%6%F(F'F)F(*&F.F(&F%6%F(F.F(F(F(*&F.F(&F%6%F(F(F.F(F(&F%6%F(F)F'F(
+&F%6%F)F'F(F(&F%6%F)F.F.F(&F%6%F)F(F'F(" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 29 "x_to_s(%); ## error in x_to_s" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#,&&%\"sG6$\"\"$\"\"\"F(*&F'F(&F%6&F(F(F(F(F(!\"\"" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 15 "Critical cases:" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 28 "s_to_x(s[0],2);\ns_to_x(0,3);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#&%\"xG6$\"\"!F&" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"\"!" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}
+}}{SECT 0 {PARA 4 "" 0 "" {TEXT -1 15 "Algorithm used:" }}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 25 "An implementation of (1)." }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}}}{SECT 0 {PARA 0 "" 0 "" {TEXT 258 
+10 "See Also: " }{HYPERLNK 17 "SchurFkt[x_to_s]" 2 "SchurFkt,x_to_s" "
+" }{TEXT -1 3 ",  " }{HYPERLNK 17 "SchurFkt[Overview]" 2 "SchurFkt,Ove
+rview" "" }{TEXT -1 3 "  \n" }}{PARA 0 "" 0 "" {TEXT -1 140 "(c) Copyr
+ight June 2003 - December 2007, by Bertfried Fauser & Rafal Ablamowicz
+, all rights reserved.\nLast modified: December 17, 2007/BF/RA" }}}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}
+{MARK "3 0 0" 1 }{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 2 
+33 1 1 }

@@ -1,0 +1,60 @@
+{VERSION 6 0 "IBM INTEL NT" "6.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "Hyperlink" -1 17 "" 0 1 0 128 128 1 0 0 1 0 0 0 0 0 0 
+1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 256 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+257 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 258 "" 1 14 0 
+0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 0 2 0 0 0 
+0 0 0 0 1 }{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 
+0 1 2 2 2 2 2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Heading
+ 2" -1 4 1 {CSTYLE "" -1 -1 "Times" 1 14 0 0 0 1 2 1 2 2 2 2 1 1 1 1 }
+1 1 0 0 4 4 1 0 1 0 2 2 0 1 }{PSTYLE "Text Output" -1 6 1 {CSTYLE "" 
+-1 -1 "Courier" 1 10 0 0 255 1 2 2 2 2 2 1 2 1 3 1 }1 1 0 0 0 0 1 0 1 
+0 2 2 0 1 }{PSTYLE "Maple Output" -1 11 1 {CSTYLE "" -1 -1 "Times" 1 
+12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 3 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "
+Bullet Item" -1 15 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 
+2 1 1 1 1 }1 1 0 0 3 3 1 0 1 0 2 2 15 2 }}
+{SECT 0 {SECT 0 {PARA 4 "" 0 "" {TEXT -1 10 "Function: " }{TEXT 256 
+82 "SchurFkt[PartNM] - returns a list of partitions of N with parts of
+ size at most M." }}{PARA 4 "" 0 "" {TEXT -1 17 "Calling Sequence:" }}
+{PARA 4 "" 0 "" {TEXT 257 22 "lst := PartNM(N,M)  \n\n" }{TEXT -1 11 "
+Parameters:" }}{PARA 15 "" 0 "" {TEXT -1 19 "N,M    :  integers " }}
+{PARA 4 "" 0 "" {TEXT -1 7 "Output:" }}{PARA 15 "" 0 "" {TEXT -1 70 "l
+st  :  list of partitions in standard representation and ordered by  \+
+" }{HYPERLNK 17 "AlexComp" 2 "SchurFkt,AlexComp" "" }{TEXT -1 1 "." }}
+{PARA 4 "" 0 "" {TEXT -1 8 "WARNING:" }}{PARA 0 "" 0 "" {TEXT -1 20 "N
+ote that the Maple " }{HYPERLNK 17 "combinat" 2 "combinat" "" }{TEXT 
+-1 53 " package does use the inverse ordering of partitions." }}}
+{SECT 0 {PARA 4 "" 0 "" {TEXT -1 12 "Description:" }}{PARA 15 "" 0 "" 
+{TEXT 259 71 "PartNM returns a list of partitions of N into parts of s
+ite at most M.." }}{PARA 15 "" 0 "" {TEXT -1 27 "PartNM returns the li
+st in " }{HYPERLNK 17 "AlexComp" 2 "SchurFkt,AlexComp" "" }{TEXT -1 7 
+" order." }}}{SECT 0 {PARA 4 "" 0 "" {TEXT -1 9 "Examples:" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "restart:with(SchurFkt):" }}{PARA 6 
+"" 1 "" {TEXT -1 52 "SchurFkt Version 1.0.1 (17 xii 2007) at your serv
+ice" }}{PARA 6 "" 1 "" {TEXT -1 58 "(c) 2003-2007 BF&RA, no warranty, \+
+no fitness for anything!" }}{PARA 6 "" 1 "" {TEXT -1 83 "Increase verb
+osity by infolevel[`function`]=val -- use online help > ?Bigebra[help]
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 25 "PartNM(3,3);\nPartNM(3,
+2);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#7%7#\"\"$7$\"\"#\"\"\"7%F(F(F(
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#7$7$\"\"#\"\"\"7%F&F&F&" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 110 "PartNM(4,1);\nPartNM(4,2);
+\nPartNM(4,3);\nPartNM(4,4); # all partitions of 4\nPartNM(4,5); # no \+
+restriction anyhow" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#7#7&\"\"\"F%F%F%
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#7%7$\"\"#F%7%F%\"\"\"F'7&F'F'F'F'
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#7&7$\"\"$\"\"\"7$\"\"#F(7%F(F&F&7&
+F&F&F&F&" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#7'7#\"\"%7$\"\"$\"\"\"7$\"
+\"#F*7%F*F(F(7&F(F(F(F(" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#7'7#\"\"%7$
+\"\"$\"\"\"7$\"\"#F*7%F*F(F(7&F(F(F(F(" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}}{SECT 0 {PARA 4 "" 0 "" {TEXT -1 15 "Algorithm u
+sed:" }}{EXCHG {PARA 0 "" 0 "" {TEXT -1 139 "The algorithm is the same
+ as in the Maple combinat package with the difference that the order o
+f partitions is given in the reversed order." }}}{EXCHG {PARA 0 "" 0 "
+" {TEXT -1 0 "" }}}}{SECT 0 {PARA 0 "" 0 "" {TEXT 258 10 "See Also: " 
+}{HYPERLNK 17 "SchurFkt[Overview]" 2 "SchurFkt,Overview" "" }}{PARA 0 
+"" 0 "" {TEXT -1 141 "\n(c) Copyright June 2003 - December 2007, by Be
+rtfried Fauser & Rafal Ablamowicz, all rights reserved.\nLast modified
+: December 17, 2007/BF/RA" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 
+"" 0 "" {TEXT -1 0 "" }}}{MARK "4 0 1" 9 }{VIEWOPTS 1 1 0 1 1 1803 1 
+1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

@@ -1,0 +1,57 @@
+{VERSION 6 0 "IBM INTEL NT" "6.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "Hyperlink" -1 17 "" 0 1 0 128 128 1 0 0 1 0 0 0 0 0 0 
+1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 256 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+257 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 258 "" 1 14 0 
+0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 0 2 0 0 0 
+0 0 0 0 1 }{CSTYLE "" -1 260 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 
+2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Heading 2" -1 4 1 
+{CSTYLE "" -1 -1 "Times" 1 14 0 0 0 1 2 1 2 2 2 2 1 1 1 1 }1 1 0 0 4 
+4 1 0 1 0 2 2 0 1 }{PSTYLE "Text Output" -1 6 1 {CSTYLE "" -1 -1 "Cour
+ier" 1 10 0 0 255 1 2 2 2 2 2 1 2 1 3 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }
+{PSTYLE "Maple Output" -1 11 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 
+2 2 2 2 2 2 1 1 1 1 }3 3 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Bullet Item
+" -1 15 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }
+1 1 0 0 3 3 1 0 1 0 2 2 15 2 }}
+{SECT 0 {SECT 0 {PARA 4 "" 0 "" {TEXT -1 10 "Function: " }{TEXT 256 
+95 "SchurFkt[x_to_s] - Translates a polynomial in the variables xi int
+o a Schur function expression" }}{PARA 4 "" 0 "" {TEXT -1 17 "Calling \+
+Sequence:" }}{PARA 4 "" 0 "" {TEXT 257 25 "sfkt := x_to_s(xpoly)  \n\n
+" }{TEXT -1 11 "Parameters:" }}{PARA 15 "" 0 "" {TEXT -1 33 "xpoly   :
+ a symmetric polynomial " }}{PARA 4 "" 0 "" {TEXT -1 7 "Output:" }}
+{PARA 15 "" 0 "" {TEXT -1 23 "sfkt  :  Schur function" }}{PARA 4 "" 0 
+"" {TEXT -1 8 "WARNING:" }}{PARA 0 "" 0 "" {TEXT 260 17 "--dysfunction
+al--" }}}{SECT 0 {PARA 4 "" 0 "" {TEXT -1 12 "Description:" }}{PARA 
+15 "" 0 "" {TEXT 259 77 "Translates a polynomial in the variables xi i
+nto a Schur function expression." }}}{SECT 0 {PARA 4 "" 0 "" {TEXT -1 
+9 "Examples:" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "restart:with
+(SchurFkt):" }}{PARA 6 "" 1 "" {TEXT -1 52 "SchurFkt Version 1.0.1 (17
+ xii 2007) at your service" }}{PARA 6 "" 1 "" {TEXT -1 58 "(c) 2003-20
+07 BF&RA, no warranty, no fitness for anything!" }}{PARA 6 "" 1 "" 
+{TEXT -1 83 "Increase verbosity by infolevel[`function`]=val -- use on
+line help > ?Bigebra[help]" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+93 "s_to_x(s[1],2);\nx_to_s(x[1,0]+x[0,1]);\ns_to_x(s[2]+s[1,1],2);\nx
+_to_s(x[2,0]+2*x[1,1]+x[0,2]);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&&%
+\"xG6$\"\"\"\"\"!F'&F%6$F(F'F'" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#&%\"
+sG6#\"\"\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,(&%\"xG6$\"\"#\"\"!\"\"
+\"*&F'F)&F%6$F)F)F)F)&F%6$F(F'F)" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&
+&%\"sG6#\"\"#\"\"\"&F%6$F(F(F(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 40 "s_to_x(s[2,1,1],4);\nx_to_s(%);  ## error" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#,<&%\"xG6&\"\"#\"\"\"F(\"\"!F(&F%6&F'F(F)F(F(&F%6&F'F)F
+(F(F(&F%6&F(F'F(F)F(&F%6&F(F'F)F(F(&F%6&F(F(F'F)F(*&\"\"$F(&F%6&F(F(F(
+F(F(F(&F%6&F(F(F)F'F(&F%6&F(F)F'F(F(&F%6&F(F)F(F'F(&F%6&F)F'F(F(F(&F%6
+&F)F(F'F(F(&F%6&F)F(F(F'F(" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&*&#\"
+\"#\"\"$\"\"\"&%\"sG6%F&F(F(F(F(&F*6&F(F(F(F(F(" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 0 "" }}}}{SECT 0 {PARA 4 "" 0 "" {TEXT -1 15 "Algo
+rithm used:" }}{EXCHG {PARA 0 "" 0 "" {TEXT -1 8 "--void--" }}}}{SECT 
+0 {PARA 0 "" 0 "" {TEXT 258 10 "See Also: " }{HYPERLNK 17 "SchurFkt[s_
+to_x]" 2 "SchurFkt,s_to_x" "" }{TEXT -1 2 ", " }{HYPERLNK 17 "SchurFkt
+[Overview]" 2 "SchurFkt,Overview" "" }{TEXT -1 3 "  \n" }}{PARA 0 "" 
+0 "" {TEXT -1 140 "(c) Copyright June 2003 - December 2007, by Bertfri
+ed Fauser & Rafal Ablamowicz, all rights reserved.\nLast modified: Dec
+ember 17, 2007/BF/RA" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 
+"" {TEXT -1 0 "" }}}{MARK "0 0 0" 10 }{VIEWOPTS 1 1 0 1 1 1803 1 1 1 
+1 }{PAGENUMBERS 0 1 2 33 1 1 }

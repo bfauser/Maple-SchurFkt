@@ -1,0 +1,106 @@
+{VERSION 6 0 "IBM INTEL NT" "6.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "Hyperlink" -1 17 "" 0 1 0 128 128 1 0 0 1 0 0 0 0 0 0 
+1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 256 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+257 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 258 "" 1 14 0 
+0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 0 2 0 0 0 
+0 0 0 0 1 }{CSTYLE "" -1 260 "" 0 1 0 0 0 0 1 2 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 261 "" 0 1 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+262 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{PSTYLE "Normal" -1 0 1 
+{CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }0 0 0 -1 -1 -1 0 
+0 0 0 0 0 -1 0 }{PSTYLE "Text Output" -1 2 1 {CSTYLE "" -1 -1 "Courier
+" 1 10 0 0 255 1 0 0 0 0 0 1 3 0 3 1 }1 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 
+}{PSTYLE "Heading 1" 0 3 1 {CSTYLE "" -1 -1 "" 1 18 0 0 0 0 0 1 0 0 0 
+0 0 0 0 1 }1 0 0 0 6 6 0 0 0 0 0 0 -1 0 }{PSTYLE "Heading 2" 3 4 1 
+{CSTYLE "" -1 -1 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }0 0 0 -1 4 4 0 
+0 0 0 0 0 -1 0 }{PSTYLE "" 2 6 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 
+0 0 0 0 2 0 0 1 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Maple Outpu
+t" 0 11 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }3 3 0 
+-1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Bullet Item" 0 15 1 {CSTYLE "" -1 
+-1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }0 0 0 -1 3 3 0 0 0 0 0 0 15 2 }
+}
+{SECT 0 {SECT 0 {PARA 4 "" 0 "" {TEXT -1 10 "Function: " }{TEXT 256 
+82 "SchurFkt[outerM] - outer product of monomial symmetric functions (
+a la Rota-Stein)" }}{PARA 4 "" 0 "" {TEXT -1 17 "Calling Sequence:" }}
+{PARA 4 "" 0 "" {TEXT 257 35 "mfkt := outerM(mfkt1,mfkt2,...)  \n\n" }
+{TEXT -1 11 "Parameters:" }}{PARA 15 "" 0 "" {TEXT -1 52 "mfkti    :  \+
+one or more monomial symmetric functions" }}{PARA 4 "" 0 "" {TEXT -1 
+7 "Output:" }}{PARA 15 "" 0 "" {TEXT -1 36 "mfkt  :  monomial symmetri
+c function" }}{PARA 4 "" 0 "" {TEXT -1 8 "WARNING:" }}{PARA 0 "" 0 "" 
+{TEXT -1 8 "--none--" }}}{SECT 0 {PARA 4 "" 0 "" {TEXT -1 12 "Descript
+ion:" }}{PARA 15 "" 0 "" {TEXT 259 33 "Monomial symmetric functions ar
+e " }{TEXT 260 3 "the" }{TEXT 261 101 " classical symmetric functions.
+ The outer product is involved since this basis is not multiplicative.
+" }}{PARA 15 "" 0 "" {TEXT -1 10 "Using the " }{HYPERLNK 17 "concatM" 
+2 "SchurFkt,concatM" "" }{TEXT -1 132 " product on the module spanned \+
+by monomial symmetric functions, we can deform this product to become \+
+the outer product by using the " }{HYPERLNK 17 "LaplaceM" 2 "SchurFkt,
+LaplaceM" "" }{TEXT -1 41 " pairing. Such a deformation is called a " 
+}{TEXT 262 15 "cliffordization" }{TEXT -1 2 ". " }}{PARA 15 "" 0 "" 
+{TEXT -1 275 "A direct approach to the multiplication in monomial symm
+etric functions was given by Rota and Stein and yields an alternative \+
+way to compute the Littlewood-Richardson coefficients (up to the basis
+ change m_to_s).\n\n(1)  m_\\mu  . m_\\nu = \\sum_\\lambda r^\\lambda_
+\\mu\\nu m_\\lambda" }}{PARA 15 "" 0 "" {TEXT -1 188 "In a Hopf algebr
+aic notation with Sweedler indices, the outerM product reads\n\n(2)   \+
+outerM(x,y) = concatM(  LaplaceM(x_(1),y_(1)) , concatM( x_(2),y_(2)) \+
+)\n\nwhere one should note that the " }{HYPERLNK 17 "LaplaceM" 2 "Schu
+rFkt,LaplaceM" "" }{TEXT -1 50 "  pairing is algebra valued and not sc
+alar valued!" }}{PARA 15 "" 0 "" {TEXT -1 52 "This function allows to \+
+construct the basis change  " }{HYPERLNK 17 "p_to_m" 2 "SchurFkt,p_to_
+m" "" }{TEXT -1 62 "  by using the fact that the p-basis is indeed mul
+tiplicative." }}}{SECT 0 {PARA 4 "" 0 "" {TEXT -1 9 "Examples:" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "restart:with(SchurFkt):" }}
+{PARA 6 "" 1 "" {TEXT -1 52 "SchurFkt Version 1.0.1 (17 xii 2007) at y
+our service" }}{PARA 6 "" 1 "" {TEXT -1 58 "(c) 2003-2007 BF&RA, no wa
+rranty, no fitness for anything!" }}{PARA 6 "" 1 "" {TEXT -1 83 "Incre
+ase verbosity by infolevel[`function`]=val -- use online help > ?Bigeb
+ra[help]" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 75 "outerM(m[1],m[2
+]);\nouterM(m[2],m[1]);\nouterM(m[1],m[1]);\nouterM(m[2],m[2]);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#,&&%\"mG6#\"\"$\"\"\"&F%6$\"\"#F(F(" }
+}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&&%\"mG6#\"\"$\"\"\"&F%6$\"\"#F(F(" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&&%\"mG6#\"\"#\"\"\"*&F'F(&F%6$F(F(
+F(F(" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&&%\"mG6#\"\"%\"\"\"*&\"\"#F(
+&F%6$F*F*F(F(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 45 "outerM(m[2
+,1],m[3,1]);\nouterM(m[2,1],m[2,1]);" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6#,0&%\"mG6$\"\"&\"\"#\"\"\"&F%6$\"\"%\"\"$F)*&F(F)&F%6%F-F(F(F)F)&F%6
+%F,F(F)F)*&F(F)&F%6%F-F-F)F)F)*&F(F)&F%6%F'F)F)F)F)*&F(F)&F%6&F-F(F)F)
+F)F)" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,.&%\"mG6$\"\"%\"\"#\"\"\"*&F(
+F)&F%6$\"\"$F-F)F)*&\"\"'F)&F%6%F(F(F(F)F)*&F(F)&F%6%F-F(F)F)F)*&F(F)&
+F%6%F'F)F)F)F)*&F'F)&F%6&F(F(F)F)F)F)" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 54 "Linearity and multiple entries (due to associativity):" }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 47 "outerM(m[1],m[1],m[1]);\no
+uterM(m[2],m[1],m[3]);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,(&%\"mG6#\"
+\"$\"\"\"*&F'F(&F%6$\"\"#F(F(F(*&\"\"'F(&F%6%F(F(F(F(F(" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#,,&%\"mG6#\"\"'\"\"\"*&\"\"#F(&F%6$\"\"$F-F(F(&F
+%6$\"\"%F*F(&F%6$\"\"&F(F(&F%6%F-F*F(F(" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 40 "outerM(2*m[1]+3*m[2,1],5*m[1,1]+m[2,2]);" }}{PARA 11 
+"" 1 "" {XPPMATH 20 "6#,6*&\"#5\"\"\"&%\"mG6$\"\"#F&F&F&*&\"#IF&&F(6%F
+&F&F&F&F&*&\"#<F&&F(6$\"\"$F*F&F&*&\"#KF&&F(6%F*F*F&F&F&*&F,F&&F(6%F3F
+&F&F&F&*&\"#XF&&F(6&F*F&F&F&F&F&*&F3F&&F(6$\"\"%F3F&F&*&\"\"'F&&F(6%F3
+F*F*F&F&*&F3F&&F(6%FBF*F&F&F&*&\"\"*F&&F(6&F*F*F*F&F&F&" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 15 "Critical cases:" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 90 "outerM(0);\nouterM(m[0]);\nouterM(m[]);  # shoul
+d not occure and should possibly return m[0]" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#&%\"mG6#\"\"!
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#&%\"mG6\"" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 0 "" }}}}{SECT 0 {PARA 4 "" 0 "" {TEXT -1 15 "Algori
+thm used:" }}{EXCHG {PARA 0 "" 0 "" {TEXT -1 394 "The algorithm implem
+ents the cliffordization along the equation (2). This is done by using
+ some internal helper functions of the module, which for efficiency re
+asons use the exponential representation of the partitions indexing th
+e monomial symmetric functions. Most of these functions are used to im
+plement the LaplaceM pairing. Note that the coproduct couterM is also \+
+needed to write down (2)" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}}}
+{SECT 0 {PARA 0 "" 0 "" {TEXT 258 10 "See Also: " }{HYPERLNK 17 "Schur
+Fkt[outer]" 2 "SchurFkt,outer" "" }{TEXT -1 2 ", " }{HYPERLNK 17 "Schu
+rFkt[LaplaceM]" 2 "SchurFkt,LaplaceM" "" }{TEXT -1 2 ", " }{HYPERLNK 
+17 "SchurFkt[concatM]" 2 "SchurFkt,concatM" "" }{TEXT -1 2 ", " }
+{HYPERLNK 17 "SchurFkt[Overview]" 2 "SchurFkt,Overview" "" }{TEXT -1 
+2 "  " }}{PARA 0 "" 0 "" {TEXT -1 141 "\n(c) Copyright June 2003 - Dec
+ember 2007, by Bertfried Fauser & Rafal Ablamowicz, all rights reserve
+d.\nLast modified: December 17, 2007/BF/RA" }}}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{MARK "1 4 1" 5 }{VIEWOPTS 
+1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

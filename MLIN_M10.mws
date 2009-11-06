@@ -1,0 +1,62 @@
+{VERSION 6 0 "IBM INTEL NT" "6.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "Hyperlink" -1 17 "" 0 1 0 128 128 1 0 0 1 0 0 0 0 0 0 
+1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 256 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+257 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 258 "" 1 14 0 
+0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 0 2 0 0 0 
+0 0 0 0 1 }{CSTYLE "" -1 260 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 
+2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Heading 2" -1 4 1 
+{CSTYLE "" -1 -1 "Times" 1 14 0 0 0 1 2 1 2 2 2 2 1 1 1 1 }1 1 0 0 4 
+4 1 0 1 0 2 2 0 1 }{PSTYLE "Text Output" -1 6 1 {CSTYLE "" -1 -1 "Cour
+ier" 1 10 0 0 255 1 2 2 2 2 2 1 2 1 3 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }
+{PSTYLE "Maple Output" -1 11 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 
+2 2 2 2 2 2 1 1 1 1 }3 3 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Bullet Item
+" -1 15 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }
+1 1 0 0 3 3 1 0 1 0 2 2 15 2 }}
+{SECT 0 {SECT 0 {PARA 4 "" 0 "" {TEXT -1 10 "Function: " }{TEXT 256 
+69 "SchurFkt[MLIN] - makes the function T() multilinear over the integ
+ers" }}{PARA 4 "" 0 "" {TEXT -1 17 "Calling Sequence:" }}{PARA 4 "" 0 
+"" {TEXT 257 19 "ex2 := MLIN(ex1) \n\n" }{TEXT -1 11 "Parameters:" }}
+{PARA 15 "" 0 "" {TEXT -1 42 "ex1    : expression of type symfktpolyno
+m " }}{PARA 4 "" 0 "" {TEXT -1 7 "Output:" }}{PARA 15 "" 0 "" {TEXT 
+-1 71 "ex2  :  linearized (over the integers) expression of type symfk
+tpolynom" }}{PARA 4 "" 0 "" {TEXT -1 8 "WARNING:" }}{PARA 0 "" 0 "" 
+{TEXT -1 21 "this function is for " }{TEXT 260 17 "internal use only" 
+}{TEXT -1 166 " and may disappear in later versions of SchurFkt. In a \+
+later version of SchurFkt this function may disappear and may be repla
+ced by the tensor based on the (patched) " }{HYPERLNK 17 "define" 2 "B
+igebra,define" "" }{TEXT -1 13 " command of  " }{HYPERLNK 17 "Bigebra
+" 2 "Bigebra,help" "" }{TEXT -1 2 " ." }}}{SECT 0 {PARA 4 "" 0 "" 
+{TEXT -1 12 "Description:" }}{PARA 15 "" 0 "" {TEXT 259 172 "MLIN is a
+pplied in a substitution for T(expression) and needs an explicit evalu
+ation. If substituted for T(expression) it makes this function multili
+near over the integers." }}{PARA 15 "" 0 "" {TEXT -1 182 "MLIN is a qu
+ick an dirty hack to achieve a special form of multilinearity. It may \+
+be replaced in later versions of SchurFkt by a better device and shoul
+d not be used in derived work!" }}}{SECT 0 {PARA 4 "" 0 "" {TEXT -1 9 
+"Examples:" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "restart:with(S
+churFkt):" }}{PARA 6 "" 1 "" {TEXT -1 52 "SchurFkt Version 1.0.1 (17 x
+ii 2007) at your service" }}{PARA 6 "" 1 "" {TEXT -1 58 "(c) 2003-2007
+ BF&RA, no warranty, no fitness for anything!" }}{PARA 6 "" 1 "" 
+{TEXT -1 83 "Increase verbosity by infolevel[`function`]=val -- use on
+line help > ?Bigebra[help]" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+33 "T(2*s[3]+3*s[2,1],2*s[1,1]+s[2]);" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#-%\"TG6$,&*&\"\"#\"\"\"&%\"sG6#\"\"$F)F)*&F-F)&F+6$F(F)F)F),&*&F(F)
+&F+6$F)F)F)F)&F+6#F(F)" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "e
+val(subs(T=MLIN,%));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,**&\"\"%\"\"
+\"-%\"TG6$&%\"sG6#\"\"$&F+6$F&F&F&F&*&\"\"#F&-F(6$F*&F+6#F1F&F&*&\"\"'
+F&-F(6$&F+6$F1F&F.F&F&*&F-F&-F(6$F:F4F&F&" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 80 "mandatory t
+est cases and most likely cases a user want to type in [not yet done]
+" }}}}{SECT 0 {PARA 4 "" 0 "" {TEXT -1 15 "Algorithm used:" }}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 43 "Quick and dirty hack, not to be documente
+d." }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}}}{SECT 0 {PARA 0 "" 0 "
+" {TEXT 258 10 "See Also: " }{HYPERLNK 17 "SchurFkt[FLAT]" 2 "SchurFkt
+,FLAT" "" }}{PARA 0 "" 0 "" {TEXT -1 142 "\n(c) Copyright June 2003 - \+
+December 2007, by Bertfried Fauser & Rafal Ablamowicz, all rights rese
+rved.\nLast modified: December 17, 2007/BF/RA." }}}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{MARK "4 0 1" 11 }
+{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

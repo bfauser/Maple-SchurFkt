@@ -1,0 +1,84 @@
+{VERSION 6 0 "IBM INTEL NT" "6.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "Hyperlink" -1 17 "" 0 1 0 128 128 1 0 0 1 0 0 0 0 0 0 
+1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 256 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+257 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 258 "" 1 14 0 
+0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 0 2 0 0 0 
+0 0 0 0 1 }{CSTYLE "" -1 260 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 
+2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Heading 2" -1 4 1 
+{CSTYLE "" -1 -1 "Times" 1 14 0 0 0 1 2 1 2 2 2 2 1 1 1 1 }1 1 0 0 4 
+4 1 0 1 0 2 2 0 1 }{PSTYLE "Text Output" -1 6 1 {CSTYLE "" -1 -1 "Cour
+ier" 1 10 0 0 255 1 2 2 2 2 2 1 2 1 3 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }
+{PSTYLE "Error" -1 8 1 {CSTYLE "" -1 -1 "Courier" 1 10 255 0 255 1 2 
+2 2 2 2 1 1 1 3 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Output
+" -1 11 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }
+3 3 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Bullet Item" -1 15 1 {CSTYLE "" 
+-1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 1 0 0 3 3 1 0 1 0 2 
+2 15 2 }}
+{SECT 0 {SECT 0 {PARA 4 "" 0 "" {TEXT -1 10 "Function: " }{TEXT 256 
+108 "SchurFkt[Frob2part] - converts a partition in Frobenius notation \+
+into a standard list notation of partitions" }}{PARA 4 "" 0 "" {TEXT 
+-1 17 "Calling Sequence:" }}{PARA 4 "" 0 "" {TEXT 257 27 "prt := Frob2
+part(fpart)  \n\n" }{TEXT -1 11 "Parameters:" }}{PARA 15 "" 0 "" 
+{TEXT -1 71 "fpart    :  a partition in Frobenius notation (list lists
+ of integers) " }}{PARA 4 "" 0 "" {TEXT -1 7 "Output:" }}{PARA 15 "" 
+0 "" {TEXT -1 44 "prt  :  partition ins standard list notation" }}
+{PARA 4 "" 0 "" {TEXT -1 8 "WARNING:" }}{PARA 0 "" 0 "" {TEXT 260 19 "
+internal use mainly" }}}{SECT 0 {PARA 4 "" 0 "" {TEXT -1 12 "Descripti
+on:" }}{PARA 15 "" 0 "" {TEXT 259 183 "A partition is represented in S
+churFkt usually in a list of integer (shape) notation (e.g. [3,2,2,1] \+
+) which describes the rowlength of the associated Young diagram (Ferre
+rs diagram)." }}{PARA 15 "" 0 "" {TEXT -1 420 "The Frobenius notation \+
+for partitions is given by a list of pairs of integers, where the pair
+ of integers describes the 'arm length' and 'leg length' of a partitio
+n seen as a Young diagram. The box on the diagram does not count, so t
+he Frobenius partition [[0],[0]] is a one box partition [1] in standar
+d notation. The number of boxes on the diagonal of the Young diagram i
+s called the (Frobenius) rank of the partition." }}{PARA 15 "" 0 "" 
+{TEXT -1 179 "This function is for internal use. The policy of the Sch
+urFkt package is that partitions are described in standard notation at
+ the level where the user interacts with the package." }}}{SECT 0 
+{PARA 4 "" 0 "" {TEXT -1 9 "Examples:" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 23 "restart:with(SchurFkt):" }}{PARA 6 "" 1 "" {TEXT -1 
+52 "SchurFkt Version 1.0.1 (17 xii 2007) at your service" }}{PARA 6 "
+" 1 "" {TEXT -1 58 "(c) 2003-2007 BF&RA, no warranty, no fitness for a
+nything!" }}{PARA 6 "" 1 "" {TEXT -1 83 "Increase verbosity by infolev
+el[`function`]=val -- use online help > ?Bigebra[help]" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "Frob2part([[0],[0]]);" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#7#\"\"\"" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 35 
+"Trivial, illegal  and special cases" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 350 "Frob2part([[],[]]);      ## OK\nFrob2part([[-1],[2]]
+);   ## illegal, no negative entries allowed => UNCONTROLLED OUTPUT\nF
+rob2part([[1,1],[0]]);  ## ERROR: the pair of lists needs to be of the
+ same length\nFrob2part([[1,1],[2,0]]);## illegal, produces not a part
+ition (non decreasing list of integers)\n                         ## =
+=> UNCONTROLLED OUTPUT" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#7#\"\"!" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#7%\"\"!\"\"\"F%" }}{PARA 8 "" 1 "" 
+{TEXT -1 59 "Error, (in SchurFkt:-Frob2part) invalid subscript selecto
+r\n" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#7%\"\"#\"\"$\"\"\"" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 15 "Standard cases:" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 29 "Frob2part([[2,1,1],[1,1,0]]);" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#7%\"\"$F$F$" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 31 "T
+he inverse function is called " }{HYPERLNK 17 "SchurFkt[part2Frob]" 2 
+"SchurFkt,part2Frob" "" }{TEXT -1 1 ":" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 109 "part2Frob([3,3,1,1]);\nFrob2part(%);\npart2Frob([1,1
+,1,1]);\nFrob2part(%);\npart2Frob([4,3,3,2,1]);\nFrob2part(%);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#7$7$\"\"#\"\"\"7$\"\"$\"\"!" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#7&\"\"$F$\"\"\"F%" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#7$7#\"\"!7#\"\"$" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#7&
+\"\"\"F$F$F$" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#7$7%\"\"$\"\"\"\"\"!7%
+\"\"%\"\"#F'" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#7'\"\"%\"\"$F%\"\"#\"
+\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{SECT 0 {PARA 
+4 "" 0 "" {TEXT -1 15 "Algorithm used:" }}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 114 "The Frobenius representation of a partition is obtained \+
+by inspection of the standard list form of the partitions." }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}}}{SECT 0 {PARA 0 "" 0 "" {TEXT 258 
+10 "See Also: " }{HYPERLNK 17 "SchurFkt[part2Frob]" 2 "SchurFkt,part2F
+rob" "" }}{PARA 0 "" 0 "" {TEXT -1 141 "\n(c) Copyright June 2003 - De
+cember 2007, by Bertfried Fauser & Rafal Ablamowicz, all rights reserv
+ed.\nLast modified: December 17, 2007/BF/RA" }}}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{MARK "4 0 1" 15 }
+{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

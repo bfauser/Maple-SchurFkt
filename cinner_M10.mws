@@ -1,0 +1,78 @@
+{VERSION 6 0 "IBM INTEL NT" "6.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "Hyperlink" -1 17 "" 0 1 0 128 128 1 0 0 1 0 0 0 0 0 0 
+1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 256 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+257 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 258 "" 1 14 0 
+0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 0 2 0 0 0 
+0 0 0 0 1 }{CSTYLE "" -1 260 "" 0 1 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 
+2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Heading 2" -1 4 1 
+{CSTYLE "" -1 -1 "Times" 1 14 0 0 0 1 2 1 2 2 2 2 1 1 1 1 }1 1 0 0 4 
+4 1 0 1 0 2 2 0 1 }{PSTYLE "Text Output" -1 6 1 {CSTYLE "" -1 -1 "Cour
+ier" 1 10 0 0 255 1 2 2 2 2 2 1 2 1 3 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }
+{PSTYLE "Maple Output" -1 11 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 
+2 2 2 2 2 2 1 1 1 1 }3 3 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Outpu
+t" -1 12 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }
+1 3 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Bullet Item" -1 15 1 {CSTYLE "" 
+-1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 1 0 0 3 3 1 0 1 0 2 
+2 15 2 }}
+{SECT 0 {SECT 0 {PARA 4 "" 0 "" {TEXT -1 10 "Function: " }{TEXT 256 
+81 "SchurFkt[cinner] - inner coproduct of symmetric function the Schur
+ function basis" }}{PARA 4 "" 0 "" {TEXT -1 17 "Calling Sequence:" }}
+{PARA 4 "" 0 "" {TEXT 257 28 "t1 := cinner(sfkt1sfkt2)  \n\n" }{TEXT 
+-1 11 "Parameters:" }}{PARA 15 "" 0 "" {TEXT -1 45 "sfkt1,sfkt2    :  \+
+Schur function polynomials " }}{PARA 4 "" 0 "" {TEXT -1 7 "Output:" }}
+{PARA 15 "" 0 "" {TEXT -1 44 "t1 :    a tensor of Schur function monom
+ials" }}{PARA 4 "" 0 "" {TEXT -1 8 "WARNING:" }}{PARA 0 "" 0 "" {TEXT 
+-1 19 "--no typechecking--" }}}{SECT 0 {PARA 4 "" 0 "" {TEXT -1 12 "De
+scription:" }}{PARA 15 "" 0 "" {TEXT 259 48 "Schur functions come with
+ a second product, the " }{HYPERLNK 17 "inner product" 2 "SchurFkt,inn
+er" "" }{TEXT 260 134 "  which stems from the Cartesian product of alp
+habets. If dualized using the Schur-Hall scalar product, we obtain the
+ inner coproduct." }}{PARA 15 "" 0 "" {TEXT -1 193 "The inner coproduc
+t has the same comultiplication table (section coefficients) as the in
+ner products multiplication table. Therefore we can use the Murnaghan-
+Nakayama rule to evaluate this map." }}{PARA 15 "" 0 "" {TEXT -1 122 "
+Note that the inner product and the inner coproduct do not form a Hopf
+ algebra but only a bialgebra. There is no antipode." }}}{SECT 0 
+{PARA 4 "" 0 "" {TEXT -1 9 "Examples:" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 23 "restart:with(SchurFkt):" }}{PARA 6 "" 1 "" {TEXT -1 
+52 "SchurFkt Version 1.0.1 (17 xii 2007) at your service" }}{PARA 6 "
+" 1 "" {TEXT -1 58 "(c) 2003-2007 BF&RA, no warranty, no fitness for a
+nything!" }}{PARA 6 "" 1 "" {TEXT -1 83 "Increase verbosity by infolev
+el[`function`]=val -- use online help > ?Bigebra[help]" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 31 "cinner(s[4]);\ncinner(s[2,2,1]);" }
+}{PARA 11 "" 1 "" {XPPMATH 20 "6#,,-%#&tG6$&%\"sG6#\"\"%F'\"\"\"-F%6$&
+F(6$\"\"$F+F.F+-F%6$&F(6$\"\"#F5F3F+-F%6$&F(6%F5F+F+F8F+-F%6$&F(6&F+F+
+F+F+F<F+" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#,X-%#&tG6$&%\"sG6#\"\"&&F(
+6%\"\"#F-\"\"\"F.-F%6$&F(6$\"\"%F.&F(6$\"\"$F-F.-F%6$F1&F(6%F6F.F.F.-F
+%6$F1F+F.-F%6$F1&F(6&F-F.F.F.F.-F%6$F4F1F.-F%6$F4F4F.-F%6$F4F9F.-F%6$F
+4F+F.-F%6$F4F?F.-F%6$F4&F(6'F.F.F.F.F.F.-F%6$F9F1F.-F%6$F9F4F.*&F-F.-F
+%6$F9F9F.F.-F%6$F9F+F.-F%6$F9F?F.-F%6$F+F'F.-F%6$F+F1F.-F%6$F+F4F.-F%6
+$F+F9F.-F%6$F+F+F.-F%6$F+F?F.-F%6$F?F1F.-F%6$F?F4F.-F%6$F?F9F.-F%6$F?F
++F.-F%6$FMF4F." }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 134 "The inner copr
+oduct has a counit, the projection onto the one part complete symmetri
+c function of weight |\\lambda|  (recall s[n]=h[n])" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 84 "eps_inner:=(x,y)->if nops([op(x)])=1 and \+
+`+`(op(x))=`+`(op(y)) then y else 0 end if:" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 43 "subs(`&t`=eps_inner,cinner(s[2]));\neval(%);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#,&-%*eps_innerG6$&%\"sG6#\"\"#F'\"\"\"
+-F%6$&F(6$F+F+F.F+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#&%\"sG6#\"\"#" }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 45 "subs(`&t`=eps_inner,cinner
+(s[1,1]));\neval(%);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&-%*eps_inner
+G6$&%\"sG6#\"\"#&F(6$\"\"\"F-F--F%6$F+F'F-" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#&%\"sG6$\"\"\"F&" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 0 "" }}}}{SECT 0 {PARA 4 "" 0 "" {TEXT -1 15 "Algorithm used:" }}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 45 "cinner is computed along the follo
+wing lines:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 84 "\\delta(x) =  \\sum_(\\mu,\\nu |-wt(x))     <inner(s[\\mu],s[\\
+nu] | x >  s[\\mu] &t s[\\nu]" }}{PARA 0 "" 0 "" {TEXT -1 1 "." }}}}
+{SECT 0 {PARA 0 "" 0 "" {TEXT 258 10 "See Also: " }{HYPERLNK 17 "Schur
+Fkt[inner]" 2 "SchurFkt,inner" "" }}{PARA 0 "" 0 "" {TEXT -1 141 "\n(c
+) Copyright June 2003 - December 2007, by Bertfried Fauser & Rafal Abl
+amowicz, all rights reserved.\nLast modified: December 17, 2007/BF/RA
+" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}
+{MARK "4 0 1" 5 }{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 2 
+33 1 1 }

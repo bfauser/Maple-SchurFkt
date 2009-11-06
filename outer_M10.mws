@@ -1,0 +1,198 @@
+{VERSION 6 0 "Linux" "6.0" }
+{USTYLETAB {PSTYLE "Ordered List 1" -1 200 1 {CSTYLE "" -1 -1 "Times"
+ 1 12 0 0 0 1 2 2 2 2 2 2 1 0 0 1 }1 1 0 0 3 3 2 0 2 0 2 2 -1 1 }
+{PSTYLE "Ordered List 2" -1 201 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 
+1 2 2 2 2 2 2 1 0 0 1 }1 1 0 0 3 3 2 36 2 0 2 2 -1 1 }{PSTYLE "Ordered
+ List 3" -1 202 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 
+0 0 1 }1 1 0 0 3 3 2 72 2 0 2 2 -1 1 }{PSTYLE "Ordered List 4" -1 203 
+1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 0 0 1 }1 1 0 0 3
+ 3 2 108 2 0 2 2 -1 1 }{PSTYLE "Ordered List 5" -1 204 1 {CSTYLE "" -1
+ -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 0 0 1 }1 1 0 0 3 3 2 144 2 0 2 
+2 -1 1 }{PSTYLE "Author" -1 19 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1
+ 2 2 2 2 2 2 1 0 0 1 }3 1 0 0 8 8 2 0 2 0 2 2 -1 1 }{PSTYLE "Warning" 
+-1 7 1 {CSTYLE "" -1 -1 "Courier" 1 10 0 0 255 1 2 2 2 2 2 1 1 0 0 1 }
+1 1 0 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "Annotation Title" -1 205 1 
+{CSTYLE "" -1 -1 "Times" 1 18 0 0 0 1 2 1 2 2 2 2 1 0 0 1 }3 1 0 0 12 
+12 2 0 2 0 2 2 -1 1 }{PSTYLE "Fixed Width" -1 17 1 {CSTYLE "" -1 -1 "C
+ourier" 1 10 0 0 0 1 2 2 2 2 2 2 1 0 0 1 }3 1 0 0 0 0 2 0 2 0 2 2 -1 1
+ }{PSTYLE "Maple Plot" -1 13 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2
+ 2 2 2 2 2 1 0 0 1 }3 1 0 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "Line Printe
+d Output" -1 6 1 {CSTYLE "" -1 -1 "Courier" 1 10 0 0 255 1 2 2 2 2 2 1
+ 1 0 0 1 }1 1 0 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "Text Output6" -1 206 
+1 {CSTYLE "" -1 -1 "Courier" 1 10 0 0 255 1 2 2 2 2 2 1 1 0 0 1 }1 1 0
+ 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "Help" -1 10 1 {CSTYLE "" -1 -1 "Cour
+ier" 1 9 0 0 255 1 2 2 2 2 2 1 1 0 0 1 }1 1 0 0 0 0 2 0 2 0 2 2 -1 1 }
+{PSTYLE "Text Output" -1 2 1 {CSTYLE "" -1 -1 "Courier" 1 10 0 0 255 1
+ 2 2 2 2 2 1 1 0 0 1 }1 1 0 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "Diagnosti
+c" -1 9 1 {CSTYLE "" -1 -1 "Courier" 1 10 64 128 64 1 2 2 2 2 2 1 1 0 
+0 1 }1 1 0 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "Normal" -1 0 1 {CSTYLE "" 
+-1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 0 0 1 }1 1 0 0 0 0 2 0 2 0 2 
+2 -1 1 }{PSTYLE "Maple Output" -1 11 1 {CSTYLE "" -1 -1 "Times" 1 12 0
+ 0 0 1 2 2 2 2 2 2 1 0 0 1 }3 1 0 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "Das
+h Item" -1 16 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 0 
+0 1 }1 1 0 0 3 3 2 0 2 0 2 2 -1 1 }{PSTYLE "HyperlinkError" -1 207 1 
+{CSTYLE "" -1 -1 "Courier" 1 12 255 0 255 1 2 2 1 2 2 1 1 0 0 1 }1 1 0
+ 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "Error" -1 8 1 {CSTYLE "" -1 -1 "Cour
+ier" 1 10 255 0 255 1 2 2 2 2 2 1 1 0 0 1 }1 1 0 0 0 0 2 0 2 0 2 2 -1 
+1 }{PSTYLE "Title" -1 18 1 {CSTYLE "" -1 -1 "Times" 1 18 0 0 0 1 2 1 1
+ 2 2 2 1 0 0 1 }3 1 0 0 12 12 2 0 2 0 2 2 -1 1 }{PSTYLE "Heading 1" -1
+ 3 1 {CSTYLE "" -1 -1 "Times" 1 18 0 0 0 1 2 1 2 2 2 2 1 0 0 1 }1 1 0 
+0 8 4 2 0 2 0 2 2 -1 1 }{PSTYLE "Bullet Item" -1 15 1 {CSTYLE "" -1 -1
+ "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 0 0 1 }1 1 0 0 3 3 2 0 2 0 2 2 -1 
+1 }{PSTYLE "Heading 4" -1 20 1 {CSTYLE "" -1 -1 "Times" 1 10 0 0 0 1 1
+ 1 2 2 2 2 1 0 0 1 }1 1 0 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "Heading 3" 
+-1 5 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 1 1 2 2 2 2 1 0 0 1 }1 1 
+0 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "Heading 2" -1 4 1 {CSTYLE "" -1 -1 
+"Times" 1 14 0 0 0 1 2 1 2 2 2 2 1 0 0 1 }1 1 0 0 4 4 2 0 2 0 2 2 -1 1
+ }{PSTYLE "HyperlinkWarning" -1 208 1 {CSTYLE "" -1 -1 "Courier" 1 12 
+0 0 255 1 2 2 1 2 2 1 1 0 0 1 }1 1 0 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "
+Left Justified Maple Output" -1 12 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0
+ 0 1 2 2 2 2 2 2 1 0 0 1 }1 1 0 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "List \+
+Item" -1 14 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 0 0 
+1 }1 1 0 0 3 3 2 0 2 0 2 2 -1 1 }{CSTYLE "Annotation Text" -1 200 "Tim
+es" 1 12 0 0 0 1 2 2 2 2 2 2 0 0 0 1 }{CSTYLE "Help Maple Name" -1 35 
+"Times" 1 12 104 64 92 1 2 1 2 2 2 2 0 0 0 1 }{CSTYLE "2D Math Bold" 
+-1 5 "Times" 1 12 0 0 0 1 2 1 2 2 2 2 0 0 0 1 }{CSTYLE "Help Menus" -1
+ 36 "Times" 1 12 0 0 0 1 2 1 2 2 2 2 0 0 0 1 }{CSTYLE "2D Math Italic"
+ -1 3 "Times" 1 12 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE "Help Normal" 
+-1 30 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 0 0 0 1 }{CSTYLE "Plot Text" -1
+ 28 "Times" 1 8 0 0 0 1 2 2 2 2 2 2 0 0 0 1 }{CSTYLE "Help Nonterminal
+" -1 24 "Courier" 1 12 0 0 0 1 2 1 2 2 2 2 0 0 0 1 }{CSTYLE "Help Head
+ing" -1 26 "Times" 1 14 0 0 0 1 2 1 2 2 2 2 0 0 0 1 }{CSTYLE "Help Ita
+lic" -1 42 "Times" 1 12 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE "Help Var
+iable" -1 25 "Courier" 1 12 0 0 0 1 2 2 2 2 2 2 0 0 0 1 }{CSTYLE "Help
+ Italic Bold" -1 40 "Times" 1 12 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE 
+"Default" -1 38 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 0 0 0 1 }{CSTYLE "Hel
+p Underlined Italic" -1 43 "Times" 1 12 0 0 0 1 1 2 1 2 2 2 0 0 0 1 }
+{CSTYLE "Maple Input" -1 0 "Courier" 1 12 255 0 0 1 2 1 2 2 1 2 0 0 0 
+1 }{CSTYLE "2D Output" -1 20 "Times" 1 12 0 0 255 1 2 2 2 2 2 2 0 0 0 
+1 }{CSTYLE "2D Math Bold Small" -1 10 "Times" 1 1 0 0 0 1 2 1 2 2 2 2 
+0 0 0 1 }{CSTYLE "2D Math Small" -1 7 "Times" 1 1 0 0 0 1 2 2 2 2 2 2 
+0 0 0 1 }{CSTYLE "Page Number" -1 33 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 
+0 0 0 1 }{CSTYLE "Output Labels" -1 29 "Times" 1 8 0 0 0 1 2 2 2 2 2 2
+ 0 0 0 1 }{CSTYLE "Plot Title" -1 27 "Times" 1 10 0 0 0 1 2 1 2 2 2 2 
+0 0 0 1 }{CSTYLE "Help Emphasized" -1 22 "Times" 1 12 0 0 0 1 1 2 2 2 
+2 2 0 0 0 1 }{CSTYLE "2D Math Symbol 2" -1 16 "Times" 1 12 0 0 0 1 2 2
+ 2 2 2 2 0 0 0 1 }{CSTYLE "Maple Comment" -1 21 "Courier" 1 12 0 0 0 1
+ 2 1 2 2 2 2 0 0 0 1 }{CSTYLE "Maple Input Placeholder" -1 201 "Courie
+r" 1 12 200 0 200 1 2 1 2 2 1 2 0 0 0 1 }{CSTYLE "Code" -1 202 "Courie
+r" 1 12 255 0 0 1 2 2 2 2 2 2 0 0 0 1 }{CSTYLE "2D Inert Output" -1 
+203 "Times" 1 12 144 144 144 1 2 2 2 2 1 2 0 0 0 1 }{CSTYLE "2D Math I
+talic Small" -1 204 "Times" 1 1 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE "
+2D Comment" -1 18 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 0 0 0 1 }{CSTYLE "H
+elp Underlined Bold" -1 41 "Times" 1 12 0 0 0 1 1 1 2 2 2 2 0 0 0 1 }
+{CSTYLE "Copyright" -1 34 "Times" 1 10 0 0 0 1 2 2 2 2 2 2 0 0 0 1 }
+{CSTYLE "Hyperlink" -1 17 "Times" 1 12 0 128 128 1 2 2 1 2 2 2 0 0 0 1
+ }{CSTYLE "Help Underlined" -1 44 "Times" 1 12 0 0 0 1 2 2 1 2 2 2 0 0
+ 0 1 }{CSTYLE "Prompt" -1 1 "Courier" 1 12 0 0 0 1 2 1 2 2 2 2 0 0 0 1
+ }{CSTYLE "2D Math" -1 2 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 0 0 0 1 }
+{CSTYLE "2D Input" -1 19 "Times" 1 12 255 0 0 1 2 2 2 2 1 2 0 0 0 1 }
+{CSTYLE "Header and Footer" -1 205 "Times" 1 10 0 0 0 1 2 2 2 2 2 2 0 
+0 0 1 }{CSTYLE "Text" -1 206 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 0 0 0 1 
+}{CSTYLE "Help Notes" -1 37 "Times" 1 12 0 0 0 1 2 1 2 2 2 2 0 0 0 1 }
+{CSTYLE "Help Bold" -1 39 "Times" 1 12 0 0 0 1 2 1 2 2 2 2 0 0 0 1 }
+{CSTYLE "Equation Label" -1 207 "Times" 1 12 0 0 0 1 2 1 2 2 2 2 0 0 0
+ 1 }{CSTYLE "LaTeX" -1 32 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 0 0 0 1 }
+{CSTYLE "Popup" -1 31 "Times" 1 12 0 128 128 1 1 2 1 2 2 2 0 0 0 1 }
+{CSTYLE "Dictionary Hyperlink" -1 45 "Times" 1 12 147 0 15 1 2 2 1 2 2
+ 2 0 0 0 1 }{CSTYLE "Help Fixed" -1 23 "Courier" 1 10 0 0 0 1 2 2 2 2 
+2 2 0 0 0 1 }{CSTYLE "" -1 208 "Times" 1 12 0 0 0 1 2 1 2 2 2 2 0 0 0 
+1 }{CSTYLE "" -1 209 "Times" 1 14 0 0 0 1 2 1 2 2 2 2 0 0 0 1 }}
+{SECT 0 {SECT 0 {PARA 4 "" 0 "" {TEXT 210 10 "Function: " }{TEXT 206 
+54 "SchurFkt[outer] - outer product of two Schur functions" }}{PARA 4 
+"" 0 "" {TEXT 210 17 "Calling Sequence:" }}{PARA 4 "" 0 "" {TEXT 206 
+21 "o1 := outer(s1,s2)  \n" }{TEXT 206 25 "o1 := outer(s1,s2,...sn)\n"
+ }{TEXT 206 1 "\n" }{TEXT 210 11 "Parameters:" }}{PARA 15 "" 0 "" 
+{TEXT 211 49 "s1,s2      :  S-function polynoms (an element of " }
+{HYPERLNK 17 "`type/spolynom`" 2 "SchurFkt,type,sfktpolynom" "" }{TEXT
+ 211 16 ") of any weight\n" }{TEXT 211 69 "s1,...,sn  : S-function pol
+ynoms, n ranging in the positive integers " }}{PARA 4 "" 0 "" {TEXT 
+210 7 "Output:" }}{PARA 15 "" 0 "" {TEXT 211 34 "o1  : S-function poly
+nom  of type " }{HYPERLNK 17 "`type/sfktpolynom`." 2 "SchurFkt,type,sf
+ktpolynom" "" }{TEXT 211 0 "" }}{PARA 4 "" 0 "" {TEXT 210 8 "WARNING:"
+ }}{PARA 0 "" 0 "" {TEXT 212 63 "make sure to use Schur function basis
+, no type checking yet !!." }}{PARA 0 "" 0 "" {TEXT 212 0 "" }}{PARA 0
+ "" 0 "" {TEXT 208 5 "NOTE:" }{TEXT 212 33 " This functions is also kn
+own as " }{HYPERLNK 17 "SchurFkt[outerS]" 2 "SchurFkt,outerS" "" }
+{TEXT 212 1 "." }}}{SECT 0 {PARA 4 "" 0 "" {TEXT 210 12 "Description:"
+ }}{PARA 15 "" 0 "" {TEXT 206 315 "The outer Schur function product mu
+ltiplies two Schur polynomials using the Littlewood-Richardson rule. I
+f the two Schur functions are of weight (number of boxes in the corres
+ponding Young diagram, aka partition) n and m, then the output is a po
+lynomial with integer coefficients in Schur polynomials of weight n+m.
+" }}{PARA 15 "" 0 "" {TEXT 206 178 "The outer product is multilinear o
+ver the integers (fractions of integers) as the ring of symmetric func
+tions /\\ is build as a polynomial ring over the integers or the fract
+ions." }}{PARA 15 "" 0 "" {TEXT 206 226 "In principle this product dep
+ends not on a chosen basis. However, the combinatorial algorithms whic
+h implement this product depend heavily on the fact that the Schur pol
+ynomials are related to the basis of irreducibles of  /\\." }}{PARA 15
+ "" 0 "" {TEXT 211 41 "For the outer product in other bases see " }
+{HYPERLNK 17 "SchurFkt[outerH,E,P]" 2 "SchurFkt,outerH" "" }{TEXT 211 
+1 "." }}{PARA 15 "" 0 "" {TEXT 206 452 "NOTE: A Schur polynomial is re
+presented as s[lambda], where lambda is a partition of n. This object \+
+is treated as an identity, even if itself is a polynomials in (possibl
+y infinite many) variables x1,...xn,... . A S-function monom is a sing
+le Schur polynom with coefficient unity, an S-function term is a Schur
+ polynom with an integer (fractional) prefactor, a S-function polynomi
+al is an integer (fractional) linear combination of Schur polynomials.
+  " }}}{SECT 0 {PARA 4 "" 0 "" {TEXT 210 9 "Examples:" }}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 23 "restart:with(SchurFkt):" }}{PARA 6 "" 1 "
+" {TEXT 213 50 "SchurFkt Version 1.0.4 (2 xi 2009) at your service" }}
+{PARA 6 "" 1 "" {TEXT 213 58 "(c) 2003-2009 BF&RA, no warranty, no fit
+ness for anything!" }{TEXT 213 84 "\nIncrease verbosity by infolevel[`
+function`]=val -- use online help > ?Bigebra[help]" }}}{EXCHG {PARA 0 
+"" 0 "" {TEXT 212 69 "Some some elementary examples of outer products \+
+of Schur polynomials." }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "ou
+ter(s[1],s[0])=s[1];\n" }{MPLTEXT 1 0 30 "outer(s[0],s[3,1,1])=s[3,1,1
+];" }}{PARA 11 "" 1 "" {XPPMATH 20 "/&I\"sG%*protectedG6#\"\"\"F#" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "/&I\"sG%*protectedG6%\"\"$\"\"\"F(F#" }}
+}{EXCHG {PARA 0 "" 0 "" {TEXT 212 63 "This shows that s[0]=1(x)=1 is t
+he unit of the polynomial ring." }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 18 "outer(s[1],s[1]);\n" }{MPLTEXT 1 0 18 "outer(s[2],s[1]);\n" }
+{MPLTEXT 1 0 20 "outer(s[1,1],s[1]);\n" }{MPLTEXT 1 0 25 "outer(s[4,2,
+2,1,1],s[1]);" }}{PARA 11 "" 1 "" {XPPMATH 20 ",&&I\"sG%*protectedG6#
+\"\"#\"\"\"&F$6$F(F(F(" }}{PARA 11 "" 1 "" {XPPMATH 20 ",&&I\"sG%*prot
+ectedG6#\"\"$\"\"\"&F$6$\"\"#F(F(" }}{PARA 11 "" 1 "" {XPPMATH 20 ",&&
+I\"sG%*protectedG6$\"\"#\"\"\"F(&F$6%F(F(F(F(" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 ",*&I\"sG%*protectedG6'\"\"&\"\"#F(\"\"\"F)F)&F$6'\"\"%\"
+\"$F(F)F)F)&F$6'F,F(F(F(F)F)&F$6(F,F(F(F)F)F)F)" }}}{EXCHG {PARA 0 "" 
+0 "" {TEXT 212 293 "Adding a single box to another single box can be d
+one in two ways, horizontally and vertically, giving two boxes in a ro
+w \{2\} or two boxes in a column \{11\}. More generally a single box i
+s added in all possible ways to the pile of boxes of another Schur pol
+ynomial. No multiplicities can occur." }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 23 "outer(s[1],s[1],s[1]);\n" }{MPLTEXT 1 0 24 "outer(s[2
+]+s[1,1],s[1]);" }}{PARA 11 "" 1 "" {XPPMATH 20 ",(&I\"sG%*protectedG6
+#\"\"$\"\"\"&F$6$\"\"#F(F+&F$6%F(F(F(F(" }}{PARA 11 "" 1 "" {XPPMATH 
+20 ",(&I\"sG%*protectedG6#\"\"$\"\"\"&F$6$\"\"#F(F+&F$6%F(F(F(F(" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT 212 207 "Putting a polynomial into the pr
+oduct (or iterating the product) may give multiplicities. These coeffi
+cients make up the multiplication table of the ring and can be obtaine
+d by the Schur-Hall scalar product:" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 23 "out:=outer(s[1],s[2]);\n" }{MPLTEXT 1 0 18 "Scalar(ou
+t,s[3]);\n" }{MPLTEXT 1 0 20 "Scalar(out,s[2,1]);\n" }{MPLTEXT 1 0 21 
+"Scalar(out,s[1,1,1]);" }}{PARA 11 "" 1 "" {XPPMATH 20 ",&&I\"sG%*prot
+ectedG6#\"\"$\"\"\"&F$6$\"\"#F(F(" }}{PARA 11 "" 1 "" {XPPMATH 20 "&I
+\"sG%*protectedG6#\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 20 "&I\"sG%*prote
+ctedG6#\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 20 "\"\"!" }}}{EXCHG {PARA 0
+ "" 0 "" {TEXT 212 44 "Note that s[0]=1 is the unit of the product." }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 26 "outer(s[4]+3*s[2,1],s[0]);
+" }}{PARA 11 "" 1 "" {XPPMATH 20 ",&&I\"sG%*protectedG6#\"\"%\"\"\"&F$
+6$\"\"#F(\"\"$" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 212 15 "Critical cases
+:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "outer(0);\n" }{MPLTEXT
+ 1 0 62 "outer(s[]); # should not occur but should possibly return s[0
+]" }}{PARA 11 "" 1 "" {XPPMATH 20 "\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "&I\"sG%*protectedG6\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 
+"" }}}}{SECT 0 {PARA 0 "" 0 "" {TEXT 209 10 "See Also: " }{HYPERLNK 
+17 "SchurFkt[Overview]" 2 "SchurFkt,Overview" "" }{TEXT 206 2 ", " }
+{HYPERLNK 17 "SchurFkt[couter]" 2 "SchurFkt,couter" "" }{TEXT 212 8 ",
+ e.g., " }{HYPERLNK 17 "SchurFkt[outerH]" 2 "SchurFkt,outerH" "" }
+{TEXT 212 53 " (see many other incarnations of outerA for A-basis) " }
+}{PARA 0 "" 0 "" {TEXT 212 1 "\n" }{TEXT 212 103 " (c) Copyright June \+
+2003 - December 2007, by Bertfried Fauser & Rafal Ablamowicz, all righ
+ts reserved.\n" }{TEXT 212 38 "Last modified: December 17, 2007/BF/RA"
+ }}}{PARA 0 "" 0 "" {TEXT 212 0 "" }}{PARA 0 "" 0 "" {TEXT 212 0 "" }}
+}
+{MARK "0 0 0" 0 }{VIEWOPTS 1 1 0 75 100 1802 1 1 1 1 }{PAGENUMBERS 0 
+1 2 33 1 1 }

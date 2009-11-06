@@ -1,0 +1,190 @@
+> restart:
+> Shuffle:=module()
+>   export shuffle,coshuffle,sign_sort,len,counit;
+>   local shuffle1,st,sorting_head;
+>   option package;
+> ##
+> ## shuffle1 
+> ## insert a single list into a given one, from right to left until a smaler element is reached
+> ##
+>   shuffle1:=proc(x,lst)
+>     local N,L,i,res;
+>     N:=nops(lst);L:=[op(lst)];res:=0: 
+>     for i from 0 to N do
+>       res:=res+F[op(L[1..N-i]),op(x),op(L[N+1-i..N])];
+>       if (i<N) then if (L[N-i]<=op(x)) then break end if end if;
+>     end do;
+>     res;
+>   end proc:
+> ##
+> ## shuffle(list,list)
+> ## insets the first list as a shuffle into the second from right
+> ##
+> ##
+>   shuffle:=proc(lst1,lst2)
+>     local N1,L1,N2,L2;
+>     if nargs=3 then N1:=args[3]: else N1:=nops([op(lst1)]); end if;
+>     L1:=[op(lst1)];
+>     if (lst1=F or [op(lst1)]=[]) then return F[op(lst2)] end if;
+>     if (lst2=F or [op(lst2)]=[]) then return F[op(lst1)] end if;
+>     L2:=map(x->N1+x,[op(lst2)]);
+>     if N1=1 then 
+>       return shuffle1(L1,L2)
+>     else
+>       return map2(procname,L1[2..-1],shuffle1([L1[1]],L2),0);
+>     end if;
+>   end proc:
+> ##
+> ## st turns a permutation of arbitrary numbers into a permutation of [n]
+> ##
+> ##
+>   st:=proc(lst) 
+>     local N,i,srtlst,res;
+>     N:=nops(lst);
+>     res:=lst;
+>     srtlst:=sort(lst);
+>     for i from 1 to N do
+>       res:=subs(srtlst[i]=i,res);
+>     end do;
+>     res;
+>   end proc:
+> ##
+> ## coshuffle is the split of a permutation [n] at all internal points
+> ## including normalization into standard permutations of n= p,q
+> ##
+> ##
+>   coshuffle:=proc(lst)
+>     local N,L;
+>     L:=[op(lst)];
+>     N:=nops(L);
+>     add(&t(F[op(st(L[1..i-1]))],F[op(st(L[i..N]))]),i=1..N+1):
+>   end proc:
+> ##
+> ## sorting_head is a helper function for the below given search for inversions
+> ##
+> ##
+> sorting_head:=proc(a,b)
+>   if(a::integer) then
+>     if (b::integer) then 
+>       evalb(a<b)
+>     else
+>       true;
+>     end if;
+>   else
+>     if (b::integer) then 
+>       false
+>     else
+>       lexorder(a,b)
+>     end if;
+>   end if;
+> end proc:
+> ##
+> ## sign_sort come up with a sorted list of a permuted list and the number of inversions it took to unpermute it
+> ##
+> ##
+> sign_sort:=proc(lst)
+>   local i,head,tail,PS,res,N:
+>   option remember;
+>   if nops(lst)<2 then return lst,0 end if;
+>   PS:=0:
+>   N:=nops(lst):
+>   tail:=[]:
+>   head:=[]:
+>   #### seq(proc() if is(lst[i]<lst[1]) then 
+>   seq(proc() if sorting_head(lst[i],lst[1]) then 
+>       head:=[op(head),lst[i]]; PS:=PS+1+nops(tail); else
+>       tail:=[op(tail),lst[i]]; end if 
+>       end(),i=2..N);
+>   res:=procname(head),[lst[1]],PS,procname(tail);
+>   return [seq(op(res[2*i-1]),i=1..nops([res])/2)],add(res[2*i],i=1..nops([res])/2);
+> end:
+> ##
+> ## len gives the number of inversions of a permutation
+> ##
+> ##
+>   len:=proc(lst)
+>     local L;
+>     L:=[op(lst)]:
+>     sign_sort(L)[2];
+>   end proc:
+> ##
+> ## counit in the i-th slot of a tensor product &t(.,.,.,...)
+> ##
+>   counit:=proc(lst,i)
+>     if type(lst,`+`) then
+>       return map(procname,lst,i);
+>     elif op(0,lst)=`&t` then
+>       if ([op(lst)][i]=F[] or lst=[]) then return &t(op(subsop(i=NULL,[op(lst)]))) else return 0 end if
+>     else 
+>       error "unknown type"
+>     end if
+>   end proc:
+> ##
+> ##
+> ##
+> end module:
+> savelib(Shuffle):
+> restart:
+> with(Shuffle);
+
+                [coshuffle, counit, len, shuffle, sign_sort]
+> shuffle(F[1,2,3],F[1]);
+> shuffle(F[],F[3,1,2]), shuffle(F[3,1,2],F[]);
+
+        F[4, 1, 2, 3] + F[1, 4, 2, 3] + F[1, 2, 4, 3] + F[1, 2, 3, 4]
+                           F[3, 1, 2], F[3, 1, 2]
+> coshuffle(F[3,4,1,2]);
+> counit(%,1),counit(%,2);
+ (F[]) &t (F[3, 4, 1, 2]) + (F[1]) &t (F[3, 1, 2]) + (F[1, 2]) &t (F[1, 2])
+
+    + (F[2, 3, 1]) &t (F[1]) + (F[3, 4, 1, 2]) &t (F[])
+                    &t(F[3, 4, 1, 2]), &t(F[3, 4, 1, 2])
+> shuffleT:=proc(lst,i)
+>     local a,b;
+>     if type(lst,`+`) then
+>       return map(procname,lst,i);
+>     elif op(0,lst)=`&t` then
+>       a:=[op(lst)][i]; b:=[op(lst)][i+1];
+> print("=>",a,b,[op(lst)]);
+>       return &t(op(subsop(i=NULL,i+1=shuffle(a,b),[op(lst)])));  
+>     else 
+>       error "unknown type"
+>     end if  
+> end proc:
+> mapLinOP:=proc(lst,i,f)
+>     local a;
+>     if type(lst,`+`) then
+>       return map(procname,lst,i,f)
+>     elif op(0,lst)=`&t` then 
+>       a:=[op(lst)][i];
+>       return &t(op(subsop(i=f(a),[op(lst)])))
+>     else
+>       error "unknown type"
+>     end if;
+> end proc:
+
+> S:=proc(lst)
+>   if lst=F[] then return F[] else return S[op(lst)] end if;
+> end proc:
+> coshuffle(F[1]);
+> mapLinOP(%,1,S);
+> shuffleT(%,1);
+                      (F[]) &t (F[1]) + (F[1]) &t (F[])
+                      (F[]) &t (F[1]) + (S[1]) &t (F[])
+                        "=>", F[], F[1], [F[], F[1]]
+                        "=>", S[1], F[], [S[1], F[]]
+                                 2 &t(F[1])
+> mapF:=proc(lst)
+>     local L,N,i;
+>     L:=[op(lst)]: N:=nops(L);
+>     mul(cat(x,i)^L[i],i=1..N);
+> end proc:
+> shuffle(F[1,1],F[2],0);
+> mapF(F[1,2,1])+mapF(F[1,1,2]);
+                    F[2, 1, 1] + F[1, 2, 1] + F[1, 1, 2]
+                                 2              2
+                            x1 x2  x3 + x1 x2 x3 
+> 
+> 
+# 
+# 

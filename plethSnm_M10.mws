@@ -1,0 +1,220 @@
+{VERSION 6 0 "IBM INTEL NT" "6.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "Hyperlink" -1 17 "" 0 1 0 128 128 1 0 0 1 0 0 0 0 0 0 
+1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 256 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+257 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 258 "" 1 14 0 
+0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 0 2 0 0 0 
+0 0 0 0 1 }{CSTYLE "" -1 260 "fixed" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 261 "fixed" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 262 "Times" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }{PSTYLE "Normal" -1 0 
+1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }0 0 0 -1 -1 -1 
+0 0 0 0 0 0 -1 0 }{PSTYLE "Text Output" -1 2 1 {CSTYLE "" -1 -1 "Couri
+er" 1 10 0 0 255 1 0 0 0 0 0 1 3 0 3 1 }1 0 0 -1 -1 -1 0 0 0 0 0 0 -1 
+0 }{PSTYLE "Heading 1" 0 3 1 {CSTYLE "" -1 -1 "" 1 18 0 0 0 0 0 1 0 0 
+0 0 0 0 0 1 }1 0 0 0 6 6 0 0 0 0 0 0 -1 0 }{PSTYLE "Heading 2" 3 4 1 
+{CSTYLE "" -1 -1 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }0 0 0 -1 4 4 0 
+0 0 0 0 0 -1 0 }{PSTYLE "" 2 6 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 
+0 0 0 0 2 0 0 1 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Maple Outpu
+t" 0 11 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }3 3 0 
+-1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 11 12 1 {CSTYLE "" -1 -1 "" 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 }1 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE 
+"Bullet Item" 0 15 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 }0 0 0 -1 3 3 0 0 0 0 0 0 15 2 }}
+{SECT 0 {SECT 0 {PARA 4 "" 0 "" {TEXT -1 10 "Function: " }{TEXT 256 
+183 "plethS  - computes plethysm of two Schur function polynoms\n     \+
+               plethSnm  - computes plethysm of two sfunctions of the \+
+form s[n] (one part complete symmetric functions)" }}{PARA 4 "" 0 "" 
+{TEXT -1 17 "Calling Sequence:" }}{PARA 4 "" 0 "" {TEXT 257 32 "sfkt3 \+
+:= plethS(sfkt1,sfkt2)  \n\n" }{TEXT -1 11 "Parameters:" }}{PARA 15 "
+" 0 "" {TEXT -1 86 "sfkt1,sfk2 :   Schur function polynoms, sfkt2 must
+ be a polynomial over the integers! " }}{PARA 4 "" 0 "" {TEXT -1 7 "Ou
+tput:" }}{PARA 15 "" 0 "" {TEXT -1 29 "sfkt3 :  an sfunction polynom" 
+}}{PARA 4 "" 0 "" {TEXT -1 8 "WARNING:" }}{PARA 0 "" 0 "" {TEXT -1 
+221 "Note that the second input has to be a sfunction polynomial over \+
+the integers. This procedure of plethysm is based on the notation s_\\
+lambda[s_\\mu] = P[Q] = plethS(P,Q), which is _opposite_ to the notion
+ 'pleth' in SCHUR!" }}}{SECT 0 {PARA 4 "" 0 "" {TEXT -1 12 "Descriptio
+n:" }}{PARA 15 "" 0 "" {TEXT 259 216 "The plethysm is the functional c
+omposition of Schur maps. We consider symmetric functions as maps on G
+-modules, where G is a group acting on the modules (GL(n), or S_m). Th
+e notation for plethysm is plethS(P,Q)=P[Q]." }}{PARA 15 "" 0 "" 
+{TEXT -1 92 "Plethysms are computed via the power symmetric functions.
+ This is not optimal but works out." }}{PARA 15 "" 0 "" {TEXT -1 87 "P
+lethysm is left distributive (linear in the first factor):\n (P1+P1)[Q
+] = P1[Q] + P2[Q]" }}{PARA 15 "" 0 "" {TEXT -1 441 "Plethysm is not ri
+ght distributive, but enjoys a set of relations with the outer and inn
+er product. Let Q=Q^+ - Q^- be the Schur positive (coefficient in the \+
+positive integers) and Q^- be the Schur negative part. We have:\n\nP[Q
++R] = P_(1)[Q] P_(2)[R]       with  \\Delta(P)=P_(1)\\otimes P_(2) the
+ outer coproduct\nP[QR] = P_[1][Q] P_[2][R]     with \\delta(P)=P_[1]
+\\otimes P_[2] the inner coproduct\nP[-Q] = (antipS(P))[Q]    antipode
+ acting on P" }}{PARA 15 "" 0 "" {TEXT -1 223 "Note that one has to di
+stinguish between the negative one -1 in the ring and the negative of \+
+an indeterminate X --->  `-X'. These transformations differ (for expla
+nations see the book of Lascoux on symmetric functions AMS)." }}{PARA 
+15 "" 0 "" {TEXT -1 127 "Evaluation of plethysms is very storage and p
+rocessor intensive and our algorithm is not optimal, so be patient and
+/or modest. " }}}{SECT 0 {PARA 4 "" 0 "" {TEXT -1 9 "Examples:" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "restart:with(SchurFkt):" }}
+{PARA 6 "" 1 "" {TEXT -1 52 "SchurFkt Version 1.0.1 (17 xii 2007) at y
+our service" }}{PARA 6 "" 1 "" {TEXT -1 58 "(c) 2003-2007 BF&RA, no wa
+rranty, no fitness for anything!" }}{PARA 6 "" 1 "" {TEXT -1 83 "Incre
+ase verbosity by infolevel[`function`]=val -- use online help > ?Bigeb
+ra[help]" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 147 "First we compute a f
+ew plethysms using the restricted function plethSnm which works only (
+no typecheck!) in one part sfunctions without prefactors!" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 62 "plethSnm(s[2],s[2]);\nplethSnm(s[3]
+,s[2]);\nplethSnm(s[2],s[3]);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&&%
+\"sG6#\"\"%\"\"\"&F%6$\"\"#F+F(" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,(&
+%\"sG6#\"\"'\"\"\"&F%6%\"\"#F+F+F(&F%6$\"\"%F+F(" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#,&&%\"sG6#\"\"'\"\"\"&F%6$\"\"%\"\"#F(" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 53 "Now we give some examples for more genera
+l plethysms." }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 48 "plethS(s[2,
+1],s[2,1]);\nplethS(s[2],s[2]-s[1,1]);" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#,D&%\"sG6%\"\"'\"\"#\"\"\"F)&F%6$\"\"&\"\"%F)*&F(F)&F%6%F,\"\"$F
+)F)F)&F%6%F,F(F(F)*&F(F)&F%6&F,F(F)F)F)F)&F%6'F,F)F)F)F)F)&F%6%F-F-F)F
+)*&F1F)&F%6%F-F1F(F)F)*&F1F)&F%6&F-F1F)F)F)F)*&F1F)&F%6&F-F(F(F)F)F)*&
+F(F)&F%6'F-F(F)F)F)F)F)*&F1F)&F%6&F1F1F(F)F)F)&F%6'F1F1F)F)F)F)&F%6&F1
+F(F(F(F)*&F(F)&F%6'F1F(F(F)F)F)F)&F%6(F1F(F)F)F)F)F)&F%6'F(F(F(F(F)F)
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,(&%\"sG6#\"\"%\"\"\"&F%6$\"\"$F(!
+\"\"&F%6$\"\"#F/F(" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 131 "We can now
+ generate a wealth of series out of plethysms of standard type checkin
+g series, as the M,L series, A,B,C,D series etc...\n" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 91 "M[t].[2]=`+`(op(map(x->plethSnm(x,s[2]),g
+etSfktSeries(M,4))));\nD[t] = getSfktSeries(D,8,1);" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#/-%\".G6$&%\"MG6#%\"tG7#\"\"#,:&%\"sG6#\"\"!\"\"\"&F/
+6#F,F2&F/6#\"\"%F2&F/6$F,F,F2&F/6#\"\"'F2&F/6%F,F,F,F2&F/6$F7F,F2&F/6#
+\"\")F2&F/6$F<F,F2&F/6$F7F7F2&F/6%F7F,F,F2&F/6&F,F,F,F,F2" }}{PARA 11 
+"" 1 "" {XPPMATH 20 "6#/&%\"DG6#%\"tG,:&%\"sG6#\"\"!\"\"\"&F*6#\"\"#F-
+&F*6#\"\"%F-&F*6$F0F0F-&F*6#\"\"'F-&F*6%F0F0F0F-&F*6$F3F0F-&F*6#\"\")F
+-&F*6$F8F0F-&F*6$F3F3F-&F*6%F3F0F0F-&F*6&F0F0F0F0F-" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 131 "M[t].[3]=subs(t=t^3,map(x->plethS(x,s[3]
+),getSfktSeries(M,4,t)));\nL[t].[3]=subs(t=t^3,map(x->plethS(x,s[3]),g
+etSfktSeries(L,4,t)));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/-%\".G6$&%
+\"MG6#%\"tG7#\"\"$,,&%\"sG6#\"\"!\"\"\"*&&F/6#F,F2)F*F,F2F2*&)F*\"\"'F
+2,&&F/6#F9F2&F/6$\"\"%\"\"#F2F2F2*&)F*\"\"*F2,,&F/6#FCF2&F/6$\"\"(F@F2
+&F/6$F9F,F2&F/6%\"\"&F@F@F2&F/6%F?F?F2F2F2F2*&)F*\"#7F2,:&F/6#FSF2&F/6
+%FIF?F2F2&F/6%FIF,F@F2&F/6$F9F9F2&F/6%\"\")F@F@F2&F/6%F?F?F?F2&F/6$FCF
+,F2&F/6%F9F?F@F2&F/6$FinF?F2&F/6$\"#5F@F2&F/6&F9F@F@F@F2&F/6&FNF?F@F2F
+2F2F2" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/-%\".G6$&%\"LG6#%\"tG7#\"\"$
+,,&%\"sG6#\"\"!\"\"\"*&&F/6#F,F2)F*F,F2!\"\"*&)F*\"\"'F2,&&F/6$\"\"&F2
+F2&F/6$F,F,F2F2F2*&)F*\"\"*F2,*&F/6%\"\"(F2F2F2&F/6$F:F,F2&F/6%F>F,F2F
+2&F/6%F,F,F,F2F2F7*&)F*\"#7F2,6&F/6&FGF,F2F2F2&F/6&FCF2F2F2F2&F/6%FG\"
+\"%F2F2&F/6&F,F,F,F,F2&F/6$F:F:F2&F/6&F>F,F,F2F2&F/6%F:FX\"\"#F2&F/6&F
+>F>F2F2F2&F/6%F:F,F,F2&F/6%\"\")F,F2F2F2F2" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 139 "M[t].[2,1]=subs(t=t^3,map(x->plethS(x,s[2,1]),getS
+fktSeries(M,4,t)));\nL[t].[2,1]=subs(t=t^3,map(x->plethS(x,s[2,1]),get
+SfktSeries(L,4,t)));" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#/-%\".G6$&%\"M
+G6#%\"tG7$\"\"#\"\"\",,&%\"sG6#\"\"!F-*&)F*\"\"$F-&F06$F,F-F-F-*&)F*\"
+\"'F-,*&F06&F5F-F-F-F-&F06$\"\"%F,F-&F06%F,F,F,F-&F06%F5F,F-F-F-F-*&)F
+*\"\"*F-,@&F06$F:F5F-&F06%\"\"&F5F-F-&F06%FMF,F,F-&F06&FMF,F-F-F-&F06%
+F@F@F-F-&F06%F@F5F,F-&F06&F@F5F-F-F-*&F,F-&F06&F@F,F,F-F-F-&F06'F@F,F-
+F-F-F-&F06(F@F-F-F-F-F-F-&F06%F5F5F5F-&F06&F5F5F,F-F-&F06'F5F5F-F-F-F-
+&F06&F5F,F,F,F-&F06'F5F,F,F-F-F-F-F-*&)F*\"#7F-,jo*&F5F-&F06&F:F5F,F-F
+-F-&F06&\"\"(F5F-F-F-&F06%F\\pF@F-F-&F06%F\\pF5F,F-*&F,F-&F06(F5F5F,F,
+F-F-F-F-*&F,F-&F06'F5F5F5F,F-F-F-*&F,F-&F06&F@F5F5F,F-F-*&F,F-&F06%FMF
+@F5F-F-&F06%F:FMF-F-&F06&F:F@F-F-F-&F06%F@F@F@F-&F06'F:F5F-F-F-F-&F06'
+F:F,F,F-F-F-&F06(F:F,F-F-F-F-F-*&F,F-&F06'FMF@F-F-F-F-F-*&F@F-&F06'FMF
+5F,F-F-F-F-&F06(FMF5F-F-F-F-F-*&F5F-&F06'FMF,F,F,F-F-F-*&F,F-&F06(FMF,
+F,F-F-F-F-F-&F06)FMF,F-F-F-F-F-F-&F06*FMF-F-F-F-F-F-F-F-*&F,F-&F06'F@F
+@F,F-F-F-F-&F06(F@F@F-F-F-F-F-*&F5F-&F06'F@F5F5F-F-F-F-*&F5F-&F06'F@F5
+F,F,F-F-F-*&F5F-&F06(F@F5F,F-F-F-F-F-&F06)F@F5F-F-F-F-F-F-*&F,F-&F06'F
+@F,F,F,F,F-F-&F06(F@F,F,F,F-F-F-&F06)F@F,F,F-F-F-F-F-*&F5F-&F06&FMF5F5
+F-F-F-*&F,F-&F06%F:F@F,F-F-&F06&F@F@F5F-F-&F06&FMFMF-F-F-&F06$\"\")F@F
+-*&F,F-&F06&FMF5F,F,F-F-*&F5F-&F06&F@F@F,F,F-F-*&F,F-&F06&F:F,F,F,F-F-
+*&F5F-&F06&FMF@F,F-F-F-F-F-" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#/-%\".G
+6$&%\"LG6#%\"tG7$\"\"#\"\"\",,&%\"sG6#\"\"!F-*&)F*\"\"$F-&F06$F,F-F-!
+\"\"*&)F*\"\"'F-,*&F06%\"\"%F-F-F-&F06$F5F5F-&F06&F,F,F-F-F-&F06%F5F,F
+-F-F-F-*&)F*\"\"*F-,@&F06&F;F-F-F-F-&F06%\"\"&F5F-F-&F06%FNF,F,F-&F06&
+FNF,F-F-F-&F06%F?F?F-F-&F06%F?F5F,F-*&F,F-&F06&F?F5F-F-F-F-&F06&F?F,F,
+F-F-&F06'F?F,F-F-F-F-&F06%F5F5F5F-&F06&F5F5F,F-F-&F06'F5F5F-F-F-F-&F06
+&F5F,F,F,F-&F06'F5F,F,F-F-F-&F06(F,F,F,F-F-F-F-F-F8*&)F*\"#7F-,jo*&F5F
+-&F06&F;F5F,F-F-F-&F06&\"\"(F5F-F-F-*&F,F-&F06(F5F5F,F,F-F-F-F-&F06)F5
+F5F,F-F-F-F-F-&F06(F5F,F,F,F,F-F-&F06)F5F,F,F,F-F-F-F-&F06*F,F,F,F,F-F
+-F-F-F-*&F,F-&F06'F5F5F5F,F-F-F-&F06&F5F5F5F5F-&F06&F?F5F5F,F-&F06&F]p
+F,F,F-F-*&F,F-&F06%FNF?F5F-F-&F06&F;F?F-F-F-&F06'\"\")F-F-F-F-F-&F06'F
+]pF,F-F-F-F-*&F,F-&F06'F;F5F-F-F-F-F-&F06'F;F,F,F-F-F-&F06(F;F,F-F-F-F
+-F-*&F5F-&F06'FNF?F-F-F-F-F-*&F?F-&F06'FNF5F,F-F-F-F-&F06(FNF5F-F-F-F-
+F-*&F,F-&F06'FNF,F,F,F-F-F-&F06(FNF,F,F-F-F-F-*&F,F-&F06'F?F?F,F-F-F-F
+-*&F,F-&F06(F?F?F-F-F-F-F-F-*&F5F-&F06'F?F5F5F-F-F-F-*&F5F-&F06'F?F5F,
+F,F-F-F-*&F5F-&F06(F?F5F,F-F-F-F-F-&F06'F?F,F,F,F,F-&F06(F?F,F,F,F-F-F
+-&F06)F?F,F,F-F-F-F-F-*&F5F-&F06&FNF5F5F-F-F-*&F,F-&F06%F;F?F,F-F-*&F,
+F-&F06&F?F?F5F-F-F-*&F,F-&F06&FNFNF-F-F-F-*&F,F-&F06&FNF5F,F,F-F-*&F5F
+-&F06&F?F?F,F,F-F-&F06&F;F,F,F,F-*&F5F-&F06&FNF?F,F-F-F-F-F-" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 147 "M[t].[1,1,1]=subs(t=t^3,map
+(x->plethS(x,s[1,1,1]),getSfktSeries(M,4,t)));\nL[t].[1,1,1]=subs(t=t^
+3,map(x->plethS(x,s[1,1,1]),getSfktSeries(L,4,t)));" }}{PARA 12 "" 1 "
+" {XPPMATH 20 "6#/-%\".G6$&%\"MG6#%\"tG7%\"\"\"F,F,,,&%\"sG6#\"\"!F,*&
+&F/6%F,F,F,F,)F*\"\"$F,F,*&)F*\"\"'F,,&&F/6'\"\"#F,F,F,F,F,&F/6%F=F=F=
+F,F,F,*&)F*\"\"*F,,*&F/6)F6F,F,F,F,F,F,F,&F/6%F6F6F6F,&F/6'F6F=F=F,F,F
+,&F/6(F=F=F=F,F,F,F,F,F,*&)F*\"#7F,,6&F/6+\"\"%F,F,F,F,F,F,F,F,F,&F/6(
+F6F6F6F,F,F,F,&F/6(F6F6F=F=F,F,F,&F/6)F6F=F=F=F,F,F,F,&F/6*F6F=F=F,F,F
+,F,F,F,&F/6(F=F=F=F=F=F=F,&F/6%FRFRFRF,&F/6'FRF6F6F,F,F,&F/6'FRF=F=F=F
+=F,&F/6)FRF=F=F,F,F,F,F,F,F," }}{PARA 12 "" 1 "" {XPPMATH 20 "6#/-%\".
+G6$&%\"LG6#%\"tG7%\"\"\"F,F,,,&%\"sG6#\"\"!F,*&&F/6%F,F,F,F,)F*\"\"$F,
+!\"\"*&)F*\"\"'F,,&&F/6(F,F,F,F,F,F,F,&F/6&\"\"#F@F,F,F,F,F,*&)F*\"\"*
+F,,,&F/6)F@F@F,F,F,F,F,F,&F/6+F,F,F,F,F,F,F,F,F,F,&F/6'F6F6F,F,F,F,&F/
+6&F6F@F@F@F,&F/6(F@F@F@F,F,F,F,F,F7*&)F*\"#7F,,:&F/6(F6F6F@F@F,F,F,&F/
+6)F6F6F@F,F,F,F,F,&F/6*F6F6F,F,F,F,F,F,F,&F/6)F6F@F@F@F,F,F,F,&F/6(F@F
+@F@F@F@F@F,&F/6*F@F@F@F@F,F,F,F,F,&F/6&F6F6F6F6F,&F/6+F@F@F@F,F,F,F,F,
+F,F,&F/6,F@F@F,F,F,F,F,F,F,F,F,&F/6.F,F,F,F,F,F,F,F,F,F,F,F,F,&F/6(\"
+\"%FcoF,F,F,F,F,&F/6'FcoF6F@F@F,F,F,F," }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 359 "Plethysms ca
+n be used to count several types of graphs, using Redfield-Polya count
+ing theory.\n\nSuppose, we have 4 vertices, 1 of order 3, two of order
+ 2 and one of order 1 (order  = connectivity). We represent these vert
+ices by their complete symmetric functions (which are dual to the mono
+mial symmetric functions) but write them as Schur functions h[n]=s[n]
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 33 "vert:=outer(s[3],s[2],s
+[2],s[1]);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%%vertG,>&%\"sG6#\"\")
+\"\"\"*&\"\"$F*&F'6$\"\"(F*F*F**&\"\"&F*&F'6$\"\"'\"\"#F*F**&F,F*&F'6%
+F4F*F*F*F**&F1F*&F'6$F1F,F*F**&F4F*&F'6%F1F5F*F*F*&F'6&F1F*F*F*F**&F5F
+*&F'6$\"\"%FDF*F**&F1F*&F'6%FDF,F*F*F**&F,F*&F'6%FDF5F5F*F**&F5F*&F'6&
+FDF5F*F*F*F**&F5F*&F'6%F,F,F5F*F*&F'6&F,F,F*F*F*&F'6&F,F5F5F*F*" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 212 "To count the correct type of grap
+hs, we need to extract the plethysm for s_4[Q] or s_(1,1,1,1)[Q] from \+
+this result, where Q is a weight 2 Schur function s[2],s[1,1]. These c
+omputations where exemplified by Burge:" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 166 "MultilinesLoops:=plethS(s[4],s[2]);\nMultilinesNoLoo
+ps:=plethS(s[4],s[1,1]);\nSingleLinesLoops:=plethS(s[1,1,1,1],s[2]);\n
+SingleLinesNoLoops:=plethS(s[1,1,1,1],s[1,1]);\n" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%0MultilinesLoopsG,,&%\"sG6#\"\")\"\"\"&F'6$\"\"'\"\"#
+F*&F'6$\"\"%F1F*&F'6%F1F.F.F*&F'6&F.F.F.F.F*" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%2MultilinesNoLoopsG,,&%\"sG6$\"\"%F)\"\"\"&F'6&\"\"$F
+-F*F*F*&F'6&\"\"#F0F0F0F*&F'6(F0F0F*F*F*F*F*&F'6*F*F*F*F*F*F*F*F*F*" }
+}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%1SingleLinesLoopsG,&&%\"sG6&\"\"&\"
+\"\"F*F*F*&F'6%\"\"%\"\"$F*F*" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%3Si
+ngleLinesNoLoopsG,&&%\"sG6&\"\"$\"\"#F*\"\"\"F+&F'6'\"\"%F+F+F+F+F+" }
+}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 81 "To count these we need to pair t
+he two results via the Schur-Hall scalar product:" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 123 "\"number of ML  :\",subs(s[0]=1,Scalar(Mult
+ilinesLoops,vert));\n\"number of MNL :\",subs(s[0]=1,Scalar(Multilines
+NoLoops,vert));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$Q0number~of~ML~~:6
+\"\"#6" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$Q0number~of~MNL~:6\"\"\"$" }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 127 "\"number of SLL  :\",subs
+(s[0]=1,Scalar(SingleLinesLoops,vert));\n\"number of SLNL :\",subs(s[0
+]=1,Scalar(SingleLinesNoLoops,vert));" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6$Q1number~of~SLL~~:6\"\"\"'" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$Q1num
+ber~of~SLNL~:6\"\"\"\"" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }
+{TEXT 260 3 "   " }{TEXT 262 102 "Let x be a vertex without loop and O
+ a vertex with a loop. The graphs we are concerned with look like:" }
+{TEXT 261 262 "\n\n   x === x   x -- x     O --- x   O     O    x === \+
+x    O    O\n   |         | \\/             |   |            \\       \+
+   \\\n   |         | /\\             |   |              \\         \\
+     ...etc\n   x --- x   x   x      O     x   x --- x    O     x    O
+    x\n  " }{TEXT -1 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 103 "Plet
+hysm has many more applications in group representation theory, for ex
+ample in branching rules etc." }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 0 "" }}}}{SECT 0 {PARA 4 "" 0 "" {TEXT -1 15 "Algorithm used:" }}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 125 "Stupidly using the translation to
+ power sums and their relatively easy plethysm formulae, then converti
+ng back to sfunctions." }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}}}
+{SECT 0 {PARA 0 "" 0 "" {TEXT 258 10 "See Also: " }{HYPERLNK 17 "Schur
+Fkt[Overview]" 2 "SchurFkt,PartNM" "" }}{PARA 0 "" 0 "" {TEXT -1 141 "
+\n(c) Copyright June 2003 - December 2007, by Bertfried Fauser & Rafal
+ Ablamowicz, all rights reserved.\nLast modified: December 17, 2007/BF
+/RA" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" 
+}}}{MARK "0 0 1" 87 }{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 
+1 2 33 1 1 }

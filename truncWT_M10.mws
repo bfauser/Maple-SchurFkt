@@ -1,0 +1,58 @@
+{VERSION 6 0 "IBM INTEL NT" "6.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "Hyperlink" -1 17 "" 0 1 0 128 128 1 0 0 1 0 0 0 0 0 0 
+1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 256 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+257 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 258 "" 1 14 0 
+0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 0 2 0 0 0 
+0 0 0 0 1 }{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Text Outp
+ut" -1 2 1 {CSTYLE "" -1 -1 "Courier" 1 10 0 0 255 1 0 0 0 0 0 1 3 0 
+3 1 }1 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Heading 1" 0 3 1 
+{CSTYLE "" -1 -1 "" 1 18 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }1 0 0 0 6 6 0 0 
+0 0 0 0 -1 0 }{PSTYLE "Heading 2" 3 4 1 {CSTYLE "" -1 -1 "" 1 14 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 }0 0 0 -1 4 4 0 0 0 0 0 0 -1 0 }{PSTYLE "" 2 
+6 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 2 0 0 1 }0 0 0 -1 -1 
+-1 0 0 0 0 0 0 -1 0 }{PSTYLE "Maple Output" 0 11 1 {CSTYLE "" -1 -1 "
+" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }3 3 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "Bullet Item" 0 15 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 }0 0 0 -1 3 3 0 0 0 0 0 0 15 2 }}
+{SECT 0 {SECT 0 {PARA 4 "" 0 "" {TEXT -1 10 "Function: " }{TEXT 256 
+72 "SchurFkt[truncWT] - truncates an Schur function expression by its \+
+weight" }}{PARA 4 "" 0 "" {TEXT -1 17 "Calling Sequence:" }}{PARA 4 "
+" 0 "" {TEXT 257 29 "prsfkt := truncWT(sfkt,N)  \n\n" }{TEXT -1 11 "Pa
+rameters:" }}{PARA 15 "" 0 "" {TEXT -1 54 "sfkt    :  Schur function\n
+N       :  integer (weight) " }}{PARA 4 "" 0 "" {TEXT -1 7 "Output:" }
+}{PARA 15 "" 0 "" {TEXT -1 85 "prsfkt  :  pruned Schur function where \+
+all terms of weight greater than N are missing" }}{PARA 4 "" 0 "" 
+{TEXT -1 8 "WARNING:" }}{PARA 0 "" 0 "" {TEXT -1 8 "--none--" }}}
+{SECT 0 {PARA 4 "" 0 "" {TEXT -1 12 "Description:" }}{PARA 15 "" 0 "" 
+{TEXT 259 163 "truncWT just deletes terms of weight greater than N in \+
+an expression. This function is used when one computes modulo weight f
+or example with Schur function series." }}}{SECT 0 {PARA 4 "" 0 "" 
+{TEXT -1 9 "Examples:" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "res
+tart:with(SchurFkt):" }}{PARA 6 "" 1 "" {TEXT -1 52 "SchurFkt Version \+
+1.0.1 (17 xii 2007) at your service" }}{PARA 6 "" 1 "" {TEXT -1 58 "(c
+) 2003-2007 BF&RA, no warranty, no fitness for anything!" }}{PARA 6 "
+" 1 "" {TEXT -1 83 "Increase verbosity by infolevel[`function`]=val --
+ use online help > ?Bigebra[help]" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 65 "truncWT(s[4]+s[5],5);\ntruncWT(s[4]+s[5],4);\ntruncWT
+(s[4]+s[5],3);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&&%\"sG6#\"\"%\"\"
+\"&F%6#\"\"&F(" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#&%\"sG6#\"\"%" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"!" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 18 "truncWT(s[3,2],4);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6
+#\"\"!" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 15 "Critical cases:" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 54 "truncWT(s[2,1],0);\ntruncWT(
+s[0]+s[3],0);\ntruncWT(0,4);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"!
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#&%\"sG6#\"\"!" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"\"!" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}
+}}{SECT 0 {PARA 4 "" 0 "" {TEXT -1 15 "Algorithm used:" }}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 34 "We just delete the unwanted terms." }}}}
+{SECT 0 {PARA 0 "" 0 "" {TEXT 258 10 "See Also: " }{HYPERLNK 17 "Schur
+Fkt[Overview]" 2 "SchurFkt,Overview" "" }}{PARA 0 "" 0 "" {TEXT -1 
+141 "\n(c) Copyright June 2003 - December 2007, by Bertfried Fauser & \+
+Rafal Ablamowicz, all rights reserved.\nLast modified: December 17, 20
+07/BF/RA" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}}{MARK "3 0 0" 1 }{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }
+{PAGENUMBERS 0 1 2 33 1 1 }

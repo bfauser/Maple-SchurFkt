@@ -1,0 +1,96 @@
+{VERSION 6 0 "IBM INTEL NT" "6.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "Hyperlink" -1 17 "" 0 1 0 128 128 1 0 0 1 0 0 0 0 0 0 
+1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 256 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+257 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 258 "" 1 14 0 
+0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 0 2 0 0 0 
+0 0 0 0 1 }{CSTYLE "" -1 260 "" 0 8 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Text Output" -1 2 1 
+{CSTYLE "" -1 -1 "Courier" 1 10 0 0 255 1 0 0 0 0 0 1 3 0 3 1 }1 0 0 
+-1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Heading 1" 0 3 1 {CSTYLE "" -1 -1 
+"" 1 18 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }1 0 0 0 6 6 0 0 0 0 0 0 -1 0 }
+{PSTYLE "Heading 2" 3 4 1 {CSTYLE "" -1 -1 "" 1 14 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 }0 0 0 -1 4 4 0 0 0 0 0 0 -1 0 }{PSTYLE "" 2 6 1 {CSTYLE "" 
+-1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 2 0 0 1 }0 0 0 -1 -1 -1 0 0 0 0 0 0 
+-1 0 }{PSTYLE "Maple Output" 0 11 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 }3 3 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Bullet It
+em" 0 15 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }0 0 0 
+-1 3 3 0 0 0 0 0 0 15 2 }}
+{SECT 0 {SECT 0 {PARA 4 "" 0 "" {TEXT -1 10 "Function: " }{TEXT 256 
+101 "SchurFkt[grAlexComp] - compares two compositions/partitions w.r.t
+. graded anti-lexicographic ordering" }}{PARA 4 "" 0 "" {TEXT -1 17 "C
+alling Sequence:" }}{PARA 4 "" 0 "" {TEXT 257 26 "b := grAlexComp(c1,c
+2)  \n\n" }{TEXT -1 11 "Parameters:" }}{PARA 15 "" 0 "" {TEXT -1 41 "c
+1,c2     :  compositions (or partitions)" }}{PARA 4 "" 0 "" {TEXT -1 
+7 "Output:" }}{PARA 15 "" 0 "" {TEXT -1 34 "b   : boolean value (true \+
+/ false)" }}{PARA 4 "" 0 "" {TEXT -1 8 "WARNING:" }}{PARA 0 "" 0 "" 
+{TEXT -1 105 "Note that Maple uses in its combinatorial packages lexic
+ographical order of partitions and compositions.\n" }}}{SECT 0 {PARA 
+4 "" 0 "" {TEXT -1 12 "Description:" }}{PARA 15 "" 0 "" {TEXT 259 240 
+"grAlexComp allows to order compositions and partitions in graded anti
+-lexicographic order. Graded anti-lexicographic order may display some
+ gradings in the Laplace pairing for the Rota-Stein cliffordizations o
+f monomial symmetric functions." }}}{SECT 0 {PARA 4 "" 0 "" {TEXT -1 
+9 "Examples:" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "restart:with
+(SchurFkt):" }}{PARA 6 "" 1 "" {TEXT -1 52 "SchurFkt Version 1.0.1 (17
+ xii 2007) at your service" }}{PARA 6 "" 1 "" {TEXT -1 58 "(c) 2003-20
+07 BF&RA, no warranty, no fitness for anything!" }}{PARA 6 "" 1 "" 
+{TEXT -1 83 "Increase verbosity by infolevel[`function`]=val -- use on
+line help > ?Bigebra[help]" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 51 "Com
+pare AlexComp and grAlexComp for special values:" }}}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 111 "AlexComp([3,2],[2,1]);\ngrAlexComp([3,2],[2,
+1]);\nAlexComp([2,2,1,0],[3,0,2,0]);\ngrAlexComp([2,2,1,0],[3,0,2,0]);
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%%trueG" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%%trueG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 59 "Using AlexComp and grAlexComp to sort a list of partition
+s:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 81 "prt:=[ [3,2],[6],[5,1
+],[1,1,1,1,1,1] ];\nsort(prt,AlexComp);\nsort(prt,grAlexComp);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%$prtG7&7$\"\"$\"\"#7#\"\"'7$\"\"&\"
+\"\"7(F-F-F-F-F-F-" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#7&7#\"\"'7$\"\"&
+\"\"\"7$\"\"$\"\"#7(F(F(F(F(F(F(" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#7&
+7#\"\"'7$\"\"&\"\"\"7$\"\"$\"\"#7(F(F(F(F(F(F(" }}}{EXCHG {PARA 0 "" 
+0 "" {TEXT -1 52 "Maple's combinat package produces lex ordered lists.
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 43 "combinat[partition](3);
+\nsort(%,grAlexComp);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#7%7%\"\"\"F%F
+%7$F%\"\"#7#\"\"$" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#7%7#\"\"$7$\"\"\"
+\"\"#7%F'F'F'" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 113 "Note that CompN
+M and PartNM functions produce lists of compositions and partitions in
+ anti-lexicographical order." }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 35 "prt:=PartNM(3,3);\ncmp:=CompNM(2,5);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%$prtG7%7#\"\"$7$\"\"#\"\"\"7%F*F*F*" }}{PARA 11 "" 1 
+"" {XPPMATH 20 "6#>%$cmpG717'\"\"#\"\"!F(F(F(7'\"\"\"F*F(F(F(7'F*F(F*F
+(F(7'F*F(F(F*F(7'F*F(F(F(F*7'F(F'F(F(F(7'F(F*F*F(F(7'F(F*F(F*F(7'F(F*F
+(F(F*7'F(F(F'F(F(7'F(F(F*F*F(7'F(F(F*F(F*7'F(F(F(F'F(7'F(F(F(F*F*7'F(F
+(F(F(F'" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 61 "Sorting in anti lex or
+der can be accomplished by using 'not':" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 61 "prt;\nsort(prt,not grAlexComp);\ncmp;\nsort(cmp,not g
+rAlexComp);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#7%7#\"\"$7$\"\"#\"\"\"7
+%F(F(F(" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#7%7%\"\"\"F%F%7$\"\"#F%7#\"
+\"$" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#717'\"\"#\"\"!F&F&F&7'\"\"\"F(F
+&F&F&7'F(F&F(F&F&7'F(F&F&F(F&7'F(F&F&F&F(7'F&F%F&F&F&7'F&F(F(F&F&7'F&F
+(F&F(F&7'F&F(F&F&F(7'F&F&F%F&F&7'F&F&F(F(F&7'F&F&F(F&F(7'F&F&F&F%F&7'F
+&F&F&F(F(7'F&F&F&F&F%" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#717'\"\"!F%F%
+F%\"\"#7'F%F%F%\"\"\"F(7'F%F%F%F&F%7'F%F%F(F%F(7'F%F%F(F(F%7'F%F%F&F%F
+%7'F%F(F%F%F(7'F%F(F%F(F%7'F%F(F(F%F%7'F%F&F%F%F%7'F(F%F%F%F(7'F(F%F%F
+(F%7'F(F%F(F%F%7'F(F(F%F%F%7'F&F%F%F%F%" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 102 "AlexComp can handle lists with different length, if nece
+ssary trailing zeros are appended internally: " }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 49 "AlexComp([2],[3,2,1,2]);\nAlexComp([4],[1,1,1,
+1]);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%%trueG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" 
+}}}}{SECT 0 {PARA 4 "" 0 "" {TEXT -1 9 "Algorithm" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 24 "Not available (obvious).
+" }}}{SECT 0 {PARA 0 "" 0 "" {TEXT 258 10 "See Also: " }{HYPERLNK 17 "
+SchurFkt[Overview]" 2 "SchurFkt,Overview" "" }{TEXT 260 2 ", " }
+{HYPERLNK 17 "SchurFkt[PartNM]" 2 "SchurFkt,PartNM" "" }{TEXT -1 2 ", \+
+" }{HYPERLNK 17 "SchurFkt[CompNM]" 2 "SchurFkt,CompNM" "" }{TEXT -1 2 
+", " }{HYPERLNK 17 "SchurFkt[AlexComp]" 2 "SchurFkt,AlexComp" "" }
+{TEXT -1 1 " " }}{PARA 0 "" 0 "" {TEXT -1 141 "\n(c) Copyright June 20
+03 - December 2007, by Bertfried Fauser & Rafal Ablamowicz, all rights
+ reserved.\nLast modified: December 17, 2007/BF/RA" }}}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{MARK "4 0 1" 13 }
+{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

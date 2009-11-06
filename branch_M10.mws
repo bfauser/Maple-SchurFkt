@@ -1,0 +1,178 @@
+{VERSION 6 0 "IBM INTEL NT" "6.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "Hyperlink" -1 17 "" 0 1 0 128 128 1 0 0 1 0 0 0 0 0 0 
+1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 256 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+257 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 258 "" 1 14 0 
+0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 0 2 0 0 0 
+0 0 0 0 1 }{CSTYLE "" -1 260 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 261 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+262 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 263 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 264 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 265 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 266 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{PSTYLE "Normal
+" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 
+1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Heading 2" -1 4 1 {CSTYLE "" -1 
+-1 "Times" 1 14 0 0 0 1 2 1 2 2 2 2 1 1 1 1 }1 1 0 0 4 4 1 0 1 0 2 2 
+0 1 }{PSTYLE "Text Output" -1 6 1 {CSTYLE "" -1 -1 "Courier" 1 10 0 0 
+255 1 2 2 2 2 2 1 2 1 3 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple
+ Output" -1 11 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 
+1 1 1 }3 3 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Bullet Item" -1 15 1 
+{CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 1 0 0 3 
+3 1 0 1 0 2 2 15 2 }}
+{SECT 0 {SECT 0 {PARA 4 "" 0 "" {TEXT -1 10 "Function: " }{TEXT 256 
+136 "SchurFkt[branch] - branch transforms a symmetric function represe
+nting a group character into S-functions of another group via branchin
+g" }}{PARA 4 "" 0 "" {TEXT -1 17 "Calling Sequence:" }}{PARA 4 "" 0 "
+" {TEXT 257 33 "gr1 := branch(gr0,SeriesName)  \n\n" }{TEXT -1 11 "Par
+ameters:" }}{PARA 15 "" 0 "" {TEXT -1 82 "gr0 , SeriesName :  a symmet
+ric function (Schur function), a name of a recognized " }{HYPERLNK 17 
+"recognized series" 2 "SchurFkt,getSfktSeries" "" }{TEXT -1 20 " of Sc
+hur functions." }}{PARA 4 "" 0 "" {TEXT -1 7 "Output:" }}{PARA 15 "" 
+0 "" {TEXT -1 58 "gr1  : a branched group character (Schur function po
+lynom)" }}{PARA 4 "" 0 "" {TEXT -1 8 "WARNING:" }}{PARA 0 "" 0 "" 
+{TEXT -1 104 "SchurFkt does currently not provide any support for assi
+gning a group to symmetric functions. It is the " }{TEXT 260 20 "users
+ responsibility" }{TEXT -1 73 " to keep track which Schur functions st
+and for which type of characters. " }}}{SECT 0 {PARA 4 "" 0 "" {TEXT 
+-1 12 "Description:" }}{PARA 15 "" 0 "" {TEXT 259 338 "Branching is th
+e process of reduction of characters or subduction of characters. A pr
+ominent example is the branching of GL(n) characters into O(n) or Sp(n
+) characters. In Littlewood notation s_\\lambda in GL equals \{\\lambd
+a\}, in O equals [\\lambda], and in Sp equals <\\lambda>. Branch compu
+tes the transition from one picture into another." }}{PARA 15 "" 0 "" 
+{TEXT -1 317 "Branch can be used to define in a crude way the Glabsch-
+Gordan decomposition of a tensor product in subgroups, see BF,P. Jarvi
+s, R.C. King and B.G. Wybourne, \"New branching rules induced by pleth
+ysm\", J. Phys. A: Math. Gen. 39, 2006:2611-2655, arXivmathph/0505037,
+ where this problem is solved in a general setting.  " }}}{SECT 0 
+{PARA 4 "" 0 "" {TEXT -1 9 "Examples:" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 23 "restart:with(SchurFkt):" }}{PARA 6 "" 1 "" {TEXT -1 
+52 "SchurFkt Version 1.0.1 (17 xii 2007) at your service" }}{PARA 6 "
+" 1 "" {TEXT -1 58 "(c) 2003-2007 BF&RA, no warranty, no fitness for a
+nything!" }}{PARA 6 "" 1 "" {TEXT -1 83 "Increase verbosity by infolev
+el[`function`]=val -- use online help > ?Bigebra[help]" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT 261 8 "Example:" }{TEXT -1 345 " GL(n) -> GL(n-1
+)\n\nThe input Schur functions represent GL(n) characters. A branching
+ wrt to the M-series (complete one part symmetric functions) results i
+n a decomposition of the GL(n) character in terms of GL(n-1) character
+s.\n\nIn a tensor notation this would mean to fix a particular vector \+
+in GL(n) and consider the centralizer of this vector." }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 33 "branch(s[2],M);\nbranch(s[3,1],M);
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,(&%\"sG6#\"\"!\"\"\"&F%6#F(F(&F%6
+#\"\"#F(" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,.&%\"sG6$\"\"$\"\"\"F(&F%
+6#F'F(&F%6$\"\"#F(F(&F%6#F-F(&F%6$F(F(F(&F%6#F(F(" }}}{EXCHG {PARA 0 "
+" 0 "" {TEXT -1 427 "In terms of tableau, the branching by M is equiva
+lent to a skew with a any row on k boxes which fit into the shape.\n\n
+Note that the inverse series to M (in a convolutive sense obtained fro
+m the Hopf algebra induced convolution) is given by the L series (one \+
+part elementary symmetric functions including a sign (-1)^n). Hence th
+e branching wrt to the L series is inverse and induced a GL(n-1) chara
+cter into the GL(n) character." }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 33 "branch(s[2],L);\nbranch(s[3,1],L);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#,&&%\"sG6#\"\"#\"\"\"&F%6#F(!\"\"" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#,*&%\"sG6$\"\"$\"\"\"F(&F%6#F'!\"\"&F%6$\"\"#F(F+&F%6#F
+.F(" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 69 "Note that we pick up signs
+! Schur functions with a negative sign are " }{TEXT 262 18 "virtual ch
+aracters" }{TEXT -1 21 " and have formally a " }{TEXT 263 18 "negative
+ dimension" }{TEXT -1 1 "!" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 
+"" 0 "" {TEXT -1 80 "We show not that reduction followed by induction \+
+is the identity and vice versa." }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 145 "branch(s[5,2],M);  # GL(n)->GL(n-1)\nbranch(%,L);       # GL(
+n-1)->GL(n)\n#\nbranch(s[4,4,1],L);# GL(n-1)->GL(n)\nbranch(%,M);     \+
+  # GL(n)->GL(n-1)" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,:&%\"sG6$\"\"&
+\"\"#\"\"\"&F%6$F'F)F)&F%6$\"\"%F(F)&F%6#F'F)&F%6$F.F)F)&F%6$\"\"$F(F)
+&F%6#F.F)&F%6$F5F)F)&F%6$F(F(F)&F%6#F5F)&F%6$F(F)F)&F%6#F(F)" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#&%\"sG6$\"\"&\"\"#" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#,.&%\"sG6%\"\"%F'\"\"\"F(&F%6$F'F'!\"\"&F%6%F'\"\"$F(F+
+&F%6$F'F.F(&F%6%F.F.F(F(&F%6$F.F.F+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6
+#&%\"sG6%\"\"%F&\"\"\"" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 139 "Using \+
+the A,B series we can branch to symplectic and orthogonal characters. \+
+The C,D series give the branching to the orthogonal characters." }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 93 "branch(s[2],D);  # GL(n)->O(
+n)\nbranch(s[2],C);  # O(n)->GL(n)\n#\nbranch(branch(s[3,2,1],C),D);" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&&%\"sG6#\"\"!\"\"\"&F%6#\"\"#F(" }
+}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&&%\"sG6#\"\"#\"\"\"&F%6#\"\"!!\"\"
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#&%\"sG6%\"\"$\"\"#\"\"\"" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 101 "branch(s[1,1],B);  # GL(n)-
+>Sp(n)\nbranch(s[1,1],A);  # Sp(n)->GL(n)\n#\nbranch(branch(s[4,4,1,1]
+,B),A);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&&%\"sG6#\"\"!\"\"\"&F%6$F
+(F(F(" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&&%\"sG6$\"\"\"F'F'&F%6#\"\"
+!!\"\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#&%\"sG6&\"\"%F&\"\"\"F'" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 484 "In the language of tensors, these
+ reductions have a precise meaning.\n\nO(3):  Consider an stress energ
+y tensor which is a symmetric second rank tensor T_\\mu\\nu. If a syst
+em has an O(3) symmetry, this tensor decomposes into irreducible compo
+nents:\n\n\{2\} ->  [2]+[0]\n\nT_(\\mu\\nu) ->  T^precisenu) + trace(T
+_())g_(\\mu\\nu)\n\nThe symmetric tensor T_(\\mu\\nu) is an irreducibl
+e GL character. T^0 is an trace free tensor and an irreducible O chara
+cter, trace(T) is a trivial (scalar) O character." }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 15 "branch(s[2],D);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#,&&%\"sG6#\"\"!\"\"\"&F%6#\"\"#F(" }}}{EXCHG {PARA 0 "
+" 0 "" {TEXT -1 186 "In general relativity one needs the decomposition
+ of the Weyl tensor/Riemann tensor into its irreducible symmetry compo
+nents:\n\nR^GL_ijkl ->  R_ijkl + R_ij g_kl + perm + R g_ijg_kl + perm
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 84 "where
+ R_ijkl is the Riemann tensor, R_ij is the Ricci tensor, R is the Ricc
+i scalar." }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "branch(s[2,2],
+D);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,(&%\"sG6$\"\"#F'\"\"\"&F%6#F'F
+(&F%6#\"\"!F(" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 264 29 "Glebsch-Gordan \+
+decomposition:" }{TEXT -1 97 "\n\nWe can defined the outer  product fo
+r symplectic and orthogonal character using this branching:" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 120 "outerOgrp:=(x,y)->branch(ou
+ter(branch(x,C),branch(y,C)),D):\nouterSpgrp:=(x,y)->branch(outer(bran
+ch(x,A),branch(y,A)),B):" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 265 5 "Note:
+" }{TEXT -1 46 "  These type of products can be recognized as " }
+{TEXT 266 16 "cliffordizations" }{TEXT -1 393 " and are classified via
+ Hopf algebra cohomology, see BF. P. Jarvis, \"A Hopf laboratory for s
+ymmetric functions\", J. Phys. A: Math. Gen 37(5), 2004:1633-1663.\n\n
+We compute the product of two fundamental representations. Note that t
+he bilinear forms defining O or Sp can be used to form traces and to r
+educe the weight of the character.  In the O case we contract a s[2] i
+n the Sp case an s[1,1]:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 44 
+"outerOgrp(s[1],s[1]);\nouterSpgrp(s[1],s[1]);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#,(&%\"sG6#\"\"!\"\"\"&F%6#\"\"#F(&F%6$F(F(F(" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#,(&%\"sG6#\"\"!\"\"\"&F%6#\"\"#F(&F%6$F(F(F(
+" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 140 "Note that these are the same
+ products. Indeed by accident of the HA deformation we find for Sp and
+ O the same Glebsch-Gordan decomposition. " }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 158 "outerOgrp(s[3],s[2,1]);\nouterSpgrp(s[3],s[2,1]);
+\n#\nouterOgrp(s[2,2],s[2,1]);\nouterSpgrp(s[2,2],s[2,1]);\n#\nouterOg
+rp(s[3,2],s[1,1]);\nouterSpgrp(s[3,2],s[1,1]);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#,6&%\"sG6#\"\"#\"\"\"&F%6$F(F(F(*&F'F(&F%6$\"\"$F(F(F(&
+F%6#\"\"%F(&F%6$F'F'F(&F%6%F'F(F(F(&F%6$\"\"&F(F(&F%6$F1F'F(&F%6%F1F(F
+(F(&F%6%F.F'F(F(" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,6&%\"sG6#\"\"#\"
+\"\"&F%6$F(F(F(*&F'F(&F%6$\"\"$F(F(F(&F%6#\"\"%F(&F%6$F'F'F(&F%6%F'F(F
+(F(&F%6$\"\"&F(F(&F%6$F1F'F(&F%6%F1F(F(F(&F%6%F.F'F(F(" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#,@&%\"sG6#\"\"\"F'&F%6#\"\"$F'*&\"\"#F'&F%6$F,F'F'
+F'&F%6%F'F'F'F'&F%6$\"\"%F*F'&F%6%F3F,F'F'&F%6%F*F*F'F'&F%6%F*F,F,F'&F
+%6&F*F,F'F'F'&F%6&F,F,F,F'F'&F%6$F3F'F'*&F,F'&F%6$F*F,F'F'*&F,F'&F%6%F
+*F'F'F'F'*&F,F'&F%6%F,F,F'F'F'&F%6&F,F'F'F'F'" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#,@&%\"sG6#\"\"\"F'&F%6#\"\"$F'*&\"\"#F'&F%6$F,F'F'F'&F%
+6%F'F'F'F'&F%6$\"\"%F*F'&F%6%F3F,F'F'&F%6%F*F*F'F'&F%6%F*F,F,F'&F%6&F*
+F,F'F'F'&F%6&F,F,F,F'F'&F%6$F3F'F'*&F,F'&F%6$F*F,F'F'*&F,F'&F%6%F*F'F'
+F'F'*&F,F'&F%6%F,F,F'F'F'&F%6&F,F'F'F'F'" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#,4&%\"sG6$\"\"#\"\"\"F(&F%6$\"\"%\"\"$F(&F%6%F+F'F(F(&F%6%F,F,F(
+F(&F%6&F,F'F(F(F(&F%6$F+F(F(*&F'F(&F%6$F,F'F(F(&F%6%F,F(F(F(&F%6%F'F'F
+(F(" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,4&%\"sG6$\"\"#\"\"\"F(&F%6$\"
+\"%\"\"$F(&F%6%F+F'F(F(&F%6%F,F,F(F(&F%6&F,F'F(F(F(&F%6$F+F(F(*&F'F(&F
+%6$F,F'F(F(&F%6%F,F(F(F(&F%6%F'F'F(F(" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}}{SECT 0 {PARA 4 "" 0 "" {TEXT -1 15 "Algorithm u
+sed:" }}{EXCHG {PARA 0 "" 0 "" {TEXT -1 42 "Branch uses two ingredient
+s. The function " }{HYPERLNK 17 "getSfktSeries" 2 "SchurFkt,getSfktSer
+ies" "" }{TEXT -1 123 "  and the outer coproduct of Schur functions. C
+onsider\n\n(1)       branch(sfkt , X) =  \\sum_(x\\in X) < x | sfkt(1)
+>  sfkt(2)" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 262 "we firstly decompose the character sfkt into two parts (tensor
+) using the outer coproduct. the we act with the linear form attached \+
+to the series X obtained by acting with the elements x in the series v
+ia the Schur-Hall scalar product.\n\nbranch does exactly this." }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}}}{SECT 0 {PARA 0 "" 0 "" 
+{TEXT 258 10 "See Also: " }{HYPERLNK 17 "SchurFkt[getSfktSeries]" 2 "S
+churFkt,getSfktSeries" "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 140 "(c) Copyright June 2003 - December 2007, by Bertf
+ried Fauser & Rafal Ablamowicz, all rights reserved.\nLast modified: D
+ecember 17, 2007/BF/RA" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}}{MARK "3 0 0" 1 }{VIEWOPTS 1 1 0 1 1 1803 1 1 1 
+1 }{PAGENUMBERS 0 1 2 33 1 1 }

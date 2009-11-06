@@ -1,0 +1,194 @@
+{VERSION 6 0 "Linux" "6.0" }
+{USTYLETAB {PSTYLE "Ordered List 1" -1 200 1 {CSTYLE "" -1 -1 "Times"
+ 1 12 0 0 0 1 2 2 2 2 2 2 1 0 0 1 }1 1 0 0 3 3 2 0 2 0 2 2 -1 1 }
+{PSTYLE "Ordered List 2" -1 201 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 
+1 2 2 2 2 2 2 1 0 0 1 }1 1 0 0 3 3 2 36 2 0 2 2 -1 1 }{PSTYLE "Ordered
+ List 3" -1 202 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 
+0 0 1 }1 1 0 0 3 3 2 72 2 0 2 2 -1 1 }{PSTYLE "Ordered List 4" -1 203 
+1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 0 0 1 }1 1 0 0 3
+ 3 2 108 2 0 2 2 -1 1 }{PSTYLE "Ordered List 5" -1 204 1 {CSTYLE "" -1
+ -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 0 0 1 }1 1 0 0 3 3 2 144 2 0 2 
+2 -1 1 }{PSTYLE "Author" -1 19 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1
+ 2 2 2 2 2 2 1 0 0 1 }3 1 0 0 8 8 2 0 2 0 2 2 -1 1 }{PSTYLE "Warning" 
+-1 7 1 {CSTYLE "" -1 -1 "Courier" 1 10 0 0 255 1 2 2 2 2 2 1 1 0 0 1 }
+1 1 0 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "Annotation Title" -1 205 1 
+{CSTYLE "" -1 -1 "Times" 1 18 0 0 0 1 2 1 2 2 2 2 1 0 0 1 }3 1 0 0 12 
+12 2 0 2 0 2 2 -1 1 }{PSTYLE "Fixed Width" -1 17 1 {CSTYLE "" -1 -1 "C
+ourier" 1 10 0 0 0 1 2 2 2 2 2 2 1 0 0 1 }3 1 0 0 0 0 2 0 2 0 2 2 -1 1
+ }{PSTYLE "Maple Plot" -1 13 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2
+ 2 2 2 2 2 1 0 0 1 }3 1 0 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "Line Printe
+d Output" -1 6 1 {CSTYLE "" -1 -1 "Courier" 1 10 0 0 255 1 2 2 2 2 2 1
+ 1 0 0 1 }1 1 0 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "Help" -1 10 1 {CSTYLE
+ "" -1 -1 "Courier" 1 9 0 0 255 1 2 2 2 2 2 1 1 0 0 1 }1 1 0 0 0 0 2 0
+ 2 0 2 2 -1 1 }{PSTYLE "Text Output" -1 2 1 {CSTYLE "" -1 -1 "Courier"
+ 1 10 0 0 255 1 2 2 2 2 2 1 1 0 0 1 }1 1 0 0 0 0 2 0 2 0 2 2 -1 1 }
+{PSTYLE "Diagnostic" -1 9 1 {CSTYLE "" -1 -1 "Courier" 1 10 64 128 64 
+1 2 2 2 2 2 1 1 0 0 1 }1 1 0 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "Normal" 
+-1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 0 0 1 }1 1 
+0 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "Maple Output" -1 11 1 {CSTYLE "" -1
+ -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 0 0 1 }3 1 0 0 0 0 2 0 2 0 2 2 
+-1 1 }{PSTYLE "Dash Item" -1 16 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 
+1 2 2 2 2 2 2 1 0 0 1 }1 1 0 0 3 3 2 0 2 0 2 2 -1 1 }{PSTYLE "Hyperlin
+kError" -1 206 1 {CSTYLE "" -1 -1 "Courier" 1 12 255 0 255 1 2 2 1 2 2
+ 1 1 0 0 1 }1 1 0 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "Error" -1 8 1 
+{CSTYLE "" -1 -1 "Courier" 1 10 255 0 255 1 2 2 2 2 2 1 1 0 0 1 }1 1 0
+ 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "Title" -1 18 1 {CSTYLE "" -1 -1 "Tim
+es" 1 18 0 0 0 1 2 1 1 2 2 2 1 0 0 1 }3 1 0 0 12 12 2 0 2 0 2 2 -1 1 }
+{PSTYLE "Heading 1" -1 3 1 {CSTYLE "" -1 -1 "Times" 1 18 0 0 0 1 2 1 2
+ 2 2 2 1 0 0 1 }1 1 0 0 6 6 2 0 2 0 2 2 -1 1 }{PSTYLE "Bullet Item" -1
+ 15 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 0 0 1 }1 1 0
+ 0 3 3 2 0 2 0 2 2 -1 1 }{PSTYLE "Heading 4" -1 20 1 {CSTYLE "" -1 -1 
+"Times" 1 10 0 0 0 1 1 1 2 2 2 2 1 0 0 1 }1 1 0 0 0 0 2 0 2 0 2 2 -1 1
+ }{PSTYLE "Heading 3" -1 5 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 1 1
+ 2 2 2 2 1 0 0 1 }1 1 0 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "Heading 2" -1
+ 4 1 {CSTYLE "" -1 -1 "Times" 1 14 0 0 0 1 2 1 2 2 2 2 1 0 0 1 }1 1 0 
+0 4 4 2 0 2 0 2 2 -1 1 }{PSTYLE "HyperlinkWarning" -1 207 1 {CSTYLE ""
+ -1 -1 "Courier" 1 12 0 0 255 1 2 2 1 2 2 1 1 0 0 1 }1 1 0 0 0 0 2 0 2
+ 0 2 2 -1 1 }{PSTYLE "Left Justified Maple Output" -1 12 1 {CSTYLE "" 
+-1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 0 0 1 }1 1 0 0 0 0 2 0 2 0 2 
+2 -1 1 }{PSTYLE "List Item" -1 14 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 
+0 1 2 2 2 2 2 2 1 0 0 1 }1 1 0 0 3 3 2 0 2 0 2 2 -1 1 }{CSTYLE "Annota
+tion Text" -1 200 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 0 0 0 1 }{CSTYLE "H
+elp Maple Name" -1 35 "Times" 1 12 104 64 92 1 2 1 2 2 2 2 0 0 0 1 }
+{CSTYLE "2D Math Bold" -1 5 "Times" 1 12 0 0 0 1 2 1 2 2 2 2 0 0 0 1 }
+{CSTYLE "Help Menus" -1 36 "Times" 1 12 0 0 0 1 2 1 2 2 2 2 0 0 0 1 }
+{CSTYLE "2D Math Italic" -1 3 "Times" 1 12 0 0 0 1 1 2 2 2 2 2 0 0 0 1
+ }{CSTYLE "Help Normal" -1 30 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 0 0 0 1
+ }{CSTYLE "Plot Text" -1 28 "Times" 1 8 0 0 0 1 2 2 2 2 2 2 0 0 0 1 }
+{CSTYLE "Help Nonterminal" -1 24 "Courier" 1 12 0 0 0 1 2 1 2 2 2 2 0 
+0 0 1 }{CSTYLE "Help Heading" -1 26 "Times" 1 14 0 0 0 1 2 1 2 2 2 2 0
+ 0 0 1 }{CSTYLE "Help Italic" -1 42 "Times" 1 12 0 0 0 1 1 2 2 2 2 2 0
+ 0 0 1 }{CSTYLE "Help Variable" -1 25 "Courier" 1 12 0 0 0 1 2 2 2 2 2
+ 2 0 0 0 1 }{CSTYLE "Help Italic Bold" -1 40 "Times" 1 12 0 0 0 1 1 2 
+2 2 2 2 0 0 0 1 }{CSTYLE "Default" -1 38 "Times" 1 12 0 0 0 1 2 2 2 2 
+2 2 0 0 0 1 }{CSTYLE "Help Underlined Italic" -1 43 "Times" 1 12 0 0 0
+ 1 1 2 1 2 2 2 0 0 0 1 }{CSTYLE "Maple Input" -1 0 "Courier" 1 12 255 
+0 0 1 2 1 2 2 1 2 0 0 0 1 }{CSTYLE "2D Output" -1 20 "Times" 1 12 0 0 
+255 1 2 2 2 2 2 2 0 0 0 1 }{CSTYLE "2D Math Bold Small" -1 10 "Times" 
+1 1 0 0 0 1 2 1 2 2 2 2 0 0 0 1 }{CSTYLE "2D Math Small" -1 7 "Times" 
+1 1 0 0 0 1 2 2 2 2 2 2 0 0 0 1 }{CSTYLE "Page Number" -1 33 "Times" 1
+ 12 0 0 0 1 2 2 2 2 2 2 0 0 0 1 }{CSTYLE "Output Labels" -1 29 "Times"
+ 1 8 0 0 0 1 2 2 2 2 2 2 0 0 0 1 }{CSTYLE "Plot Title" -1 27 "Times" 1
+ 10 0 0 0 1 2 1 2 2 2 2 0 0 0 1 }{CSTYLE "Help Emphasized" -1 22 "Time
+s" 1 12 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE "2D Math Symbol 2" -1 16 
+"Times" 1 12 0 0 0 1 2 2 2 2 2 2 0 0 0 1 }{CSTYLE "Maple Comment" -1 
+21 "Courier" 1 12 0 0 0 1 2 1 2 2 2 2 0 0 0 1 }{CSTYLE "Maple Input Pl
+aceholder" -1 201 "Courier" 1 12 200 0 200 1 2 1 2 2 1 2 0 0 0 1 }
+{CSTYLE "Code" -1 202 "Courier" 1 12 255 0 0 1 2 2 2 2 2 2 0 0 0 1 }
+{CSTYLE "2D Inert Output" -1 203 "Times" 1 12 144 144 144 1 2 2 2 2 1 
+2 0 0 0 1 }{CSTYLE "2D Math Italic Small" -1 204 "Times" 1 1 0 0 0 1 1
+ 2 2 2 2 2 0 0 0 1 }{CSTYLE "2D Comment" -1 18 "Times" 1 12 0 0 0 1 2 
+2 2 2 2 2 0 0 0 1 }{CSTYLE "Help Underlined Bold" -1 41 "Times" 1 12 0
+ 0 0 1 1 1 2 2 2 2 0 0 0 1 }{CSTYLE "Copyright" -1 34 "Times" 1 10 0 0
+ 0 1 2 2 2 2 2 2 0 0 0 1 }{CSTYLE "Hyperlink" -1 17 "Times" 1 12 0 128
+ 128 1 2 2 1 2 2 2 0 0 0 1 }{CSTYLE "Help Underlined" -1 44 "Times" 1 
+12 0 0 0 1 2 2 1 2 2 2 0 0 0 1 }{CSTYLE "Prompt" -1 1 "Courier" 1 12 0
+ 0 0 1 2 1 2 2 2 2 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 1 12 0 0 0 
+1 2 2 2 2 2 2 0 0 0 1 }{CSTYLE "2D Input" -1 19 "Times" 1 12 255 0 0 1
+ 2 2 2 2 1 2 0 0 0 1 }{CSTYLE "Header and Footer" -1 205 "Times" 1 10 
+0 0 0 1 2 2 2 2 2 2 0 0 0 1 }{CSTYLE "Text" -1 206 "Times" 1 12 0 0 0 
+1 2 2 2 2 2 2 0 0 0 1 }{CSTYLE "Help Notes" -1 37 "Times" 1 12 0 0 0 1
+ 2 1 2 2 2 2 0 0 0 1 }{CSTYLE "Help Bold" -1 39 "Times" 1 12 0 0 0 1 2
+ 1 2 2 2 2 0 0 0 1 }{CSTYLE "Equation Label" -1 207 "Times" 1 12 0 0 0
+ 1 2 1 2 2 2 2 0 0 0 1 }{CSTYLE "LaTeX" -1 32 "Times" 1 12 0 0 0 1 2 2
+ 2 2 2 2 0 0 0 1 }{CSTYLE "Popup" -1 31 "Times" 1 12 0 128 128 1 1 2 1
+ 2 2 2 0 0 0 1 }{CSTYLE "Dictionary Hyperlink" -1 45 "Times" 1 12 147 
+0 15 1 2 2 1 2 2 2 0 0 0 1 }{CSTYLE "Help Fixed" -1 23 "Courier" 1 10 
+0 0 0 1 2 2 2 2 2 2 0 0 0 1 }{CSTYLE "" -1 208 "Times" 1 12 0 0 0 1 2 
+2 2 2 2 2 0 0 0 1 }{CSTYLE "" -1 209 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 
+0 0 0 1 }{CSTYLE "" -1 210 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 0 0 0 1 }
+{CSTYLE "" -1 211 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 0 0 0 1 }{CSTYLE ""
+ -1 212 "Times" 1 14 0 0 0 1 2 1 2 2 2 2 0 0 0 1 }}
+{SECT 0 {SECT 0 {PARA 4 "" 0 "" {TEXT 213 10 "Function: " }{TEXT 206 
+52 "SchurFkt[skew] - (outer) skew of two Schur functions" }}{PARA 4 ""
+ 0 "" {TEXT 213 17 "Calling Sequence:" }}{PARA 4 "" 0 "" {TEXT 206 28 
+"sfkt := skew(sfkt1,sfkt2)  \n" }{TEXT 206 1 "\n" }{TEXT 213 11 "Param
+eters:" }{TEXT 206 0 "" }}{PARA 15 "" 0 "" {TEXT 214 28 "sfkti    :  S
+chur functions " }}{PARA 4 "" 0 "" {TEXT 213 7 "Output:" }}{PARA 15 ""
+ 0 "" {TEXT 214 23 "sfkt  :  Schur function" }}{PARA 4 "" 0 "" {TEXT 
+213 8 "WARNING:" }}{PARA 0 "" 0 "" {TEXT 215 8 "--none--" }}}{SECT 0 
+{PARA 4 "" 0 "" {TEXT 213 12 "Description:" }}{PARA 15 "" 0 "" {TEXT 
+206 211 "The skew of two Schur functions is given as the Young diagram
+ where from a larger partition \\lambda a smaller partition (fitting g
+raphically into \\lambda) is removed. The removed partition is top-lef
+t adjusted:\n" }{TEXT 206 1 "\n" }{TEXT 208 35 "   1 1 1              \+
+         1 1\n" }{TEXT 209 33 "   2 2    skewed by 1   =>   2 2\n" }
+{TEXT 210 33 "   3                         3  \n" }{TEXT 211 1 "\n" }
+{TEXT 206 1 "\n" }{TEXT 206 232 "such skewed diagrams lead to Schur fu
+nctions described by these skew diagrams. There exists an expansion of
+ such skew diagrams into the Schur ufnction basis (indexed by ordinary
+ diagrams). The procedure skew performs this expansion." }}{PARA 15 ""
+ 0 "" {TEXT 214 131 "The skew operation (denoted by '/' ) can be recog
+nized as the adjoint of outer multiplication w.r.t the Schur-Hall scal
+ar product.\n" }{TEXT 214 1 "\n" }{TEXT 214 104 "(1)       < s_\\lambd
+a \\ s_\\mu s_\\nu >  = < s_\\lambda / s_\\mu |  s_\\nu >  = < s_\\mu^
+* s_\\lambda | s_\\nu>\n" }{TEXT 214 1 "\n" }{TEXT 214 78 "where D_\\m
+ u= s_\\mu^* is the adjoint operator M_\\mu of multiplying with s_\\mu
+." }}{PARA 15 "" 0 "" {TEXT 214 345 "One can show that D_\\mu is a der
+ivation called the Foulkes derivative. This derivation property is a c
+onsequence of the Laplace pairing property of the scalar product with \+
+respect to the outer product and coproduct. This fact is deeply rooted
+ in invariant theory, see Richard Kane \"Invariant Theory and Pseudo R
+eflection Groups\", Springer NNNN. " }}{PARA 15 "" 0 "" {TEXT 214 142 
+"A major application of the skew comes from the fact that group branch
+ings are obtained by skewing with respect to a series of Schur functio
+ns." }}}{SECT 0 {PARA 4 "" 0 "" {TEXT 213 9 "Examples:" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "restart:with(SchurFkt):" }}{PARA 6 
+"" 1 "" {TEXT 216 41 "SchurFkt Version 1.0.4 says 'Good bye...'" }}
+{PARA 6 "" 1 "" {TEXT 216 50 "SchurFkt Version 1.0.4 (2 xi 2009) at yo
+ur service" }}{PARA 6 "" 1 "" {TEXT 216 58 "(c) 2003-2009 BF&RA, no wa
+rranty, no fitness for anything!" }{TEXT 216 84 "\nIncrease verbosity \+
+by infolevel[`function`]=val -- use online help > ?Bigebra[help]" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 38 "skew(s[3,2,1],s[1]);  # abov
+e example\n" }{MPLTEXT 1 0 54 "skew(s[4,4],s[5]);    # s[5] does not f
+it into s[4,4] " }}{PARA 11 "" 1 "" {XPPMATH 20 ",(&I\"sG%*protectedG6
+%\"\"#F'\"\"\"F(&F$6$\"\"$F'F(&F$6%F+F(F(F(" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "\"\"!" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 28 "skew(
+2*s[2]+3*s[1,1],s[1]);\n" }{MPLTEXT 1 0 25 "skew(s[4,4],s[2]+s[1,1]);"
+ }}{PARA 11 "" 1 "" {XPPMATH 20 ",$&I\"sG%*protectedG6#\"\"\"\"\"&" }}
+{PARA 11 "" 1 "" {XPPMATH 20 ",&&I\"sG%*protectedG6$\"\"%\"\"#\"\"\"&F
+$6$\"\"$F,F)" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 26 "M4:=getSfkt
+Series(M,4,1);\n" }{MPLTEXT 1 0 15 "skew(s[4],M4);\n" }{MPLTEXT 1 0 
+17 "skew(s[3,3],M4);\n" }{MPLTEXT 1 0 18 "skew(s[3,2,1],M4);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 ",,&I\"sG%*protectedG6#\"\"!\"\"\"&F$6#F(F(&F$6
+#\"\"#F(&F$6#\"\"$F(&F$6#\"\"%F(" }}{PARA 11 "" 1 "" {XPPMATH 20 ",,&I
+\"sG%*protectedG6#\"\"!\"\"\"&F$6#F(F(&F$6#\"\"#F(&F$6#\"\"$F(&F$6#\"
+\"%F(" }}{PARA 11 "" 1 "" {XPPMATH 20 ",*&I\"sG%*protectedG6$\"\"$F'\"
+\"\"&F$6$F'\"\"#F(&F$6$F'F(F(&F$6#F'F(" }}{PARA 11 "" 1 "" {XPPMATH 20
+ ",2&I\"sG%*protectedG6%\"\"$\"\"#\"\"\"F)&F$6%F(F(F)F)&F$6$F'F(F)&F$6
+%F'F)F)F)&F$6$F'F)F)&F$6$F(F(F)&F$6%F(F)F)F)&F$6$F(F)F)" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 26 "L4:=getSfktSeries(L,4,1);\n" }
+{MPLTEXT 1 0 60 "truncWT(outer(M4,L4),4);  # mutually inverse (up to o
+rder 4)" }}{PARA 11 "" 1 "" {XPPMATH 20 ",,&I\"sG%*protectedG6#\"\"!\"
+\"\"&F$6#F(!\"\"&F$6$F(F(F(&F$6%F(F(F(F+&F$6&F(F(F(F(F(" }}{PARA 11 ""
+ 1 "" {XPPMATH 20 "&I\"sG%*protectedG6#\"\"!" }}}{EXCHG {PARA 0 "> " 0
+ "" {MPLTEXT 1 0 19 "skew(s[3,2,1],M4);\n" }{MPLTEXT 1 0 11 "skew(%,L4
+);" }}{PARA 11 "" 1 "" {XPPMATH 20 ",2&I\"sG%*protectedG6%\"\"$\"\"#\"
+\"\"F)&F$6%F(F(F)F)&F$6$F'F(F)&F$6%F'F)F)F)&F$6$F'F)F)&F$6$F(F(F)&F$6%
+F(F)F)F)&F$6$F(F)F)" }}{PARA 11 "" 1 "" {XPPMATH 20 "&I\"sG%*protected
+G6%\"\"$\"\"#\"\"\"" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 215 54 "This esta
+blished the fact that A /( B.C) =  ((A/B) /C)" }}}{EXCHG {PARA 0 "" 0 
+"" {TEXT 215 15 "Critical tests:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT
+ 1 0 16 "skew(0,s[3,2]);\n" }{MPLTEXT 1 0 16 "skew(s[3,2],0);\n" }
+{MPLTEXT 1 0 10 "skew(0,0);" }}{PARA 11 "" 1 "" {XPPMATH 20 "\"\"!" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "&I\"sG%*protectedG6#\"\"#" }}{PARA 11 ""
+ 1 "" {XPPMATH 20 "&I\"sG%*protectedG6#\"\"!" }}}{EXCHG {PARA 0 "> " 0
+ "" {MPLTEXT 1 0 19 "skew(s[3,2],s[0]);\n" }{MPLTEXT 1 0 73 "skew(s[3,
+2,1],s[]);  # should not occure as input, is interpreted as s[0]" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "&I\"sG%*protectedG6$\"\"$\"\"#" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "&I\"sG%*protectedG6%\"\"$\"\"#\"\"\"" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{SECT 0 {PARA 4 "" 0 ""
+ {TEXT 213 15 "Algorithm used:" }}{EXCHG {PARA 0 "" 0 "" {TEXT 215 
+108 "The skew is implemented as a direct consequence of formula (1) us
+ing the Littlewood-Richardson coefficients." }}}{EXCHG {PARA 0 "" 0 ""
+ {TEXT 215 0 "" }}}}{SECT 0 {PARA 0 "" 0 "" {TEXT 212 10 "See Also: " 
+}{HYPERLNK 17 "SchurFkt[outer]" 2 "SchurFkt,outer" "" }{TEXT 215 2 ", 
+" }{HYPERLNK 17 "SchurFkt[couter]" 2 "SchurFkt,couter" "" }{TEXT 215 
+2 ", " }{HYPERLNK 17 "SchurFkt[Overview]" 2 "SchurFkt,Overview" "" }
+{TEXT 215 2 " \n" }}{PARA 0 "" 0 "" {TEXT 215 102 "(c) Copyright June \+
+2003 - December 2007, by Bertfried Fauser & Rafal Ablamowicz, all righ
+ts reserved.\n" }{TEXT 215 38 "Last modified: December 17, 2007/BF/RA"
+ }}}{PARA 0 "" 0 "" {TEXT 215 0 "" }}{PARA 0 "" 0 "" {TEXT 215 0 "" }}
+}
+{MARK "0 0 0" 0 }{VIEWOPTS 1 1 0 75 100 1802 1 1 1 1 }{PAGENUMBERS 0 
+1 2 33 1 1 }

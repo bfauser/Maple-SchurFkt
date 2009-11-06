@@ -1,0 +1,68 @@
+{VERSION 6 0 "IBM INTEL NT" "6.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "Hyperlink" -1 17 "" 0 1 0 128 128 1 0 0 1 0 0 0 0 0 0 
+1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 256 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+257 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 258 "" 1 14 0 
+0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 0 2 0 0 0 
+0 0 0 0 1 }{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 
+0 1 2 2 2 2 2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Heading
+ 2" -1 4 1 {CSTYLE "" -1 -1 "Times" 1 14 0 0 0 1 2 1 2 2 2 2 1 1 1 1 }
+1 1 0 0 4 4 1 0 1 0 2 2 0 1 }{PSTYLE "Text Output" -1 6 1 {CSTYLE "" 
+-1 -1 "Courier" 1 10 0 0 255 1 2 2 2 2 2 1 2 1 3 1 }1 1 0 0 0 0 1 0 1 
+0 2 2 0 1 }{PSTYLE "Maple Output" -1 11 1 {CSTYLE "" -1 -1 "Times" 1 
+12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 3 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "
+Bullet Item" -1 15 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 
+2 1 1 1 1 }1 1 0 0 3 3 1 0 1 0 2 2 15 2 }}
+{SECT 0 {SECT 0 {PARA 4 "" 0 "" {TEXT -1 10 "Function: " }{TEXT 256 
+51 "SchurFkt[conjpart] - computes a conjugate partition" }}{PARA 4 "" 
+0 "" {TEXT -1 17 "Calling Sequence:" }}{PARA 4 "" 0 "" {TEXT 257 26 "p
+rt2 := conjpart(prt1)  \n\n" }{TEXT -1 11 "Parameters:" }}{PARA 15 "" 
+0 "" {TEXT -1 28 "prt1    : integer partition " }}{PARA 4 "" 0 "" 
+{TEXT -1 7 "Output:" }}{PARA 15 "" 0 "" {TEXT -1 28 "prt2    : integer
+ partition " }}{PARA 4 "" 0 "" {TEXT -1 8 "WARNING:" }}{PARA 0 "" 0 "
+" {TEXT -1 8 "--none--" }}}{SECT 0 {PARA 4 "" 0 "" {TEXT -1 12 "Descri
+ption:" }}{PARA 15 "" 0 "" {TEXT 259 291 "An integer partition may be \+
+represented as a Young diagram (in Anglo-Saxon notation using indices \+
+as in matrices). Such a diagram has a main diagonal and we flip the di
+agram mirroring at this diagonal. The mirrored diagram gives rise to a
+nother partition which is called conjugate partition." }}{PARA 15 "" 
+0 "" {TEXT -1 91 "conjpart is an involution. Since it is obtained from
+ mirroring the diagram this is obvious." }}}{SECT 0 {PARA 4 "" 0 "" 
+{TEXT -1 9 "Examples:" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "res
+tart:with(SchurFkt):" }}{PARA 6 "" 1 "" {TEXT -1 52 "SchurFkt Version \+
+1.0.1 (17 xii 2007) at your service" }}{PARA 6 "" 1 "" {TEXT -1 58 "(c
+) 2003-2007 BF&RA, no warranty, no fitness for anything!" }}{PARA 6 "
+" 1 "" {TEXT -1 83 "Increase verbosity by infolevel[`function`]=val --
+ use online help > ?Bigebra[help]" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 52 "conjpart([3,2]);\nconjpart([5]);\nconjpart([2,2,2,2])
+;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#7%\"\"#F$\"\"\"" }}{PARA 11 "" 1 
+"" {XPPMATH 20 "6#7'\"\"\"F$F$F$F$" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#
+7$\"\"%F$" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 40 "prt:=PartNM(4,
+4):prt;\nmap(conjpart,prt);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#7'7#\"
+\"%7$\"\"$\"\"\"7$\"\"#F*7%F*F(F(7&F(F(F(F(" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#7'7&\"\"\"F%F%F%7%\"\"#F%F%7$F'F'7$\"\"$F%7#\"\"%" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 32 "Note that conjpart inverses the " 
+}{HYPERLNK 17 "grAlexComp" 2 "SchurFkt,grAlexComp" "" }{TEXT -1 78 " t
+otal order which we use on partitions.\n\nShow that conjpart is an inv
+olution:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 77 "conjpart([3,3,1
+,1,1,1]);\nconjpart(%);\n#\nconjpart([4,4,2,1,1,1]);\nconjpart(%);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#7%\"\"'\"\"#F%" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#7(\"\"$F$\"\"\"F%F%F%" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6#7&\"\"'\"\"$\"\"#F&" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#7(\"\"%F$\"\"
+#\"\"\"F&F&" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{SECT 
+0 {PARA 4 "" 0 "" {TEXT -1 15 "Algorithm used:" }}{EXCHG {PARA 0 "" 0 
+"" {TEXT -1 251 "The length of the partition gives the first entry of \+
+the conjugate partition. Subtract the last element from all former ele
+ment and add as many times the length of the partition as the last ele
+ment is in magnitude, continue by recursion on the length." }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}}}{SECT 0 {PARA 0 "" 0 "" {TEXT 258 
+10 "See Also: " }{HYPERLNK 17 "SchurFkt[grAlexComp]" 2 "SchurFkt,grAle
+xComp" "" }{TEXT -1 3 ",  " }{HYPERLNK 17 "SchurFkt[Overview]" 2 "Schu
+rFkt,Overview" "" }{TEXT -1 1 "\n" }}{PARA 0 "" 0 "" {TEXT -1 140 "(c)
+ Copyright June 2003 - December 2007, by Bertfried Fauser & Rafal Abla
+mowicz, all rights reserved.\nLast modified: December 17, 2007/BF/RA" 
+}}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}
+{MARK "2 4 0 2" 1 }{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 
+2 33 1 1 }

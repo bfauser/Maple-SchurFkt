@@ -1,0 +1,85 @@
+{VERSION 6 0 "IBM INTEL NT" "6.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "Hyperlink" -1 17 "" 0 1 0 128 128 1 0 0 1 0 0 0 0 0 0 
+1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 256 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+257 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 258 "" 1 14 0 
+0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 0 2 0 0 0 
+0 0 0 0 1 }{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Text Outp
+ut" -1 2 1 {CSTYLE "" -1 -1 "Courier" 1 10 0 0 255 1 0 0 0 0 0 1 3 0 
+3 1 }1 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Heading 1" 0 3 1 
+{CSTYLE "" -1 -1 "" 1 18 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }1 0 0 0 6 6 0 0 
+0 0 0 0 -1 0 }{PSTYLE "Heading 2" 3 4 1 {CSTYLE "" -1 -1 "" 1 14 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 }0 0 0 -1 4 4 0 0 0 0 0 0 -1 0 }{PSTYLE "" 2 
+6 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 2 0 0 1 }0 0 0 -1 -1 
+-1 0 0 0 0 0 0 -1 0 }{PSTYLE "Maple Output" 0 11 1 {CSTYLE "" -1 -1 "
+" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }3 3 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "Bullet Item" 0 15 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 }0 0 0 -1 3 3 0 0 0 0 0 0 15 2 }}
+{SECT 0 {SECT 0 {PARA 4 "" 0 "" {TEXT -1 10 "Function: " }{TEXT 256 
+189 "SchurFkt[outerE] - outer product in the elementary symmetric func
+tion basis (E-basis)\n                    SchurFkt[outerH] - outer pro
+duct in the complete symmetric function basis (H-basis)" }}{PARA 4 "" 
+0 "" {TEXT -1 17 "Calling Sequence:" }}{PARA 4 "" 0 "" {TEXT 257 69 "e
+fkt := outerE(efkt1,efkt2,...)  \nhfkt := outerH(hfkt1,hfkt2,...)  \n
+\n" }{TEXT -1 11 "Parameters:" }}{PARA 15 "" 0 "" {TEXT -1 108 "efkti \+
+   :  one or more elementary symmetric functions\nhfkti    :  one or m
+ore complete symmetric functions " }}{PARA 4 "" 0 "" {TEXT -1 7 "Outpu
+t:" }}{PARA 15 "" 0 "" {TEXT -1 75 "efkt  :  elementary symmetric func
+tion\nhfkt  :  complete symmetric function" }}{PARA 4 "" 0 "" {TEXT 
+-1 8 "WARNING:" }}{PARA 0 "" 0 "" {TEXT -1 8 "--none--" }}}{SECT 0 
+{PARA 4 "" 0 "" {TEXT -1 12 "Description:" }}{PARA 15 "" 0 "" {TEXT 
+259 105 "The E-basis (H-basis) is multiplicative. That is, the outer p
+roduct is given by unordered concatenation. " }}{PARA 15 "" 0 "" 
+{TEXT -1 68 "Note that the concatenation product of monomial symmetric
+ functions " }{HYPERLNK 17 "concatM" 2 "SchurFkt,concatM" "" }{TEXT 
+-1 84 " is different since it involved divided powers and therefore in
+troduces prefactors. " }}}{SECT 0 {PARA 4 "" 0 "" {TEXT -1 9 "Examples
+:" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "restart:with(SchurFkt):
+" }}{PARA 6 "" 1 "" {TEXT -1 52 "SchurFkt Version 1.0.1 (17 xii 2007) \+
+at your service" }}{PARA 6 "" 1 "" {TEXT -1 58 "(c) 2003-2007 BF&RA, n
+o warranty, no fitness for anything!" }}{PARA 6 "" 1 "" {TEXT -1 83 "I
+ncrease verbosity by infolevel[`function`]=val -- use online help > ?B
+igebra[help]" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 71 "outerE(e[4]
+,e[4]);\nouterE(e[2],e[1]);\nouterE(e[1],e[2]);  # unordered !" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#&%\"eG6$\"\"%F&" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#&%\"eG6$\"\"#\"\"\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#
+&%\"eG6$\"\"#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 83 "oute
+rH(h[4,4],h[2,2]);\nouterH(h[2,1],h[1,1]);\nouterH(h[1,1],h[2,1]);  # \+
+unordered !" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#&%\"hG6&\"\"%F&\"\"#F'
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#&%\"hG6&\"\"#\"\"\"F'F'" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#&%\"hG6&\"\"#\"\"\"F'F'" }}}{EXCHG {PARA 0 "
+" 0 "" {TEXT -1 47 "More than one entry and linearity in each slot:" }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 183 "outerE(e[3],e[2],e[1]);\n
+outerE(e[1]+e[2],e[3],e[4]+e[5]);\nouterE(3*e[3,2,2,1],4*e[4,2,2]);\n#
+\nouterH(h[3],h[2],h[1]);\nouterH(h[1]+h[2],h[3],h[4]+h[5]);\nouterH(3
+*h[3,2,2,1],4*h[4,2,2]);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#&%\"eG6%\"
+\"$\"\"#\"\"\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,*&%\"eG6%\"\"%\"\"$
+\"\"\"F)&F%6%\"\"&F(F)F)&F%6%F'F(\"\"#F)&F%6%F,F(F/F)" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#,$*&\"#7\"\"\"&%\"eG6)\"\"%\"\"$\"\"#F,F,F,F&F&F&
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#&%\"hG6%\"\"$\"\"#\"\"\"" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#,*&%\"hG6%\"\"%\"\"$\"\"\"F)&F%6%\"\"&F(F)F)
+&F%6%F'F(\"\"#F)&F%6%F,F(F/F)" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,$*&
+\"#7\"\"\"&%\"hG6)\"\"%\"\"$\"\"#F,F,F,F&F&F&" }}}{EXCHG {PARA 0 "" 0 
+"" {TEXT -1 15 "Critical cases:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 142 "outerE(0);\nouterE(e[]);  # should not occure but possibly re
+turn e[0]\n#\nouterH(0);\nouterH(e[]);  # should not occure but possib
+ly return e[0]\n" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"!" }}{PARA 11 
+"" 1 "" {XPPMATH 20 "6#&%\"eG6\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"
+\"!" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#&%\"eG6\"" }}}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 0 "" }}}}{SECT 0 {PARA 4 "" 0 "" {TEXT -1 15 "Alg
+orithm used:" }}{EXCHG {PARA 0 "" 0 "" {TEXT -1 106 "On monomials comb
+ine the index sets and sort. Generalize to many input arguments and im
+plement linearity.." }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}}}
+{SECT 0 {PARA 0 "" 0 "" {TEXT 258 10 "See Also: " }{HYPERLNK 17 "Schur
+Fkt[outer]" 2 "SchurFkt,outer" "" }{TEXT -1 2 ", " }{HYPERLNK 17 "Schu
+rFkt[outerP]" 2 "SchurFkt,outerP" "" }{TEXT -1 3 ",  " }{HYPERLNK 17 "
+SchurFkt[outerH]" 2 "SchurFkt,outerH" "" }{TEXT -1 2 ", " }{HYPERLNK 
+17 "SchurFkt[Overview]" 2 "SchurFkt[Overview]" "" }{TEXT -1 1 "\n" }}
+{PARA 0 "" 0 "" {TEXT -1 140 "(c) Copyright June 2003 - December 2007,
+ by Bertfried Fauser & Rafal Ablamowicz, all rights reserved.\nLast mo
+dified: December 17, 2007/BF/RA" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{MARK "1 2 2" 1 }{VIEWOPTS 1 1 0 1 1 
+1803 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

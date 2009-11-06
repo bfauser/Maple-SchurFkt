@@ -1,0 +1,176 @@
+{VERSION 6 0 "IBM INTEL NT" "6.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "Hyperlink" -1 17 "" 0 1 0 128 128 1 0 0 1 0 0 0 0 0 0 
+1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 256 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+257 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 258 "" 1 14 0 
+0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 0 2 0 0 0 
+0 0 0 0 1 }{CSTYLE "" -1 260 "" 0 8 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 261 "" 0 1 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+262 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 263 "" 0 1 0 0 
+0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 264 "" 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 265 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 266 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+267 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 268 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 269 "" 1 12 0 0 0 0 0 2 0 0 0 
+0 0 0 0 0 }{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Text Outp
+ut" -1 2 1 {CSTYLE "" -1 -1 "Courier" 1 10 0 0 255 1 0 0 0 0 0 1 3 0 
+3 1 }1 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Heading 1" 0 3 1 
+{CSTYLE "" -1 -1 "" 1 18 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }1 0 0 0 6 6 0 0 
+0 0 0 0 -1 0 }{PSTYLE "Heading 2" 3 4 1 {CSTYLE "" -1 -1 "" 1 14 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 }0 0 0 -1 4 4 0 0 0 0 0 0 -1 0 }{PSTYLE "" 2 
+6 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 2 0 0 1 }0 0 0 -1 -1 
+-1 0 0 0 0 0 0 -1 0 }{PSTYLE "Maple Output" 0 11 1 {CSTYLE "" -1 -1 "
+" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }3 3 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "Bullet Item" 0 15 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 }0 0 0 -1 3 3 0 0 0 0 0 0 15 2 }}
+{SECT 0 {SECT 0 {PARA 4 "" 0 "" {TEXT -1 10 "Function: " }{TEXT 256 
+203 "SchurFkt[LaplaceM]  - Laplace pairing for the monomial symmetric \+
+function concatenation algebra\n                   SchurFkt[LaplaceTab
+le]  - a tabulated output of the LaplaceM pairing\n                   \+
+" }{TEXT 269 54 "SchurFkt[LaplaceM_mon]  - Laplace pairing on monomial
+s" }}{PARA 4 "" 0 "" {TEXT -1 17 "Calling Sequence:" }}{PARA 4 "" 0 "
+" {TEXT 257 86 "o1   := LaplaceM(m1,m2);\no1   := LaplaceM_mon(mon1,mo
+n2);\nM1  := LaplaceTable(N,M); \n\n" }{TEXT -1 11 "Parameters:" }}
+{PARA 15 "" 0 "" {TEXT -1 56 "m1,m2      :  monomial symmetric functio
+ns (elements of " }{HYPERLNK 17 "`type/mfktpolynom`" 2 "SchurFkt,type,
+sfktpolynom" "" }{TEXT -1 138 ") of any weight\nmon1,mon2:  monomials \+
+(not terms or polynomials) \nN,M          :  integers, weights of two \+
+sets of partitions, ordered in " }{HYPERLNK 17 "grAlexComp" 2 "SchurFk
+t,grAlexComp" "" }{TEXT -1 1 "." }}{PARA 4 "" 0 "" {TEXT -1 7 "Output:
+" }}{PARA 15 "" 0 "" {TEXT -1 54 "t1     : monomial symmetric function
+ polynom  of type " }{HYPERLNK 17 "`type/mfktpolynom`" 2 "SchurFkt,typ
+e,sfktpolynom" "" }{TEXT -1 149 ", in the same basis as the input type
+\nM1  : a table which gives the LaplaceM pairing on the Cartesian prod
+uct of two sets of partitions of weight N,M" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 4 "" 0 "" {TEXT -1 8 "WARNING:" }}{PARA 0 "" 0 "" 
+{TEXT -1 210 "LaplaceM is for internal use mainly! LaplaceTable is for
+ better display and may disappear in later versions\nLaplaceM_mon many
+ be used for performance reasons, but be cautious with the input (no t
+ype checking)!\n" }}}{SECT 0 {PARA 4 "" 0 "" {TEXT -1 12 "Description:
+" }}{PARA 15 "" 0 "" {TEXT 259 16 "LaplaceM is the " }{TEXT 262 14 "al
+gebra valued" }{TEXT 264 207 " pairing of two monomial symmetric funct
+ions. This pairing is needed to compute the cliffordization (aka Hopf \+
+algebra deformation, aka Drinfeld twist) which deforms the divided pow
+ers concatenation product  " }{HYPERLNK 17 "concatM" 2 "SchurFkt,conca
+tM" "" }{TEXT 265 70 "  into the outer product of symmetric functions \+
+in the monomial basis " }{TEXT 263 2 "  " }{HYPERLNK 17 "SchurFkt[oute
+rM]" 2 "SchurFkt,outerM" "" }{TEXT 261 3 " . " }}{PARA 15 "" 0 "" 
+{TEXT -1 332 "The definition of LaplaceM is as follows:\n\ni)     Lapl
+aceM(m[0],m[0]) := m[0]\n\nii)    let n,...,n_r and m,...,m_s have the
+ r respectively s repetitions of the same parts \n        LaplaceM(m[n
+,...,n_r],m[m,...,m_s]) = \\delta_\{r,s\} m[n+m,...,n+m_s]\n\niii)   e
+xtend the above definition my Laplace expansion using the outer coprod
+uct ( " }{HYPERLNK 17 "SchurFkt[couterM]" 2 "SchurFkt,couterM" "" }
+{TEXT -1 57 " ) and the divided powers concatenation product \n       \+
+ " }{HYPERLNK 17 "SchurFkt[concatM]" 2 "SchurFkt,concatM" "" }{TEXT 
+-1 246 " .\n\n        Laplace( concatM(m[lambda],m[mu]), m[rho])  = co
+ncatM( LaplaceM(m[lambda], m[rho(1)]),LaplaceM(m[mu],m[rho(2)]))\n    \+
+    Laplace( m[lambda],concatM(m[mu], m[rho]))  = concatM( LaplaceM(m[
+lambda(1)],m[mu]),LaplaceM(m[lambda(2),m[rho]))" }}{PARA 15 "" 0 "" 
+{TEXT -1 415 "The LaplaceM pairing is graded in two ways. First, Lapla
+ceM it is a graded map from /\\ x /\\ --> /\\. Hence it maps two monom
+ial symmetric functions of weight n and m onto a homogenous polynomial
+ of monomial symmetric functions of weight n+m. Further LaplaceM is gr
+aded by the number of parts of a partition. As such, it is composed of
+ infinite dimensional subblocks! However, for finite input we get a fi
+nite output." }}{PARA 15 "" 0 "" {TEXT 268 12 "LaplaceM_mon" }{TEXT 
+-1 188 " is the Laplace pairing acting on monomials. In tensor express
+ion this is faster since we know that the arguments are monomials and \+
+not monomial symmetric function (polynomials or terms). " }}{PARA 15 "
+" 0 "" {TEXT -1 31 "Note that there is a function  " }{HYPERLNK 17 "La
+placeTable(N,M)" 2 "SchurFkt,LaplaceTable" "" }{TEXT -1 514 "  which d
+isplays the output of LaplaceM on the set of partitions of N, M.\n\nLa
+placeTable shows a sort of 'multiplication table' since the LaplaceM p
+airing is algebra valued. In the first row and columns, the partitions
+ of the monomial symmetric functions used are given, in the entry 1,1 \+
+the Laplace pairing <x|y> is displayed. For better display and underst
+anding of the procedure, the partitions are ordered in grAlecCopm orde
+r, that is ordered by the number-of-parts grading first and then anti-
+lexicographicaly." }}}{SECT 0 {PARA 4 "" 0 "" {TEXT -1 9 "Examples:" }
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "restart:with(SchurFkt):" }}
+{PARA 6 "" 1 "" {TEXT -1 52 "SchurFkt Version 1.0.1 (17 xii 2007) at y
+our service" }}{PARA 6 "" 1 "" {TEXT -1 58 "(c) 2003-2007 BF&RA, no wa
+rranty, no fitness for anything!" }}{PARA 6 "" 1 "" {TEXT -1 83 "Incre
+ase verbosity by infolevel[`function`]=val -- use online help > ?Bigeb
+ra[help]" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 27 "Some examples for Lap
+laceM:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 74 "LaplaceM(m[0],m[0
+]);\nLaplaceM(m[1,1,1],m[3,1,1]);\nLaplaceM(m[2,1],m[2,1]);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#&%\"mG6#\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#&%\"mG6%\"\"%\"\"#F'" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&&%\"mG
+6$\"\"%\"\"#\"\"\"*&F(F)&F%6$\"\"$F-F)F)" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 49 "Check for zeros because of the grading by parts: " }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 82 "LaplaceM(m[2,1],m[1]);\nLapl
+aceM(m[3,2,2],m[2,2]);\nLaplaceM(m[3,2,1],m[1,1,1,1,1]);" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"!" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"!" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 24 "Note that LaplaceM is a " }{TEXT 266 21 "graded multiplic
+ation" }{TEXT -1 78 " by the weight of the partitions, and can be nonz
+ero for any pairs of weights!" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 53 "LaplaceM(m[2,1,1],m[4,2,1]);\nLaplaceM(m[5,5],m[9,1]);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#,(&%\"mG6%\"\"'\"\"$\"\"#\"\"\"&F%6%\"\"&\"
+\"%F)F**&F)F*&F%6%F-F(F(F*F*" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#&%\"mG
+6$\"#9\"\"'" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 15 "Multilinearity:" }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 91 "LaplaceM(3*m[3],m[1]);\nLa
+placeM(3*m[2]+2*m[3],m[1]);\nLaplaceM(3*m[2,1]+2*m[3],m[1]+m[2,1]);" }
+}{PARA 11 "" 1 "" {XPPMATH 20 "6#,$*&\"\"$\"\"\"&%\"mG6#\"\"%F&F&" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#,&*&\"\"$\"\"\"&%\"mG6#F%F&F&*&\"\"#F&
+&F(6#\"\"%F&F&" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,(*&\"\"$\"\"\"&%\"m
+G6$\"\"%\"\"#F&F&*&\"\"'F&&F(6$F%F%F&F&*&F+F&&F(6#F*F&F&" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT 267 8 "WARNING:" }{TEXT -1 74 " Since LaplaceM_m
+on is for internal use mainly, there is no type checking!" }{MPLTEXT 
+1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 112 "LaplaceM_mon(s[
+2],e[2]);  ## no typecheck!! results as if LaplaceM(m[2],m[2]) was giv
+en\nLaplaceM_mon(m[2],m[2]);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#&%\"mG
+6#\"\"%" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#&%\"mG6#\"\"%" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 217 "Now we show a few tables of the LaplaceM
+ pairing using the LaplaceTable function:\n\nFor better readability a \+
+first row and column is added showing the partitions of the monomial b
+asis elements of the input of LaplaceM:" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 56 "LaplaceTable(2,2);\nLaplaceTable(7,4);\nLaplaceTable(
+6,6);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#K%'matrixG6#7%7%%&<x|gry>G7#
+\"\"#7$\"\"\"F,7%F)&%\"mG6#\"\"%\"\"!7%F+F2&F/6$F*F*Q(pprint06\"" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#K%'matrixG6#727(%&<x|gry>G7#\"\"%7$\"
+\"$\"\"\"7$\"\"#F/7%F/F-F-7&F-F-F-F-7(7#\"\"(&%\"mG6#\"#6\"\"!F9F9F97(
+7$\"\"'F-F9,&&F66$\"\"*F/F-&F66$F4F*F-&F66$\"\")F,F9F97(7$\"\"&F/F9,&F
+CF-&F66$F<FHF-FAF9F97(7%FHF-F-F9F9F9,&&F66%F4F/F/F-&F66%F<F,F/F-F97(7$
+F*F,F9,&FAF-FJF-FJF9F97(7%F*F/F-F9F9F9,(FQF-&F66%FHF*F/F-*&F/F-&F66%FH
+F,F,F-F-F97(7&F*F-F-F-F9F9F9F9&F66&FHF/F/F/7(7%F,F,F-F9F9F9,&FYF-&F66%
+F*F*F,F-F97(7%F,F/F/F9F9F9,&FfnF-*&F/F-F_oF-F-F97(7&F,F/F-F-F9F9F9F9&F
+66&F*F,F/F/7(7'F,F-F-F-F-F9F9F9F9F97(7&F/F/F/F-F9F9F9F9&F66&F,F,F,F/7(
+7'F/F/F-F-F-F9F9F9F9F97(7(F/F-F-F-F-F-F9F9F9F9F97(7)F-F-F-F-F-F-F-F9F9
+F9F9F9Q(pprint16\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#K%'matrixG6#7.7.
+%&<x|gry>G7#\"\"'7$\"\"&\"\"\"7$\"\"%\"\"#7%F/F-F-7$\"\"$F37%F3F0F-7&F
+3F-F-F-7%F0F0F07&F0F0F-F-7'F0F-F-F-F-7(F-F-F-F-F-F-7.F)&%\"mG6#\"#7\"
+\"!F?F?F?F?F?F?F?F?F?7.F+F?,&&F<6$\"#5F0F-*&F0F-&F<6$F*F*F-F-,&&F<6$\"
+\"*F3F-&F<6$\"\"(F,F-F?&F<6$\"\")F/F?F?F?F?F?F?7.F.F?FH,&FOF-*&F0F-FFF
+-F-F?FLF?F?F?F?F?F?7.F1F?F?F?,&&F<6%FQF0F0F-*&F0F-&F<6%F,F,F0F-F-F?,(&
+F<6%FNF3F0F-&F<6%F*F/F0F-&F<6%F,F/F3F-F?&F<6%F*F3F3F?F?F?7.F2F?FOFLF?F
+FF?F?F?F?F?F?7.F4F?F?F?FfnF?,,FinF-*&F0F-FZF-F-*&F0F-F]oF-F-*&F0F-F[oF
+-F-*&F*F-&F<6%F/F/F/F-F-F?F[oF?F?F?7.F5F?F?F?F?F?F?,&&F<6&F*F0F0F0F-*&
+F0F-&F<6&F/F/F0F0F-F-F?,&&F<6&F,F3F0F0F-&F<6&F/F3F3F0F-F?F?7.F6F?F?F?F
+]oF?F[oF?FfoF?F?F?7.F7F?F?F?F?F?F?F_pF?,(F]pF-*&F0F-FbpF-F-*&F*F-&F<6&
+F3F3F3F3F-F-F?F?7.F8F?F?F?F?F?F?F?F?F?,&&F<6'F/F0F0F0F0F-*&F0F-&F<6'F3
+F3F0F0F0F-F-F?7.F9F?F?F?F?F?F?F?F?F?F?&F<6(F0F0F0F0F0F0Q(pprint26\"" }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 0 "" }}}{SECT 0 {PARA 4 "" 0 "" {TEXT -1 10 "Algorit
+hm:" }}{EXCHG {PARA 0 "" 0 "" {TEXT -1 163 "The Laplace pairing is alm
+ost verbatim implemented as described above. For efficiency reasons, i
+nternally an sparse exponential representation of partitions (see  " }
+{HYPERLNK 17 "SchurFkt[part2mset]" 2 "SchurFkt,part2mset" "" }{TEXT 
+-1 237 ") is used. The internal function doing this is LaplaceM_mset (
+not exported). LaplaceM_mon is a wrapper for this function to make it \+
+applicable on ordinary partition representations. LaplaceM is the mult
+ilinear version of LaplaceM_mon.   " }}}}{SECT 0 {PARA 0 "" 0 "" 
+{TEXT 258 10 "See Also: " }{HYPERLNK 17 "SchurFkt[outerM]" 2 "SchurFkt
+,outerM" "" }{TEXT 260 2 ", " }{HYPERLNK 17 "SchurFkt[couter]" 2 "Schu
+rFkt,couter" "" }{TEXT -1 2 ", " }{HYPERLNK 17 "SchurFkt[outerH,E,P]" 
+2 "SchurFkt,outerH" "" }{TEXT -1 2 ", " }{HYPERLNK 17 "SchurFkt[couter
+M]" 2 "SchurFkt,couterM" "" }{TEXT -1 4 "    " }}{PARA 0 "" 0 "" 
+{TEXT -1 141 "\n(c) Copyright June 2003 - December 2007, by Bertfried \+
+Fauser & Rafal Ablamowicz, all rights reserved.\nLast modified: Decemb
+er 17, 2007/BF/RA" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}}{MARK "8" 0 }{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }
+{PAGENUMBERS 0 1 2 33 1 1 }

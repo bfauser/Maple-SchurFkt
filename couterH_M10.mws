@@ -1,0 +1,152 @@
+{VERSION 6 0 "IBM INTEL NT" "6.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "Hyperlink" -1 17 "" 0 1 0 128 128 1 0 0 1 0 0 0 0 0 0 
+1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 256 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+257 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 258 "" 1 14 0 
+0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 0 2 0 0 0 
+0 0 0 0 1 }{CSTYLE "" -1 260 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 261 "" 0 1 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+262 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 263 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 264 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 265 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "_cstyle69" -1 266 "Courier" 1 12 255 0 0 1 0 1 0 2 1 2 0 0 0 
+1 }{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 
+2 2 2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Heading 2" -1 
+4 1 {CSTYLE "" -1 -1 "Times" 1 14 0 0 0 1 2 1 2 2 2 2 1 1 1 1 }1 1 0 
+0 4 4 1 0 1 0 2 2 0 1 }{PSTYLE "Text Output" -1 6 1 {CSTYLE "" -1 -1 "
+Courier" 1 10 0 0 255 1 2 2 2 2 2 1 2 1 3 1 }1 1 0 0 0 0 1 0 1 0 2 2 
+0 1 }{PSTYLE "Maple Output" -1 11 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 
+0 1 2 2 2 2 2 2 1 1 1 1 }3 3 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Bullet \+
+Item" -1 15 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 
+1 }1 1 0 0 3 3 1 0 1 0 2 2 15 2 }{PSTYLE "_pstyle138" -1 256 1 
+{CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 1 0 0 0 
+0 2 0 2 0 2 2 0 1 }}
+{SECT 0 {SECT 0 {PARA 4 "" 0 "" {TEXT -1 14 "Function: \n   " }{TEXT 
+256 236 "SchurFkt[couterE] - the outer coproduct in the elementary sym
+metric function basis\n    SchurFkt[couterH] - the outer coproduct in \+
+the complete symmetric function basis\n    SchurFkt[couterP]  - the ou
+ter coproduct in the power sum basis " }}{PARA 4 "" 0 "" {TEXT -1 17 "
+Calling Sequence:" }}{PARA 4 "" 0 "" {TEXT 257 76 "mtens := couterE(ef
+kt)  \nmtens := couterH(hfkt)  \nmtens := couterP(pfkt)  \n\n" }{TEXT 
+-1 11 "Parameters:" }}{PARA 15 "" 0 "" {TEXT -1 120 "efkt    :  elemen
+tary symmetric function\nhfkt    :  complete symmetric function\npfkt \+
+   :  power sum symmetric function " }}{PARA 4 "" 0 "" {TEXT -1 7 "Out
+put:" }}{PARA 15 "" 0 "" {TEXT -1 125 "mtens :   2 tensor made out of \+
+[elementary|complete|power sum] symmetric function monomials (input an
+d output type coincide) " }}{PARA 4 "" 0 "" {TEXT -1 8 "WARNING:" }}
+{PARA 0 "" 0 "" {TEXT -1 8 "--none--" }}}{SECT 0 {PARA 4 "" 0 "" 
+{TEXT -1 12 "Description:" }}{PARA 15 "" 0 "" {TEXT 259 42 "couterE, c
+outerH and couterP describe the " }{TEXT 260 15 "outer coproduct" }
+{TEXT 261 49 " in the elementary, complete and power sum basis." }}
+{PARA 15 "" 0 "" {TEXT -1 304 "The procedures for couterE and couterH \+
+are the same. The outer coproduct of these bases is derived from the f
+ollowing facts:\n- The outer coproduct is an algebra homomorphism of t
+he outer product algebra\n    \\Delta(x.y) = \\Delta(x).\\Delta(y)\n- \+
+The outer coproduct in the elementary and complete basis for " }{TEXT 
+262 19 "one part partitions" }{TEXT -1 212 " e[n] or h[n] are obtained
+ from\n   \\Delta(e[n]) = \\sum_\{r=0\}^n  e[n-r] \\otimes e[r]\n   \\
+Delta(h[n]) = \\sum_\{r=0\}^n  h[n-r] \\otimes h[r]\n  hence the one p
+art functions in the e- and h-basis obey a coproduct of a  " }{TEXT 
+263 14 "divided powers" }{TEXT -1 9 " algebra." }{TEXT 264 0 "" }
+{TEXT -1 1 " " }}{PARA 15 "" 0 "" {TEXT -1 399 "The power sum coproduc
+t is also reduced to one part power sum via the homomorphism property,
+ however, the power sums enjoy a binomial coproduct rule steming from \+
+dualizing a polynomial algebra (recall that the power sum symmetric fu
+nctions are orthogonal, but not normalized and hence self dual). One g
+ets:\n\\Delta(p[n]) = p[n]\\stemming1 + 1 \\otimes p[n]\nand the one p
+art power sum functions are the " }{TEXT 265 18 "primitive elements" }
+{TEXT -1 186 " of the outer coalgebra of symmetric functions. This can
+ be written as \np[n](x,y) = p[n](x)+p[n](y) and due to the fact that \+
+p[n](x) =\\sum_\{i=1\}^N x_i^n one gets the binomial relation.  " }}}
+{SECT 0 {PARA 4 "" 0 "" {TEXT -1 9 "Examples:" }}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 23 "restart:with(SchurFkt):" }}{PARA 6 "" 1 "" 
+{TEXT -1 52 "SchurFkt Version 1.0.1 (17 xii 2007) at your service" }}
+{PARA 6 "" 1 "" {TEXT -1 58 "(c) 2003-2007 BF&RA, no warranty, no fitn
+ess for anything!" }}{PARA 6 "" 1 "" {TEXT -1 83 "Increase verbosity b
+y infolevel[`function`]=val -- use online help > ?Bigebra[help]" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 157 "couterE(e[2]);\ncouterE(e[2
+,2]);\ncouterE(e[2,1]);\ncouterE(2*e[3,1]+e[2,1]);\n\"----\";\ncouterH
+(h[2]);\ncouterH(h[2,2]);\ncouterH(h[2,1]);\ncouterH(2*h[3,1]+h[2,1]);
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,(-%#&tG6$&%\"eG6#\"\"#&F(6#\"\"!
+\"\"\"-F%6$&F(6#F.F1F.-F%6$F+F'F." }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,
+.-%#&tG6$&%\"eG6$\"\"#F*&F(6#\"\"!\"\"\"*&F*F.-F%6$&F(6$F*F.&F(6#F.F.F
+.*&F*F.-F%6$&F(6#F*F9F.F.-F%6$&F(6$F.F.F=F.*&F*F.-F%6$F4F2F.F.-F%6$F+F
+'F." }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,.-%#&tG6$&%\"eG6$\"\"#\"\"\"&F
+(6#\"\"!F+-F%6$&F(6#F*&F(6#F+F+-F%6$&F(6$F+F+F3F+-F%6$F3F7F+-F%6$F3F1F
++-F%6$F,F'F+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,>*&\"\"#\"\"\"-%#&tG6
+$&%\"eG6$\"\"$F&&F+6#\"\"!F&F&*&F%F&-F(6$&F+6#F-&F+6#F&F&F&*&F%F&-F(6$
+&F+6$F%F&F6F&F&*&F%F&-F(6$&F+6#F%&F+6$F&F&F&F&*&F%F&-F(6$FBF@F&F&*&F%F
+&-F(6$F6F;F&F&*&F%F&-F(6$F6F4F&F&*&F%F&-F(6$F.F*F&F&-F(6$F;F.F&-F(6$F@
+F6F&-F(6$FBF6F&-F(6$F6FBF&-F(6$F6F@F&-F(6$F.F;F&" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#Q%----6\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,(-%#&tG6$
+&%\"hG6#\"\"#&F(6#\"\"!\"\"\"-F%6$&F(6#F.F1F.-F%6$F+F'F." }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#,.-%#&tG6$&%\"hG6$\"\"#F*&F(6#\"\"!\"\"\"*&F*F.-
+F%6$&F(6$F*F.&F(6#F.F.F.*&F*F.-F%6$&F(6#F*F9F.F.-F%6$&F(6$F.F.F=F.*&F*
+F.-F%6$F4F2F.F.-F%6$F+F'F." }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,.-%#&tG
+6$&%\"hG6$\"\"#\"\"\"&F(6#\"\"!F+-F%6$&F(6#F*&F(6#F+F+-F%6$&F(6$F+F+F3
+F+-F%6$F3F7F+-F%6$F3F1F+-F%6$F,F'F+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6
+#,>*&\"\"#\"\"\"-%#&tG6$&%\"hG6$\"\"$F&&F+6#\"\"!F&F&*&F%F&-F(6$&F+6#F
+-&F+6#F&F&F&*&F%F&-F(6$&F+6$F%F&F6F&F&*&F%F&-F(6$&F+6#F%&F+6$F&F&F&F&*
+&F%F&-F(6$FBF@F&F&*&F%F&-F(6$F6F;F&F&*&F%F&-F(6$F6F4F&F&*&F%F&-F(6$F.F
+*F&F&-F(6$F;F.F&-F(6$F@F6F&-F(6$FBF6F&-F(6$F6FBF&-F(6$F6F@F&-F(6$F.F;F
+&" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 62 "Hence the two coproducts beh
+ave the same way. However we find:" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 103 "couterP(p[2]);\ncouterP(p[2,2]); # (x+y)^2= x^2 + 2*
+x*y + y^2\ncouterP(p[2,1]);\ncouterP(2*p[3,1]+p[2,1]);" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#,&-%#&tG6$&%\"pG6#\"\"#&F(6#\"\"!\"\"\"-F%6$F+F'F.
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,(-%#&tG6$&%\"pG6$\"\"#F*&F(6#\"\"
+!\"\"\"*&F*F.-F%6$&F(6#F*F2F.F.-F%6$F+F'F." }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#,*-%#&tG6$&%\"pG6$\"\"#\"\"\"&F(6#\"\"!F+-F%6$&F(6#F*&F
+(6#F+F+-F%6$F3F1F+-F%6$F,F'F+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,2*&
+\"\"#\"\"\"-%#&tG6$&%\"pG6$\"\"$F&&F+6#\"\"!F&F&*&F%F&-F(6$&F+6#F-&F+6
+#F&F&F&*&F%F&-F(6$F6F4F&F&*&F%F&-F(6$F.F*F&F&-F(6$&F+6$F%F&F.F&-F(6$&F
++6#F%F6F&-F(6$F6FDF&-F(6$F.F@F&" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 
+109 "Show that the coproduct outerE and the outer product outerE fulfi
+ll the compatibility axiom for Hopf algebras" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 135 "f:=(a,b,c,d)->&t(outerE(a,c),outerE(b,d)):\n&t(
+couterE(e[1]),couterE(e[2])):\nRHS:=eval(subs(`&t`=f,%));\nLHS:=couter
+E(outerE(e[1],e[2]));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%$RHSG,.-%#&
+tG6$&%\"eG6$\"\"#\"\"\"&F*6#\"\"!F--F'6$&F*6#F,&F*6#F-F--F'6$&F*6$F-F-
+F5F--F'6$F5F9F--F'6$F5F3F--F'6$F.F)F-" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#>%$LHSG,.-%#&tG6$&%\"eG6$\"\"#\"\"\"&F*6#\"\"!F--F'6$&F*6#F,&F*6#F-
+F--F'6$&F*6$F-F-F5F--F'6$F5F9F--F'6$F5F3F--F'6$F.F)F-" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 43 "We proceed by showing a few critical case
+s:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 77 "couterP(0),couterP(si
+n(x));\ncouterE(0),couterE(1-q^2);\ncouterH(0),couterH(a);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6$\"\"!*&-%$sinG6#%\"xG\"\"\"-%#&tG6$&%\"pG6#F
+#F-F)" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$\"\"!*&,&\"\"\"F&*$)%\"qG\"\"
+#F&!\"\"F&-%#&tG6$&%\"eG6#F#F/F&" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$\"
+\"!*&%\"aG\"\"\"-%#&tG6$&%\"hG6#F#F*F&" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 44 "couterP(p[0]);\ncouterE(e[0]);\ncouterH(h[0]);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#-%#&tG6$&%\"pG6#\"\"!F&" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#-%#&tG6$&%\"eG6#\"\"!F&" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#-%#&tG6$&%\"hG6#\"\"!F&" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 83 "we show that the coproduct is a linear map over <anything
+> but the basis monomials." }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+128 "expand(couterP(q^2*p[0]+q*p[1]+p[2]));\nexpand(couterH(q^2*h[3]+q
+*h[2,1]+h[1,1,1]));\nexpand(couterE(a*e[3]+b*e[2,1]+c*e[1,1,1]));" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#,,*&)%\"qG\"\"#\"\"\"-%#&tG6$&%\"pG6#
+\"\"!F,F(F(*&F&F(-F*6$&F-6#F(F,F(F(*&F&F(-F*6$F,F3F(F(-F*6$&F-6#F'F,F(
+-F*6$F,F:F(" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,>*&)%\"qG\"\"#\"\"\"-%
+#&tG6$&%\"hG6#\"\"$&F-6#\"\"!F(F(*&F%F(-F*6$&F-6#F'&F-6#F(F(F(*&F%F(-F
+*6$F8F6F(F(*&F%F(-F*6$F0F,F(F(*&F&F(-F*6$&F-6$F'F(F0F(F(*&F&F(F4F(F(*&
+F&F(-F*6$&F-6$F(F(F8F(F(*&F&F(-F*6$F8FIF(F(*&F&F(F;F(F(*&F&F(-F*6$F0FC
+F(F(-F*6$&F-6%F(F(F(F0F(*&F/F(FGF(F(*&F/F(FLF(F(-F*6$F0FTF(" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#,>*&%\"aG\"\"\"-%#&tG6$&%\"eG6#\"\"$&F+6#\"
+\"!F&F&*&F%F&-F(6$&F+6#\"\"#&F+6#F&F&F&*&F%F&-F(6$F7F4F&F&*&F%F&-F(6$F
+.F*F&F&*&\"\"'F&-F(6$&F+6$F6F&F.F&F&*&F@F&F2F&F&*&F@F&-F(6$&F+6$F&F&F7
+F&F&*&F@F&-F(6$F7FIF&F&*&F@F&F:F&F&*&F@F&-F(6$F.FCF&F&*&%\"cGF&-F(6$&F
++6%F&F&F&F.F&F&*(F-F&FSF&FGF&F&*(F-F&FSF&FLF&F&*&FSF&-F(6$F.FVF&F&" }}
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{SECT 0 {PARA 4 "" 0 "
+" {TEXT -1 15 "Algorithm used:" }}{EXCHG {PARA 0 "" 0 "" {TEXT -1 22 "
+see description above." }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}}}
+{SECT 0 {PARA 0 "" 0 "" {TEXT 258 10 "See Also: " }{HYPERLNK 17 "Schur
+Fkt[outerP]" 2 "SchurFkt,outerP" "" }{TEXT -1 2 ", " }{HYPERLNK 17 "Sc
+hurFkt[outerH]" 2 "SchurFkt,outerH" "" }}{PARA 0 "" 0 "" {TEXT -1 142 
+"\n(c) Copyright June 2003 - December 2007, by Bertfried Fauser & Rafa
+l Ablamowicz, all rights reserved.\nLast modified: December 17, 2007/B
+F/RA." }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}}{MARK "4 0 1" 10 }{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 
+0 1 2 33 1 1 }
