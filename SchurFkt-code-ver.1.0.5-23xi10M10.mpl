@@ -1384,7 +1384,11 @@ s_to_xM:=proc(sfkt,N)
   option `Copyright (c) B. Fauser & R. Ablamowicz 2004-2010. All rights reserved.`
          ,remember;
   local cmp;
-  cmp:=CompNM(`+`(op(sfkt)),N);
+  if N=1 then
+    cmp:=[CompNM(`+`(op(sfkt)),N)];
+  else
+    cmp:=CompNM(`+`(op(sfkt)),N);
+  end if;
   add(KostkaPC([op(sfkt)],k)*x[op(k)],k=cmp);
 end proc:
 #
@@ -1547,7 +1551,8 @@ end proc:
 #
 # s_to_hmat transforms an sfunction into a Toeplitz matrix of complete one part
 #    -- symmetric functions. It takes as a second argument a dimension, which can
-#    -- be taken to be the largest length of all involved partitions in teh sfktpolynom
+#    -- be taken to be the largest length of all involved partitions in the 
+#       sfktpolynom
 #    -- see : "maxlengthSymFkt()" below
 #
 s_to_hmat:=proc(x)
@@ -1583,7 +1588,7 @@ evalJacobiTrudiMatrix:=proc(matrix)
 end proc:
 #
 # s_to_hJT linear version of the transition from the s-basis into the h-basis
-#   -- useing the Jacobi-Trudi formula
+#   -- using the Jacobi-Trudi formula
 #
 s_to_hJT:=proc(x)
   option `Copyright (c) B. Fauser & R. Ablamowicz 2004-2010. All rights reserved.`,
@@ -2633,6 +2638,7 @@ end proc:
 ScalarP:=proc(x,y)
   option `Copyright (c) B. Fauser & R. Ablamowicz 2004-2010. All rights reserved.`;
   local cf,tm,p1,p2;
+  if x=0 or y=0 then return 0 end if;
   if not (type(x,pfktpolynom) and type(y,pfktpolynom)) then error "wrong type\n" end if;
   if type(x,`+`) then 
     return map(procname,x,y);
@@ -3533,8 +3539,8 @@ couterP:=proc(x)
   option `Copyright (c) B. Fauser & R. Ablamowicz 2004-2010. All rights reserved.`,
   remember;
   local cf,tm,n1,plst1,plst2,i;
-  if not type(x,pfktpolynom) then error "Power sum polynom expected...."; end if;
   if x=0 then return 0 end if;
+  if not type(x,pfktpolynom) then error "Power sum polynom expected...."; end if;
   if type(x,`+`) then 
     return map(procname,x,y);
   elif type(x,`*`) then 
@@ -4213,6 +4219,7 @@ plethP:=proc(x,y)
   option `Copyright (c) B. Fauser & R. Ablamowicz 2004-2010. All rights reserved.`,
          remember;
   local cf,term,term2,cout,sgn,f0,f1,a,b;
+  if x=0 then return 0 end if;
   if type(x,pfktmonom) then
     if x=p[0] then return p[0] end if;
     if x=p[1] then return y end if;
@@ -4262,7 +4269,8 @@ cplethP:=proc(pfkt)
   option `Copyright (c) B. Fauser & R. Ablamowicz 2004-2010. All rights reserved.`;
   local cf,term,llst,dlst,res,i,Npi,pi,dPi;
 ##
-  if pfkt=p[0] then return &t(p[0],p[0]); end if;
+  if pfkt=0 then return 0 end if;
+  if pfkt=p[0] then error "coplethysm for p[0] undefined"; end if;
   if type(pfkt,`+`) then 
     return map(procname,pfkt)
   elif type(pfkt,`*`) then
@@ -4781,7 +4789,7 @@ end module:
 ##
 # libname:="/usr/local/maple/maple14/Cliffordlib",libname;
 # savelibname := cat(kernelopts(mapledir), kernelopts(dirsep), "Cliffordlib");
-libname;
-savelib('SchurFkt');
+#libname;
+#savelib('SchurFkt');
 # End
 ###################################################################################
