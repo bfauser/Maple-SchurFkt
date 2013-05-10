@@ -4,14 +4,14 @@
 
        Symmetric function Hopf algebra package for Maple
 
-                                           B.Fauser, 16 Nov 2009
+                                           B.Fauser, 10 May 2013
 
 Code is joint work with Rafal Ablamnowicz, TN Tech
 ===============================================================
 
 check out the home page of the package at
 
-http://math.tntech.edu/rafal/SchurFkt13/
+http://math.tntech.edu/rafal/SchurFkt12/
 
 where you will find installation instructions and the Clifford/Bigebra
 package needed for SchurFkt to become functional.
